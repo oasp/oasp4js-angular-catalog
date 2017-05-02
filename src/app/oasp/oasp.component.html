@@ -1,0 +1,30 @@
+<div id="overview" class="container-fluid">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-sm-6">
+        <h2>Open Application Standard Platform</h2>
+        <p>
+          The OASP is a solution to building business applications which combine best-in-class frameworks and libraries as well as
+          industry proven practices and code conventions.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-2 col-sm-2">
+        <!--Getting started-->
+        <div [(ngModel)]="model" ngbRadioGroup name="radioBasic">
+          <label class="btn btn-primary">
+    <input type="radio" [value]="3"> Getting started
+  </label>
+        </div>
+      </div>
+      <div class="col-md-2 col-sm-2">
+        <!--Getting started-->
+        <div [(ngModel)]="model" ngbRadioGroup name="radioBasic">
+          <label class="btn btn-primary-f" style="margin-top: 23px;padding-left: 30px;padding-right: 30px;">
+    <input type="radio" [value]="3">Framework
+  </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

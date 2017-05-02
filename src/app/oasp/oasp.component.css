@@ -1,0 +1,54 @@
+ @font-face{
+     font-family: montserrat;
+     src: url("../../assets/fonts/Montserrat-Regular.ttf")
+ }
+
+#overview{
+    background: url("../../assets/images/img_1.png") center center no-repeat ;
+    background-color: #4bbdec;
+    background-size: 100%;
+}
+.btn-primary{
+ 
+    color: #FFFFFF;
+    background-color: #222c38;
+    border-radius: 72px;
+    margin-top:15%;
+    margin-bottom: 70%;
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-top:9px;
+    padding-bottom: 9px;
+    }
+.btn-primary-f{
+ 
+    color: #FFFFFF;
+    background-color: transparent;
+    border-color: white;
+    border-radius: 72px;
+    margin-top:15%;
+    margin-bottom: 70%;
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-top:9px;
+    padding-bottom: 9px;
+    }
+
+ .btn-primary:hover{
+    color:blue;
+    background-color: black;
+
+}
+
+p{
+    color: white;
+    font-size: 10pt;
+    font-family: montserrat;
+    line-height: 14pt;
+}
+h2{
+    margin-top:20%;
+    color: white;
+    font-family: montserrat;
+    font-size: 20pt;
+}

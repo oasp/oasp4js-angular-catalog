@@ -1,0 +1,48 @@
+@font-face{
+     font-family: Montserrat-Medium;
+     src: url("../../assets/fonts/Montserrat-Medium.ttf")
+ }
+ @font-face{
+     font-family: Montserrat-Regular;
+     src: url("../../assets/fonts/Montserrat-Regular.ttf")
+ }
+#slider{
+    background: url("../../assets/images/testimonials.png") center center no-repeat ;
+    background-size: contain;
+    background-color: #293645;
+    background-position-y:250px;;
+
+}
+#carouselExampleSlidesOnly{
+    margin-top:10%;
+    margin-bottom: 10%;
+}
+#carouselExampleIndicators{
+    background-color: red;
+    width: 700px;
+
+}
+h3{
+    color:white;
+    font-family: Montserrat-Medium;
+}
+.carousel-indicators li {
+    display: inline-block;
+    width: 2px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 70%;
+    background-color: transparent;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+}
+.carousel-indicators .active{
+    background-color: #FFFFFF;
+}
+p{
+    color: white;
+    font-family: Montserrat-Regular;
+    margin-left: 40px;
+    font-size:10pt;
+}

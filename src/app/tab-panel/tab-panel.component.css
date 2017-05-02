@@ -1,0 +1,91 @@
+ @font-face{
+     font-family: Montserrat-Regular;
+     src: url("../../assets/fonts/Montserrat-Regular.ttf")
+ }
+@font-face{
+     font-family: Montserrat-Bold;
+     src: url("../../assets/fonts/Montserrat-Bold.ttf")
+ }
+
+
+#about{
+    background-image:  url("../../assets/images/corte_2.png");
+    background-repeat: no-repeat;
+    background-size: 180%;
+    background-position-x: -695px;
+    background-position-y: -300px;
+    box-shadow:   20px 0px 20px 2px #e2e2e2;
+}
+#about-1{
+    background-image: url("../../assets/images/on_the_flexible_solution.png");
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-color:red;
+}
+
+.nav-tabs > li > a, .nav-tabs > li > a:hover {
+    color: white;
+    background: transparent;
+    font-family: Montserrat-Regular;
+    font-size: 10pt;
+}
+
+li{
+    margin-right: 15px;
+}
+ul{
+        margin-bottom: 30px;
+
+}
+img.img-responsive {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+div.gallery {
+
+    margin-top: 10%;
+    margin-left: 40px;
+    box-shadow: 0 0 15px #ddd;
+    background: #ddd;
+    border-radius: 2%;
+    float: left;
+    margin-bottom: 40px;
+    background-color: #4bbdec;
+}
+
+
+div.gallery img{
+    width: 30%;
+    margin-left:90px;
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+
+
+div.desc {
+    background-color: white;
+    padding: 15px;
+    text-align: left;
+    font-family: Montserrat-Bold;
+    color: #4bbdec;
+    height: 70px;   
+
+}
+
+.nav-tabs{
+    border-bottom: 0px;
+}
+ .nav-tabs > li.active > a,
+        .nav-tabs > li.active > a:hover,
+        .nav-tabs > li.active > a:focus {
+          zoom: 1;
+          } 
+ hr{
+    background-color: #4bbdec;
+    height: 2px;
+    margin-left: 0%;
+    margin-right: 85%;
+    margin-top: 0px;
+
+     }

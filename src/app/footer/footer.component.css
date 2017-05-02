@@ -1,0 +1,54 @@
+ @font-face{
+     font-family: Montserrat-Regular;
+     src: url("../../assets/fonts/Montserrat-Regular.ttf")
+ }
+@font-face{
+     font-family: Montserrat-Bold;
+     src: url("../../assets/fonts/Montserrat-Bold.ttf")
+ }
+#footer{
+   background: url("../../assets/images/capgemini.png") center ;
+    background-color: #2e2e2e;
+    background-size: 100%;
+    background-position-y: 250px;
+    background-repeat: no-repeat;
+}
+img{
+width: 50px;
+height: 50px;
+margin-left: 10px;
+margin-top:40px;
+}
+b{
+color: white;
+margin-top:30px;
+}
+p.destacado{
+color: white;
+font-size:12px;
+}
+p.titulo{
+color:white;
+font-family: Montserrat-Regular;
+font-size: 16pt;
+}
+p{
+color: white;
+margin-top: 20px;
+font-family: Montserrat-Regular;
+font-size: 10pt;
+}
+a{
+color: white;
+}
+
+img.icon{
+width:30px ;
+height:30px;
+margin-bottom: 50px;
+}
+img.cap{
+width:150px ;
+height:30px;
+margin-left: 0px;
+}

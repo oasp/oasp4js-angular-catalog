@@ -1,0 +1,46 @@
+ @font-face{
+     font-family: Montserrat-Regular;
+     src: url("../../assets/fonts/Montserrat-Regular.ttf")
+ }
+@font-face{
+     font-family: Montserrat-Bold;
+     src: url("../../assets/fonts/Montserrat-Bold.ttf")
+ }
+#Collaboration{
+    background: url("../../assets/images/github.png") center center no-repeat ;
+    background-size: contain;   
+    background-color: #f2f2f2;
+    background-position-y: 180px;
+}
+.btn-primary{
+ 
+    color: #4bbdec;
+    background-color: transparent;
+    border-color: #4bbdec;
+    border-top-color: #4bbdec;
+    border-right-color: #4bbdec;
+    border-bottom-color: #4bbdec;
+    border-left-color: #4bbdec;
+    border-radius: 5cm;
+    margin-bottom: 100%; 
+
+    }
+h2{
+    margin-top: 25%;
+    color:#585657;
+    font-family: Montserrat-Regular;
+    font-size: 20pt;
+
+}
+hr{
+    width: 15%;
+    background-color: #4bbdec;
+    height: 2px;
+}
+p{
+    color:#585657;
+    font-family: Montserrat-Regular;
+    font-size: 10pt;
+
+}
+  

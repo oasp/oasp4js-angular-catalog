@@ -1,0 +1,47 @@
+ @font-face{
+     font-family: Montserrat-Regular;
+     src: url("../../assets/fonts/Montserrat-Regular.ttf")
+ }
+@font-face{
+     font-family: Montserrat-Bold;
+     src: url("../../assets/fonts/Montserrat-Bold.ttf")
+ }
+#universityActivities {
+    background: url("../../assets/images/university.png") center center no-repeat ;
+    background-color: white;
+    background-size: contain;
+    background-position-y: 180px;
+
+}
+
+.btn-primary{
+ 
+    color: #4bbdec;
+    background-color: transparent;
+    border-color: #4bbdec;
+    border-top-color: #4bbdec;
+    border-right-color: #4bbdec;
+    border-bottom-color: #4bbdec;
+    border-left-color: #4bbdec;
+    border-radius: 5cm;
+    margin-bottom: 100%;
+    }
+    hr{
+    width: 15%;
+    background-color: #2E9AFE;
+    height: 2px;
+}
+h2{
+    color:#585657;
+    font-family: Montserrat-Regular;
+    font-size: 20pt;
+    margin-top: 25%;
+}
+p{
+    color:#585657;
+    font-family: Montserrat-Regular;
+    font-size: 10pt;
+    line-height: 12pt;
+
+
+}

@@ -1,0 +1,20 @@
+ @font-face{
+     font-family: Montserrat-Regular;
+     src: url("../../assets/fonts/Montserrat-Regular.ttf")
+ }
+@font-face{
+     font-family: Montserrat-Bold;
+     src: url("../../assets/fonts/Montserrat-Bold.ttf")
+ }
+ @font-face{
+     font-family: Montserrat-Medium;
+     src: url("../../assets/fonts/Montserrat-Medium.ttf")
+ }
+.navbar{
+ background-color: #4bbdec;
+ }
+.navbar .nav-link{
+ color: #FFFFFF;
+ font-family: Montserrat-Regular;
+ margin: 13px;
+}

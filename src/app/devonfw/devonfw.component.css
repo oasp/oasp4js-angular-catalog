@@ -1,0 +1,53 @@
+ @font-face{
+     font-family: Montserrat-Regular;
+     src: url("../../assets/fonts/Montserrat-Regular.ttf")
+ }
+@font-face{
+     font-family: Montserrat-Bold;
+     src: url("../../assets/fonts/Montserrat-Bold.ttf")
+ }
+
+#devonfw{
+    background:url("../../assets/images/logo.png") center center no-repeat;
+     background-color: #4bbdec;
+     background-size: contain;
+     background-position-x: -140px;
+    }
+h1{
+     color: #FFFFFF;
+     margin-top: 40%;
+     font-family: Montserrat-Regular;
+     font-size: 25pt;
+     }
+p{
+    color: #FFFFFF;
+    text-align: right;
+    font-family: Montserrat-Regular;
+    font-size: 10pt;
+    line-height: 12pt;
+    
+    }
+.btn-primary{
+
+    color: #FFFFFF;
+    background-color: transparent;
+    border-color: #FFFFFF;
+    border-top-color: #FFFFFF;
+    border-right-color: #FFFFFF;
+    border-bottom-color: #FFFFFF;
+    border-left-color: #FFFFFF;
+    border-radius: 72px;
+    margin-bottom: 140%;
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-top:9px;
+    padding-bottom: 9px;
+    
+    }
+ hr{
+    background-color: white;
+    height: 2px;
+    margin-left: 80%;
+    margin-right: 0%;
+}
+  
