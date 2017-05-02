@@ -2,11 +2,17 @@
      font-family: montserrat;
      src: url("../../assets/fonts/Montserrat-Regular.ttf")
  }
+  @font-face{
+     font-family: montserrat-light;
+     src: url("../../assets/fonts/Montserrat-Light.ttf")
+ }
+ 
+
 
 #overview{
     background: url("../../assets/images/img_1.png") center center no-repeat ;
     background-color: #4bbdec;
-    background-size: 100%;
+    background-size: cover;
 }
 .btn-primary{
  
@@ -14,11 +20,12 @@
     background-color: #222c38;
     border-radius: 72px;
     margin-top:15%;
-    margin-bottom: 70%;
-    padding-left: 23px;
-    padding-right: 23px;
-    padding-top:9px;
-    padding-bottom: 9px;
+    margin-bottom: 180%;
+    padding-left: 26px;
+    padding-right: 26px;
+    padding-top:14px;
+    padding-bottom: 16px;
+    font-size: 12pt;
     }
 .btn-primary-f{
  
@@ -28,10 +35,10 @@
     border-radius: 72px;
     margin-top:15%;
     margin-bottom: 70%;
-    padding-left: 23px;
-    padding-right: 23px;
-    padding-top:9px;
-    padding-bottom: 9px;
+    padding-left: 26px;
+    padding-right: 26px;
+    padding-top:14px;
+    padding-bottom: 16px;
     }
 
  .btn-primary:hover{
@@ -42,13 +49,16 @@
 
 p{
     color: white;
-    font-size: 10pt;
-    font-family: montserrat;
-    line-height: 14pt;
+    font-size: 14pt;
+    font-family: montserrat-light;
+    font-weight: 100;
+    line-height: 18pt;
 }
 h2{
-    margin-top:20%;
+    padding-top: 300px;
     color: white;
     font-family: montserrat;
-    font-size: 20pt;
+    font-size: 24pt;
+    line-height: 28pt;
+    font-weight: 500;
 }

@@ -138,6 +138,7 @@ hr{
 
     .timeline-centered .timeline-entry.left-aligned .timeline-entry-inner .timeline-icon {
     float: right;
+    font-weight: bold;
                 }
 
     .timeline-centered .timeline-entry.left-aligned .timeline-entry-inner .timeline-label {
@@ -204,7 +205,9 @@ hr{
                 box-shadow: 0 0 0 2px #58ACFA;
                 line-height: 40px;
                 font-size: 15px;
+                font-weight: bold;
                 float: left;
+
             }
             .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
 

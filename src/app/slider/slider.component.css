@@ -11,10 +11,17 @@
      src: url("../../assets/fonts/Montserrat-ExtraLight.ttf")
  }
 #slider{
-    background: url("../../assets/images/testimonials.png") center center no-repeat ;
+    background: url("../../assets/images/testimonials.png") center center no-repeat;
     background-size: contain;
     background-color: #293645;
     background-position-y:250px;;
+}
+#comillas{
+     background:url("../../assets/images/comillas.png")  center no-repeat ;
+     background-size: 40%;
+     background-position-x: 300px;
+
+
 }
 #carouselExampleSlidesOnly{
     margin-top:10%;
@@ -22,7 +29,7 @@
 }
 h3{
     color:white;
-    font-family: Montserrat-Medium;
+    font-family: Montserrat-Regular;
 }
 .carousel-indicators{
     margin-left: 400px;

@@ -11,7 +11,7 @@
      src: url("../../assets/fonts/Montserrat-Medium.ttf")
  }
 .navbar{
- background-color: #4bbdec;
+ background-color: transparent;
  }
 .navbar .nav-link{
  color: #FFFFFF;
