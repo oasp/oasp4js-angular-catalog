@@ -16,21 +16,28 @@
     background-size: 40%;
     background-position-x: 50px;
     background-position-y: 170px;
+    box-shadow: 0 0 30px rgba(68,68,68,0.3);
+
+
 
     }
-#started{ 
+#started{
 
 }
+#timeline{
+    background-color: white;
+}
+
 p{
     text-align: right;
+    padding-right:60px;
     color: #9d9d9d;
     font-family: Montserrat-Regular;
     font-size: 10pt;
 }
-.media-body p{
-    text-align: left;
-}
+
 h1{
+    padding-right: 60px;
     font-family:Montserrat-Medium;
     font-size: 25pt;
     text-align: right;
@@ -49,15 +56,21 @@ h1{
     border-bottom-color: #55BAFE;
     border-left-color: #55BAFE;
     border-radius: 5cm;
-    width: 150px;
     margin-left: 100px;
+    padding-left: 40px;
+    padding-right:40px;
+    padding-top:9px;
+    padding-bottom:9px;
     }
 hr{
     background-color: #4bbdec;
     height: 2px;
-    margin-left: 80%;
-    margin-right: 0%;
+    margin-left: 67%;
+    margin-right: 15%;
      }
+.media-body p{
+    text-align:left;
+}
 
      .timeline-centered {
     position: relative;

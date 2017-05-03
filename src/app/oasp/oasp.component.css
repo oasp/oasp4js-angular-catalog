@@ -12,7 +12,7 @@
 #overview{
     background: url("../../assets/images/img_1.png") center center no-repeat ;
     background-color: #4bbdec;
-    background-size: cover;
+    background-size: 110%;
 }
 .btn-primary{
  
@@ -49,6 +49,7 @@
 
 p{
     color: white;
+    padding-right: 40px;
     font-size: 14pt;
     font-family: montserrat-light;
     font-weight: 100;

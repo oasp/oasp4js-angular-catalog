@@ -21,6 +21,7 @@ import { FrameworkComponent } from './framework/framework.component';
 import { DevonfwComponent } from './devonfw/devonfw.component';
 import { UniversityActivitiesComponent } from './university-activities/university-activities.component';
 import { SliderComponent } from './slider/slider.component';
+import {  MarkdownModule } from 'angular2-markdown';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -57,6 +58,7 @@ const routes: Routes = [
     HttpModule,
     NgbModule.forRoot(),
     RouterModule.forRoot(routes),
+    MarkdownModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent,]

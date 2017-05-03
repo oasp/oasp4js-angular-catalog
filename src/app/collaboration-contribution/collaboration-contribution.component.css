@@ -23,6 +23,10 @@
     border-left-color: #4bbdec;
     border-radius: 5cm;
     margin-bottom: 100%; 
+    padding-left: 40px;
+    padding-right:40px;
+    padding-top:9px;
+    padding-bottom:9px;
 
     }
 h2{
@@ -35,12 +39,11 @@ h2{
 hr{
     width: 15%;
     background-color: #4bbdec;
-    height: 2px;
+    height: 3px;
 }
 p{
-    color:#585657;
+    color: #9d9d9d;
     font-family: Montserrat-Regular;
     font-size: 10pt;
-
 }
   

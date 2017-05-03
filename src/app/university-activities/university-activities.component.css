@@ -15,7 +15,6 @@
 }
 
 .btn-primary{
- 
     color: #4bbdec;
     background-color: transparent;
     border-color: #4bbdec;
@@ -23,25 +22,36 @@
     border-right-color: #4bbdec;
     border-bottom-color: #4bbdec;
     border-left-color: #4bbdec;
-    border-radius: 5cm;
+    border-radius: 72px;
     margin-bottom: 100%;
+    padding-left: 40px;
+    padding-right:40px;
+    padding-top:9px;
+    padding-bottom:9px;
     }
+    
+
     hr{
-    width: 15%;
-    background-color: #2E9AFE;
-    height: 2px;
+    margin-left: 230px;
+    margin-right: 230px;
+    background-color: #4bbdec;
+    height: 3px;
 }
 h2{
     color:#585657;
     font-family: Montserrat-Regular;
     font-size: 20pt;
+    font-weight: 500;
     margin-top: 25%;
 }
 p{
     color:#585657;
     font-family: Montserrat-Regular;
-    font-size: 10pt;
-    line-height: 12pt;
+    font-size: 12pt;
+    line-height: 14pt;
+    padding-right: 50px;
+    padding-left: 50px;
+
 
 
 }

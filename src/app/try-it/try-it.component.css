@@ -5,7 +5,7 @@
 #tryit{
     background: url("../../assets/images/img.png") center center no-repeat ;
     /*margin-left: 200px;*/
-    background-size: cover;
+    background-size: 110%;
 
 }
 h2{ 
@@ -23,16 +23,15 @@ h2{
     border-right-color: #FFFFFF;
     border-bottom-color: #FFFFFF;
     border-left-color: #FFFFFF;
-    border-radius: 5cm 
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top:14px;
+    padding-bottom: 14px;
+    border-radius: 72px;
+    font-size: 12pt; 
     }
+
 .btn-primary:hover{
     color:blue;
     background-color: #FFFFFF
 }
- hr{
-    background-color: white;
-    height: 2px;
-    margin-left: 80%;
-    margin-right: 0%;
-}
-  
