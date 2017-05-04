@@ -26,6 +26,8 @@
 }
 #timeline{
     background-color: white;
+    box-shadow: inset 0px 0px 100px #e2e2e2;
+
 }
 
 p{
@@ -75,6 +77,7 @@ hr{
      .timeline-centered {
     position: relative;
     margin-bottom: 0px;
+
 }
 
 

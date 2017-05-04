@@ -57,13 +57,18 @@ p{
 p.java{    
     margin-left: 17px;
     color:#222c38;
+    text-align: center;
+    padding-right: 10px;
 }
-p.javaScript{    
+p.javaScript{ 
+    padding-left: 35px;   
     color:#222c38;
 }
 p.net{    
     margin-left: 15px;
-        color:#222c38;
+    color:#222c38;
+    text-align: center;
+    padding-right: 13px;
 
 }
 hr{
