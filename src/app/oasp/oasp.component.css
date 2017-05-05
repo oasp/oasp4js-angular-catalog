@@ -1,5 +1,5 @@
  @font-face{
-     font-family: montserrat;
+     font-family: montserrat-Regular;
      src: url("../../assets/fonts/Montserrat-Regular.ttf")
  }
   @font-face{
@@ -12,33 +12,38 @@
 #overview{
     background: url("../../assets/images/img_1.png") center center no-repeat ;
     background-color: #4bbdec;
-    background-size: 110%;
+    background-size: cover;
 }
 .btn-primary{
  
+    border-color: #222c38;
     color: #FFFFFF;
     background-color: #222c38;
     border-radius: 72px;
-    margin-top:15%;
     margin-bottom: 180%;
-    padding-left: 26px;
-    padding-right: 26px;
-    padding-top:14px;
-    padding-bottom: 16px;
+    line-height: 47px;
+    height: 50px;
+    padding: 0px 30px;
     font-size: 12pt;
+    font-family: montserrat-Regular;
+    border-width: 2px;
+    margin: 20px 20px 20px 0px;
+
     }
 .btn-primary-f{
  
+    border-color: #FFFFFF;
     color: #FFFFFF;
     background-color: transparent;
-    border-color: white;
     border-radius: 72px;
-    margin-top:15%;
-    margin-bottom: 70%;
-    padding-left: 26px;
-    padding-right: 26px;
-    padding-top:14px;
-    padding-bottom: 16px;
+    margin-bottom: 180%;
+    line-height: 47px;
+    height: 50px;
+    padding: 0px 30px;
+    font-size: 12pt;
+    font-family: montserrat-Regular;
+    border-width: 2px;
+    margin: 20px 20px 20px 0px;
     }
 
  .btn-primary:hover{
@@ -56,9 +61,8 @@ p{
     line-height: 18pt;
 }
 h2{
-    padding-top: 300px;
     color: white;
-    font-family: montserrat;
+    font-family: montserrat-Regular;
     font-size: 24pt;
     line-height: 28pt;
     font-weight: 500;

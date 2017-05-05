@@ -1,57 +1,44 @@
 <div id="framework" class="container-fluid">
   <div class="container">
     <div class="row">
-      <div class="col-md-4 col-sm-4">
+      <div class="col-md-6 col-sm-12">
         <h1>Framework</h1>
         <hr>
         <p>
-          It provides a complete reference implementation and IDE for your well architected, robus and modern web application.
+          It provides a complete reference implementation and IDE for your well architected, robust and modern web application.
         </p>
       </div>
-      <div class="col-md-1 col-sm-1"></div>
-
-      <div class="col-md-2 col-sm-2">
-        <img src="../../assets/images/javascript_icon.png" style="margin-left: 43px;margin-top: 200px;width:50%">
+      <div class="col-md-2 col-sm-4" style="text-align:center">
+        <img src="../../assets/images/javascript_icon.png" style="margin-top: 200px">
         <br>
         <br>
         <p class="javaScript"><b>JavaScript</b></p>
+        <div [(ngModel)]="model" ngbRadioGroup name="radioBasic">
+          <label class="btn btn-primary">
+                <input type="radio" [value]="1"> More info
+            </label>
+        </div>
       </div>
-      <div class="col-md-2 col-sm-2">
-        <img src="../../assets/images/java_icon.png" style="margin-left: 43px;margin-top: 200px;width:50%">
+      <div class="col-md-2 col-sm-4" style="text-align:center">
+        <img src="../../assets/images/java_icon.png" style="margin-top: 200px">
         <br>
         <br>
         <p class="java"><b>Java</b></p>
-      </div>
-      <div class="col-md-2 col-sm-2">
-        <img src="../../assets/images/net_icon.png"  style="margin-left: 43px;margin-top: 200px;width:50%;">
-        <br>
-        <br>
-        <p class="net" style="margin-left:25px;"><b>.NET</b></p>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-5 col-sm-5"></div>
-
-      <div class="col-md-2 col-sm-2">
-        <div [(ngModel)]="model" ngbRadioGroup name="radioBasic" style="padding-left:10px;">
-          <label class="btn btn-primary" >
-          <input type="radio" [value]="1"> More info
-      </label>
+        <div [(ngModel)]="model" ngbRadioGroup name="radioBasic">
+          <label class="btn btn-primary">
+                <input type="radio" [value]="1"> More info
+            </label>
         </div>
       </div>
-      <div class="col-md-2 col-sm-2">
-        <div [(ngModel)]="model" ngbRadioGroup name="radioBasic" style="padding-left:10px;">
+      <div class="col-md-2 col-sm-4" style="text-align:center">
+        <img src="../../assets/images/net_icon.png" style="margin-top: 200px">
+        <br>
+        <br>
+        <p class="net"><b>.NET</b></p>
+        <div [(ngModel)]="model" ngbRadioGroup name="radioBasic">
           <label class="btn btn-primary">
-          <input type="radio" [value]="1"> More info
-      </label>
-        </div>
-      </div>
-      <div class="col-md-2 col-sm-2">
-        <div [(ngModel)]="model" ngbRadioGroup name="radioBasic" style="padding-left:10px;">
-          <label class="btn btn-primary">
-          <input type="radio" [value]="1"> More info
-      </label>
+                <input type="radio" [value]="1"> More info
+            </label>
         </div>
       </div>
     </div>

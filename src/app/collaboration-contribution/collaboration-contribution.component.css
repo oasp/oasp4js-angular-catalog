@@ -9,31 +9,38 @@
 #Collaboration{
     background: url("../../assets/images/github.png") center center no-repeat ;
     background-size: contain;   
-    background-color: #f2f2f2;
+    background-color: #ffffff;
     background-position-y: 180px;
-}
+    box-shadow: inset 0px 7px 20px 0px #e2e2e2;
+    }
 .btn-primary{
  
     color: #4bbdec;
+    font-size: 12pt;
+    font-family: Montserrat-regular;
+    font-weight: 500;
     background-color: transparent;
     border-color: #4bbdec;
     border-top-color: #4bbdec;
     border-right-color: #4bbdec;
     border-bottom-color: #4bbdec;
     border-left-color: #4bbdec;
-    border-radius: 5cm;
+    border-radius: 72px;
     margin-bottom: 100%; 
     padding-left: 40px;
-    padding-right:40px;
-    padding-top:9px;
-    padding-bottom:9px;
-
+    padding-right: 40px;
+    padding-top:14px;
+    padding-bottom: 14px;
+    border-radius: 72px;
+    font-size: 12pt; 
+    font-size: 12pt;border-width: 2px;
+    font-family: Montserrat-Regular;
     }
 h2{
     margin-top: 25%;
     color:#585657;
-    font-family: Montserrat-Regular;
-    font-size: 20pt;
+    font-family: Montserrat-Medium;
+    font-size: 23pt;
 
 }
 hr{
@@ -44,6 +51,6 @@ hr{
 p{
     color: #9d9d9d;
     font-family: Montserrat-Regular;
-    font-size: 10pt;
-}
+    font-size: 12pt;
+    font-style: italic;}
   

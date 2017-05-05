@@ -9,11 +9,10 @@
           to the industry.</p>
         <div [(ngModel)]="model" ngbRadioGroup name="radioBasic">
           <label class="btn btn-primary">
-    <input type="radio" [value]="1"> Learn more
-  </label>
+              <input type="radio" [value]="1"> Learn more
+          </label>
         </div>
-              <div  class="col-md-2 col-sm-2" Markdown path="../content/prueba.md">
-      </div>
+        <markdown [path]="'../../assets/content/prueba.md'"></markdown>
       </div>
     </div>
   </div>

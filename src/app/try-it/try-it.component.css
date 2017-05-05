@@ -5,7 +5,7 @@
 #tryit{
     background: url("../../assets/images/img.png") center center no-repeat ;
     /*margin-left: 200px;*/
-    background-size: 110%;
+    background-size: cover;
 
 }
 h2{ 
@@ -29,6 +29,8 @@ h2{
     padding-bottom: 14px;
     border-radius: 72px;
     font-size: 12pt; 
+    font-size: 12pt;border-width: 2px;
+    font-family: Montserrat-Regular;
     }
 
 .btn-primary:hover{

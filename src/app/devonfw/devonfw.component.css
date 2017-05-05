@@ -23,8 +23,9 @@
  h1 {
    color: #FFFFFF;
    margin-top: 40%;
-   font-family: Montserrat-Regular;
+   font-family: Montserrat-Medium;
    font-size: 25pt;
+   
  }
 
  p {
@@ -36,20 +37,24 @@
  }
 
 .btn-primary {
-  color: #FFFFFF;
-  background-color: transparent;
-  border-color: #FFFFFF;
-  border-top-color: #FFFFFF;
-  border-right-color: #FFFFFF;
-  border-bottom-color: #FFFFFF;
-  border-left-color: #FFFFFF;
-  border-radius: 72px;
-  margin-bottom: 140%;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-top: 9px;
-  padding-bottom: 9px;
-}
+    color: #FFFFFF;
+    background-color: transparent;
+    border-color: #FFFFFF;
+    border-top-color: #FFFFFF;
+    border-right-color: #FFFFFF;
+    border-bottom-color: #FFFFFF;
+    border-left-color: #FFFFFF;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top:14px;
+    padding-bottom: 14px;
+    margin-bottom: 140%;
+    border-radius: 72px;
+    font-size: 12pt; 
+    font-size: 12pt;border-width: 2px;
+    font-family: Montserrat-Regular;
+    }
+
 hr {
   background-color: white;
   height: 3px;

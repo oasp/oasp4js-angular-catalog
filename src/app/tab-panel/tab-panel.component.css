@@ -28,7 +28,9 @@
 li{
     margin-right: 15px;
 }
-li .active{}
+li .active .p{
+    color: red;
+}
 
 ul{     
 
@@ -71,7 +73,6 @@ div.desc {
     height: 70px;   
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
-
 
 
 }

@@ -1,8 +1,6 @@
 #usedTechnologies{
     background-color: #ffffff;
-}
-.logos{
-    margin-top:8%;
-    margin-bottom: 8%;
-    padding-left: 10px;
+    box-shadow:inset 0px 7px 20px rgba(68,68,68,0.3)}
+.col-md-3 {
+    padding: 50px ;
 }

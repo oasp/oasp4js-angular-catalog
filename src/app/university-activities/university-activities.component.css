@@ -25,9 +25,13 @@
     border-radius: 72px;
     margin-bottom: 100%;
     padding-left: 40px;
-    padding-right:40px;
-    padding-top:9px;
-    padding-bottom:9px;
+    padding-right: 40px;
+    padding-top:14px;
+    padding-bottom: 14px;
+    border-radius: 72px;
+    font-size: 12pt; 
+    font-size: 12pt;border-width: 2px;
+    font-family: Montserrat-Regular;
     }
     
 
@@ -39,19 +43,16 @@
 }
 h2{
     color:#585657;
-    font-family: Montserrat-Regular;
-    font-size: 20pt;
-    font-weight: 500;
+    font-family: Montserrat-Medium;
+    font-size: 23pt;
+
     margin-top: 25%;
 }
 p{
-    color:#585657;
+    color: #9d9d9d;
     font-family: Montserrat-Regular;
     font-size: 12pt;
-    line-height: 14pt;
-    padding-right: 50px;
+    font-style: italic;
     padding-left: 50px;
-
-
-
+    padding-right: 50px;
 }

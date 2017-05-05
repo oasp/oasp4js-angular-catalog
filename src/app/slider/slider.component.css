@@ -20,8 +20,6 @@
      background:url("../../assets/images/comillas.png")  center no-repeat ;
      background-size: 40%;
      background-position-x: 300px;
-
-
 }
 #carouselExampleSlidesOnly{
     margin-top:10%;
@@ -35,7 +33,6 @@ h3{
     margin-left: 400px;
     margin-top: 0px;
     top: 170px;
-
 }
 .carousel-indicators li {
     max-width: 15px;
