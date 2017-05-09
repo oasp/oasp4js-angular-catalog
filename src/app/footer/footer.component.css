@@ -52,3 +52,9 @@ width:150px ;
 height:30px;
 margin-left: 0px;
 }
+@media (max-width: 767px) {
+
+  .text-xs-center {
+    text-align: center;
+  } 
+}

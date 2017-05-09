@@ -30,14 +30,14 @@
     padding-bottom: 14px;
     border-radius: 72px;
     font-size: 12pt; 
-    font-size: 12pt;border-width: 2px;
+    font-size: 12pt;
+    border-width: 2px;
     font-family: Montserrat-Regular;
     }
     
 
     hr{
-    margin-left: 230px;
-    margin-right: 230px;
+    width: 15%;
     background-color: #4bbdec;
     height: 3px;
 }
@@ -53,6 +53,13 @@ p{
     font-family: Montserrat-Regular;
     font-size: 12pt;
     font-style: italic;
+
+}
+markdown{
+    color: #9d9d9d;
+    font-family: Montserrat-Regular;
+    font-size: 12pt;
+    font-style: italic;
     padding-left: 50px;
     padding-right: 50px;
-}
+    }
