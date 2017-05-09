@@ -61,3 +61,21 @@ hr {
   margin-left: 80%;
   margin-right: 0%;
 }
+@media (max-width: 767px) {
+
+  .text-xs-center {
+    text-align: center;
+  } 
+  hr{
+  margin-left: 43%;
+  margin-right: 43%;
+
+  }
+  #devonfw {
+   background: url("../../assets/images/logo.png") center center no-repeat;
+   background-color: #4bbdec;
+   background-size: 30%;
+   background-position-x: 135px;
+   background-position-y: 20px;   
+   }
+}

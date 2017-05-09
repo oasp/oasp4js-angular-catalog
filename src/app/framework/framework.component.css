@@ -75,4 +75,13 @@ hr{
     margin-right: 78%;
 }
 
-
+ @media (max-width: 767px) {
+   .text-xs-center {
+     text-align: center;
+   }
+   hr{ 
+       width: 15%;
+       margin-right:35%;
+       margin-left:45%;
+   }
+ }

@@ -54,7 +54,6 @@
 
 p{
     color: white;
-    padding-right: 40px;
     font-size: 14pt;
     font-family: montserrat-light;
     font-weight: 100;
@@ -67,3 +66,8 @@ h2{
     line-height: 28pt;
     font-weight: 500;
 }
+ @media (max-width: 767px) {
+   .text-xs-center {
+     text-align: center;
+   }
+ }

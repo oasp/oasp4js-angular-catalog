@@ -16,10 +16,11 @@
     background-size: 180%;
     background-repeat: no-repeat;
     box-shadow: 0 0 30px rgba(68,68,68,0.3);
+    padding: 40px 0px 30px;
 }
 
 .nav-tabs > li > a, .nav-tabs > li > a:hover {
-    color: white;
+    color: rgba(41, 54, 69,.75);
     background: transparent;
     font-family: Montserrat-Regular;
     font-size: 10pt;
@@ -32,11 +33,6 @@ li .active .p{
     color: red;
 }
 
-ul{     
-
-    margin-bottom: 30px;
-
-}
 img.img-responsive {
     margin-bottom: 40px;
     margin-top: 40px;
@@ -44,20 +40,18 @@ img.img-responsive {
 }
 div.gallery {
 
-    margin-top: 10%;
-    margin-left: 40px;
     box-shadow: 0 0 30px rgba(68,68,68,0.3);
     background: #ddd;
     border-radius: 3px;
-    float: left;
     margin-bottom: 40px;
     background-color: #4bbdec;
+    text-align: center;
 }
 
 
 div.gallery img{
-    width: 30%;
-    margin-left:90px;
+    width: auto;
+    height: 100px;
     margin-top:30px;
     margin-bottom: 30px;
 }
