@@ -3,7 +3,7 @@
     <div class="tab-content">
       <div role="tabpanel" class="tab-pane active" id="oneFlexibleSolution">
         <div class="row">
-          <div class="col-sm-1 col-md-4">
+          <div class="col-sm-1 col-md-4 col-6">
             <div class="gallery">
               <img src="../../assets/images/desktop_icon.png" alt="Desktop apps">
               <div class="desc">
@@ -11,43 +11,43 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-1 col-md-4">
+          <div class="col-sm-1 col-md-4 col-6">
             <div class="gallery">
               <img src="../../assets/images/web_icon.png" alt="Desktop apps">
               <div class="desc">
-                Desktop Apps
+                Web Apps
               </div>
             </div>
           </div>
-          <div class="col-sm-1 col-md-4">
+          <div class="col-sm-1 col-md-4 col-6">
             <div class="gallery">
               <img src="../../assets/images/mobile_icon.png" alt="Mobile apps">
               <div class="desc">
-                Desktop Apps
+                Mobile Apps
               </div>
             </div>
           </div>
-          <div class="col-sm-1 col-md-4">
+          <div class="col-sm-1 col-md-4 col-6">
             <div class="gallery">
               <img src="../../assets/images/batch_icon.png" alt="Desktop apps">
               <div class="desc">
-                Desktop Apps
+                Batch processing
               </div>
             </div>
           </div>
-          <div class="col-sm-1 col-md-4">
+          <div class="col-sm-1 col-md-4 col-6">
             <div class="gallery">
               <img src="../../assets/images/integration_icon.png" alt="Desktop apps">
               <div class="desc">
-                Desktop Apps
+                Integration
               </div>
             </div>
           </div>
-          <div class="col-sm-1 col-md-4">
+          <div class="col-sm-1 col-md-4 col-6">
             <div class="gallery">
               <img src="../../assets/images/cloud_icon.png" alt="Desktop apps">
               <div class="desc">
-                Desktop Apps
+                Cloud
               </div>
             </div>
           </div>
@@ -77,8 +77,8 @@
         <img class="img-responsive" src="images/Example_Angular_Restaurant_Screen.png" alt="Example Angular restaurant screen">
       </div>
     </div>
-    <div class="col-md-12 col-md-offset-1 col-8">
-      <ul class="nav nav-tabs justify-content-center" role="tablist" id="tablist">
+    <div class="col-md-10 offset-md-1 col-10 offset-1 d-md-block d-none">
+      <ul class="nav nav-tabs" role="tablist" id="tablist">
         <li role="presentation" class="active"><a href="#oneFlexibleSolution" aria-controls="oneFlexibleSolution" role="tab" data-toggle="tab" aria-expanded="false">One flexible solution</a></li>
         <li role="presentation" class=""><a href="#architectureBackground" aria-controls="architectureBackground" role="tab" data-toggle="tab" aria-expanded="false">Architecture background</a></li>
         <li role="presentation" class=""><a href="#architecturePatterns" aria-controls="architecturePatterns" role="tab" data-toggle="tab" aria-expanded="false">Architecture patterns</a></li>
@@ -87,5 +87,48 @@
         <li role="presentation" class=""><a href="#restaurantExampleClient" aria-controls="restaurantExampleClient" role="tab" data-toggle="tab" aria-expanded="true">Example</a></li>
       </ul>
     </div>
+    <!--Probando version movil de tab-panel-->
+    <div class="col-10 offset-1 d-sm-none d-md-none d-inline">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+        </ol>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <p>One flexible solution</p>
+          </div>
+          <div class="carousel-item">
+            <p>Architecture background</p>
+          </div>
+          <div class="carousel-item">
+            <p>Architecture patterns</p>
+          </div>
+          <div class="carousel-item">
+            <p>Used technologies</p>
+          </div>
+          <div class="carousel-item">
+            <p>IDE</p>
+          </div>
+          <div class="carousel-item">
+            <p>Example</p>
+          </div>
+        </div>
+        
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <!--fin prueba-->
   </div>
 </div>

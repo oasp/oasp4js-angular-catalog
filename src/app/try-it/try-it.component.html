@@ -1,13 +1,9 @@
 <div id="tryit" class="container-fluid">
   <div class="container text-center">
-    <div class="row" style="padding-top:170px;padding-bottom:130px;">
+    <div class="row" >
       <div class="col-lg-12 col-md-12 col-sm-12">
-        <h2>¿Why don't to try it?</h2>
-        <br>
-        <div [(ngModel)]="model" ngbRadioGroup name="radioBasic">
-          <label class="btn btn-primary">
-    <input type="radio" [value]="1"> Getting started
-  </label>
+        <div class="markdown markdown-center">
+          <markdown [path]="'../../assets/content/OASP/try-it.md'"></markdown>
         </div>
       </div>
     </div>

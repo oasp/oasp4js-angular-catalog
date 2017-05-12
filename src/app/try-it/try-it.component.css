@@ -4,17 +4,29 @@
  }
 #tryit{
     background: url("../../assets/images/img.png") center center no-repeat ;
-    /*margin-left: 200px;*/
     background-size: cover;
 
 }
-h2{ 
+#tryit h2{
+    margin-top: 20%;
+}
+#tryit p{
+    margin-bottom:10%;
+    margin-top: 2%;
+}
+
+#tryit  a:hover{
+    color:blue;
+    background-color: #FFFFFF
+}
+/**markdown styles**/
+#tryit .markdown h2{ 
     color: #ffffff;
     font-family: Montserrat-Medium;
     font-size: 20pt;
-
 }
-.btn-primary{
+
+#tryit .markdown a{
  
     color: #FFFFFF;
     background-color: transparent;
@@ -23,17 +35,8 @@ h2{
     border-right-color: #FFFFFF;
     border-bottom-color: #FFFFFF;
     border-left-color: #FFFFFF;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top:14px;
-    padding-bottom: 14px;
-    border-radius: 72px;
-    font-size: 12pt; 
-    font-size: 12pt;border-width: 2px;
-    font-family: Montserrat-Regular;
-    }
+}
 
-.btn-primary:hover{
-    color:blue;
-    background-color: #FFFFFF
+#tryit .markdown h2::after {
+    display: none;
 }

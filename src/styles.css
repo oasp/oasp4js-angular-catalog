@@ -1,1 +1,100 @@
 /* You can add global styles to this file, and also import other style files */
+
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url("./assets/fonts/Montserrat-Regular.ttf")
+}
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url("./assets/fonts/Montserrat-Bold.ttf")
+}
+  @font-face{
+     font-family: montserrat-light;
+     src: url("./assets/fonts/Montserrat-Light.ttf")
+ }
+
+.btn-primary {
+  color: #4bbdec;
+  background-color: transparent;
+  border-color: #4bbdec;
+  border-top-color: #4bbdec;
+  border-right-color: #4bbdec;
+  border-bottom-color: #4bbdec;
+  border-left-color: #4bbdec;
+  border-radius: 72px;
+  margin-bottom: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-radius: 72px;
+  font-size: 12pt;
+  font-size: 12pt;
+  border-width: 2px;
+  font-family: Montserrat-Regular;
+}
+
+hr {
+  width: 15%;
+  background-color: #4bbdec;
+  height: 3px;
+}
+
+
+/*Styles for markdown text*/
+
+.markdown h2 {
+  color: #585657;
+  font-family: Montserrat-Medium;
+  font-size: 23pt;
+  margin-top: 25%;
+}
+
+.markdown h2::after {
+  content: "";
+  display: block;
+  position: relative;
+  margin: 10px auto 0px;
+  width: 15%;
+  background-color: #4bbdec;
+  height: 4px;
+}
+
+.markdown p {
+  color: #9d9d9d;
+  font-family: Montserrat-Regular;
+  font-size: 12pt;
+  font-style: italic;
+  padding: 20px 0px;
+}
+
+.markdown a {
+  color: #4bbdec;
+  border: #4bbdec 2px solid;
+  margin-bottom: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-radius: 72px !important;
+  font-size: 12pt;
+  border-width: 2px;
+  font-family: Montserrat-Regular;
+  font-style: normal;
+}
+/*
+@import '../src/app/framework/framework.component.css';
+*/
+@import '../src/app/devonfw/devonfw.component.css';
+@import '../src/app/oasp/oasp.component.css';
+@import '../src/app/try-it/try-it.component.css';
+@import '../src/app/getting-started/getting-started.component.css';
+@import '../src/app/used-technologies/used-technologies.component.css';
+
+
+
+
+
+
+

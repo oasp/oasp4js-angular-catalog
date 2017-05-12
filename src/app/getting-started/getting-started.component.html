@@ -1,31 +1,12 @@
 <div id="gettingstarted" class="container-fluid">
   <div class="row">
     <div class="col-md-1 col-sm-1"></div>
-    <div class="col-md-4 col-sm-4 col-12 text-xs-center" id="started" style="margin-bottom:200px;margin-top:200px;">
-      <h1 class="text-xs-center">
-        Getting started
-      </h1>
-      <hr>
-      <p class="text-xs-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-        aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
-      </p>
-      <br>
-      <!--botones-->
-      <!--Lorem Ipsum1-->
-      <div [(ngModel)]="model" ngbRadioGroup name="radioBasic">
-        <label class="btn btn-primary">
-    <input type="radio" [value]="3"> Lorem Ipsum 1
-  </label>
-      </div>
-      <!--Lorem Ipsum2-->
-      <div [(ngModel)]="model" ngbRadioGroup name="radioBasic">
-        <label class="btn btn-primary" >
-    <input type="radio" [value]="3"> Lorem Ipsum 2
-  </label>
+    <div class="col-md-4 col-sm-4 col-12 text-xs-center" id="started">
+      <div class="markdown markdown-center">
+        <markdown [path]="'../../assets/content/OASP/getiing-started.md'"></markdown>
       </div>
     </div>
-        <div class="col-md-1 col-sm-1"></div>
-
+    <div class="col-md-1 col-sm-1"></div>
     <!--Timeline-->
     <div class="col-md-6 col-sm-6" id="timeline">
       <div class=" timeline-centered">

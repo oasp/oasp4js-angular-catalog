@@ -77,11 +77,21 @@ hr{
 
  @media (max-width: 767px) {
    .text-xs-center {
-     text-align: center;
+    text-align: center;
    }
    hr{ 
-       width: 15%;
-       margin-right:35%;
-       margin-left:45%;
+    width: 15%;
+    margin-right:35%;
+    margin-left:45%;
    }
+   .btn-primary{
+    margin-bottom: 40px;
+ }
+   img{
+    margin-top:10px;}
+ 
+   #framework{
+    background-image: none;
+ }
+ p{padding: 10px 0px;}
  }

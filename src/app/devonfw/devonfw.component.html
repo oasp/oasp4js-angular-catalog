@@ -1,18 +1,13 @@
 <div id="devonfw" class="container-fluid">
-
   <div class="container text-right">
+    <div class="col-10 offset-1 d-md-none d-block">
+      <img src="../../assets/images/devon_logo.png" class="icon">
+    </div>
     <div class="row">
       <div class="col-md-6 col-sm-6"></div>
-      <div class="col-md-5 col-sm-5 col-12 text-xs-center">
-        <h1>devonfw</h1>
-        <hr>
-        <p class="text-xs-center"><b>Devonfw</b> is the CSD standard platform for Capgemini APPS2. It provides a <b>standard architecture</b> blueprint
-          for <b>Java-applications</b>, an open best-of-breed technology stack as well as industry</p>
-        <div [(ngModel)]="model" ngbRadioGroup name="radioBasic">
-          <label class="btn btn-primary">
-    <input type="radio" [value]="1"> More info
-  </label>
-        </div>
+      <div class="col-md-5 col-sm-5 col-10 offset-1 text-xs-center" style="margin-bottom:15%">
+        <div class="markdown">
+          <markdown [path]="'../../assets/content/OASP/devonfw.md'"></markdown>
       </div>
     </div>
   </div>

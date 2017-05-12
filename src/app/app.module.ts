@@ -27,7 +27,7 @@ const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'oasp', component: OASPComponent },
   { path: 'oasp4j', component: OASP4JComponent },
-  { path: 'oasp4js', component: OASP4JComponent },
+  { path: 'oasp4js', component: OASP4JSComponent },
   { path: 'oasp4net', component: OASP4NETComponent },
   { path: 'More', component: MoreComponent },
 ];
