@@ -55,11 +55,28 @@ p{
     text-align: left;
 }
  @media (max-width: 767px) {
-p{
-    margin-left: auto !important;
-    margin-right: auto !important;
-    display: block !important
-}
-.carousel-inner { text-align: center; }
-.carousel .item > img { display: inline-block; }
+    p{
+        margin-left: auto !important;
+        margin-right: auto !important;
+        display: block !important
+    }
+    .carousel-inner { text-align: center; }
+    .carousel .item > img { display: inline-block; }
+    .carousel-testimonial .carousel-item .media{
+        width: 100%;
+        display: block;
+    }
+    .carousel-testimonial .carousel-item .media img{
+        text-align: center;
+        display: inline-block!important;
+        margin-bottom: 10px;
+    }
+    .carousel-testimonial .carousel-item p{
+        text-align: center;
+    }
+    .carousel-testimonial .carousel-indicators[_ngcontent-c12] {
+        margin-top: 0px;
+        position: relative;
+        top: 0px;
+    }
  }

@@ -13,6 +13,14 @@
      font-family: montserrat-light;
      src: url("./assets/fonts/Montserrat-Light.ttf")
  }
+ .navbar-light .navbar-toggler{
+   border-color:transparent;
+   outline: 0px none; 
+ }
+ .navbar-light .navbar-toggler-icon {
+    background-image: url('./assets/images/menu.svg');
+        margin-top: 10px;
+    }
 
 .btn-primary {
   color: #4bbdec;
@@ -71,8 +79,10 @@ hr {
 
 .markdown a {
   color: #4bbdec;
+  display: inline-block;
+  width: auto;
   border: #4bbdec 2px solid;
-  margin-bottom: 100%;
+  margin-bottom: 10px;
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 14px;
@@ -82,6 +92,15 @@ hr {
   border-width: 2px;
   font-family: Montserrat-Regular;
   font-style: normal;
+}
+
+
+
+
+@media (max-width: 900px) {
+  nav.navbar{
+    background-color: #4bbdec!important;
+  }
 }
 /*
 @import '../src/app/framework/framework.component.css';

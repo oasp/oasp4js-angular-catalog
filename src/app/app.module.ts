@@ -24,7 +24,7 @@ import { SliderComponent } from './slider/slider.component';
 import {  MarkdownModule } from 'angular2-markdown';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'home', pathMatch: 'full' },
+  { path: '', redirectTo: 'oasp', pathMatch: 'full' },
   { path: 'oasp', component: OASPComponent },
   { path: 'oasp4j', component: OASP4JComponent },
   { path: 'oasp4js', component: OASP4JSComponent },
