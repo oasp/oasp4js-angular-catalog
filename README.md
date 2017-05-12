@@ -1,3 +1,5 @@
+## Requirements
+npm intall -g angular-cli
 # OaspNg
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
