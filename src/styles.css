@@ -110,6 +110,8 @@ hr {
 @import '../src/app/try-it/try-it.component.css';
 @import '../src/app/getting-started/getting-started.component.css';
 @import '../src/app/used-technologies/used-technologies.component.css';
+@import '../src/app/oasp4-j/oasp4-j.component.css';
+@import '../src/app/oasp4-js/oasp4-js.component.css';
 
 
 
