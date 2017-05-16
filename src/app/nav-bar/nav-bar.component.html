@@ -6,20 +6,35 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent" [ngbCollapse]="isCollapsed">
     <ul class="navbar-nav ml-auto">
-      <li class="nav-item">
-        <a class="nav-link" [routerLink]="['/oasp']">OASP<span class="sr-only">(current)</span></a>
+      <li class="nav-item" [ngClass]="{'active': isCurrentPath('/oasp')}">
+          <a class="nav-link" 
+          [routerLink]="['/oasp']">
+          OASP
+          </a>
       </li>
-      <li class="nav-item">
-          <a class="nav-link" [routerLink]="['/oasp4j']">OASP4J</a>
+      <li class="nav-item" [ngClass]="{'active': isCurrentPath('/oasp4j')}">
+          <a class="nav-link" 
+          [routerLink]="['/oasp4j']">
+          OASP4J
+          </a>
       </li>
-      <li class="nav-item">
-          <a class="nav-link" [routerLink]="['/oasp4js']">OASP4JS</a>
+      <li class="nav-item" [ngClass]="{'active': isCurrentPath('/oasp4js')}">
+          <a class="nav-link" 
+          [routerLink]="['/oasp4js']">
+          OASP4JS
+          </a>
       </li>
-      <li class="nav-item">
-          <a class="nav-link" [routerLink]="['/oasp4net']"> OASP4NET</a>
+      <li class="nav-item" [ngClass]="{'active': isCurrentPath('/oasp4net')}">
+          <a class="nav-link" 
+          [routerLink]="['/oasp4net']">
+          OASP4NET
+          </a>
       </li>
-       <li class="nav-item">
-          <a class="nav-link" [routerLink]="['/More']">More</a>
+       <li class="nav-item" [ngClass]="{'active': isCurrentPath('/more')}">
+          <a class="nav-link" 
+          [routerLink]="['/more']">
+          More
+          </a>
       </li>
       
     </ul>
