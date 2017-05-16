@@ -10,9 +10,12 @@
   background-repeat: no-repeat;
   background-size: 200%;
   background-position-x: -700px;
-  background-position-y: -450px;
+  background-position-y: -950px;
   padding: 10%;
+  box-shadow:inset 0px 7px 20px rgba(68,68,68,0.3);
+
 }
+
 
 .oasp4j-container{
   padding-top: 80px;
@@ -21,7 +24,7 @@
   background: url("../../assets/images/corte_4.png");
   background-repeat: no-repeat;
   background-size: contain;
-  background-position-x: -350px;
+  background-position-x: -550px;
 }
 
 #overoad h1 {
