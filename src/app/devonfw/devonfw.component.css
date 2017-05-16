@@ -22,17 +22,24 @@
     font-family: montserrat-light;
 }
  #devonfw .markdown h1::after {
-  content: "";
-  display: block;
-  position: relative;
-  margin: 10px 0px 0px 380px;
-  width: 15%;
-  background-color: #ffffff;
-  height: 4px;
+    content: "";
+    display: block;
+    position: absolute;
+    right: 15px;
+    margin: 10px 0px;
+    width: 15%;
+    background-color: #ffffff;
+    height: 4px;
 }
  #devonfw .markdown a{
-    color: #ffffff;
-    border: #ffffff 2px solid;
+  border-color: #FFFFFF;
+  color: #FFFFFF;
+}
+
+ #devonfw .markdown a:hover {
+  border-color: #FFFFFF;
+  color: #4bbdec;
+  background-color: #FFFFFF;
 }
 
 @media (max-width: 767px) {

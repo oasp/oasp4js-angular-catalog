@@ -1,52 +1,7 @@
- @font-face{
-     font-family: montserrat-Regular;
-     src: url("../../assets/fonts/Montserrat-Regular.ttf")
- }
-  @font-face{
-     font-family: montserrat-light;
-     src: url("../../assets/fonts/Montserrat-Light.ttf")
- }
 #about{
-    background: url("../../assets/images/img_1.png") center center no-repeat ;
+    background: url("../../assets/images/img_1.png") center no-repeat ;
     background-color: #4bbdec;
     background-size: cover;
-}
-#about .btn-primary{
- 
-    border-color: #222c38;
-    color: #FFFFFF;
-    background-color: #222c38;
-    border-radius: 72px;
-    margin-bottom: 180%;
-    line-height: 47px;
-    height: 50px;
-    padding: 0px 30px;
-    font-size: 12pt;
-    font-family: montserrat-Regular;
-    border-width: 2px;
-    margin: 20px 20px 20px 0px;
-
-    }
-#about .btn-primary-f{
- 
-    border-color: #FFFFFF;
-    color: #FFFFFF;
-    background-color: transparent;
-    border-radius: 72px;
-    margin-bottom: 180%;
-    line-height: 47px;
-    height: 50px;
-    padding: 0px 30px;
-    font-size: 12pt;
-    font-family: montserrat-Regular;
-    border-width: 2px;
-    margin: 20px 20px 20px 0px;
-    }
-
- #about .btn-primary:hover{
-    color:blue;
-    background-color: black;
-
 }
 
 #about .markdown p{
@@ -64,6 +19,9 @@
     font-size: 24pt;
     line-height: 28pt;
     font-weight: 500;
+}
+#about .markdown h2::after {
+  display: none;
 }
  @media (max-width: 767px) {
    .text-xs-center {

@@ -10,9 +10,6 @@
   <!--bootstrap-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
     crossorigin="anonymous">
-
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
-    crossorigin="anonymous"></script>
   <!--bootstrap-->
   <!--<link rel="stylesheet" href="./styles.css">-->
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -24,16 +21,16 @@
 <body>
   <app-root>Loading...</app-root>
   <script>
-$(window).on("scroll", function() {
-    if($(window).scrollTop() > 500) {
-      
+    $(window).on("scroll", function () {
+      if ($(window).scrollTop() > 500) {
         $(".navbar").addClass("active");
-    } else {
+      } else {
         //remove the background property so it comes transparent again (in css)
-       $(".navbar").removeClass("active");
-    }
-});
-</script>
+        $(".navbar").removeClass("active");
+      }
+    });
+
+  </script>
 </body>
 
 </html>

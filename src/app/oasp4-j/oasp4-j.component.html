@@ -1,52 +1,53 @@
-<div class="container-fluid ">
-  <div class="container">
+<div class="container-fluid oasp4j-container">
     <div class="row">
-      <div class="col-md-3 col-sm-3" style="background-color:white">
-        <ul class="nav flex-column">
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Overview</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Documentation</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Modules</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Samples</a>
-          </li>
-           <li class="nav-item">
-            <a class="nav-link" href="#">Roadmap</a>
-          </li>
-        </ul>
-      </div>
-      <div class="col-md-9 col-sm-9 col-12 text-center">
-        <div class="markdown" id="OASP4J">
-          <markdown [path]="'../../assets/content/OASP4J/header.md'"></markdown>
+      <!-- Sidebar -->  
+      <div class="col-md-3 affix" id="sidebar-left">
+        <div id="wrapper" class="sidebar-nav">
+            <a class="btn btn-primary" style="margin:10px 20px 20px 20px"href="http://oasp.github.io/oasp4j_content/oasp4j_overview.html"> Getting started
+            </a>
+          <ul class="sidebar-nav-list">
+            <li class="dropdown">
+              <a href="">Overview</a>
+              <ul class="dropdown-submenu">
+                <li><a href="">Documentation</a></li>
+                <li><a href="">Modules</a></li>
+                <li><a href="">Sample Application</a></li>
+              </ul>
+              <li class="dropdown">
+                <a href="">Roadmap</a>
+              </li>
+          </ul>
         </div>
-        <h4>¡From developers to developers!</h4>
-        <h1 class="ov">Overview</h1>
-        <div class="markdown doc"id="over">
-          <markdown [path]="'../../assets/content/OASP4J/overview/documentation.md'"></markdown>
-        </div>
-        <div class="markdown"id="over">
-          <markdown [path]="'../../assets/content/OASP4J/overview/sample-app.md'"></markdown>
-        </div>
-        <div class="markdown"id="over">
-          <markdown [path]="'../../assets/content/OASP4J/overview/modules.md'"></markdown>
-        </div>
-        <div class="markdown" id="tl">
-          <markdown [path]="'../../assets/content/OASP4J/roadmap/roadmap.md'"></markdown>
+      </div> 
+      <!-- Sidebar -->         
+      <div class="col-md-9 col-sm-9 col-12 text-center" id="over-road">
+        <div id="overoad">
+          <div class="markdown" id="OASP4J">
+            <markdown [path]="'../../assets/content/OASP4J/header.md'"></markdown>
+          </div>
+          <h4>¡From developers to developers!</h4>
+          <h1 class="ov">Overview</h1>
+          <div class="markdown" id="over">
+            <markdown [path]="'../../assets/content/OASP4J/overview/documentation.md'"></markdown>
+          </div>
+          <div class="markdown" id="over">
+            <markdown [path]="'../../assets/content/OASP4J/overview/sample-app.md'"></markdown>
+          </div>
+          <div class="markdown" id="over">
+            <markdown [path]="'../../assets/content/OASP4J/overview/modules.md'"></markdown>
+          </div>
+          <div class="markdown" id="tl">
+            <markdown [path]="'../../assets/content/OASP4J/roadmap/roadmap.md'"></markdown>
+          </div>
         </div>
       </div>
     </div>
   </div>
-</div>
 
 
 
 
-<!--<div id="OASP4J" class="container-fluid ">
+  <!--<div id="OASP4J" class="container-fluid ">
   <div class="container header">
     <div class="row" style="padding-top: 180px">
       <div class="col-md-3 col-sm-3"></div>
@@ -91,9 +92,9 @@
   </div>
 </div>-->
 
-<!--Timeline-->
+  <!--Timeline-->
 
-<!--<div id="tl"class="container-fluid">
+  <!--<div id="tl"class="container-fluid">
   <div class="row">
     <div class="col-md-3 col-sm-3"></div>
     <div class="col-md-7 col-sm-7 col-12 text-center">
@@ -104,7 +105,7 @@
   </div>
 </div>-->
 
-<!--<div class="container">
+  <!--<div class="container">
     <div class="page-header">
         <h1 id="timeline">Timeline</h1>
     </div>

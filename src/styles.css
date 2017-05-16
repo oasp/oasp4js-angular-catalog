@@ -9,38 +9,72 @@
   font-family: Montserrat-Bold;
   src: url("./assets/fonts/Montserrat-Bold.ttf")
 }
-  @font-face{
-     font-family: montserrat-light;
-     src: url("./assets/fonts/Montserrat-Light.ttf")
- }
- .navbar-light .navbar-toggler{
-   border-color:transparent;
-   outline: 0px none; 
- }
- .navbar-light .navbar-toggler-icon {
-    background-image: url('./assets/images/menu.svg');
-        margin-top: 10px;
-    }
+
+@font-face {
+  font-family: montserrat-light;
+  src: url("./assets/fonts/Montserrat-Light.ttf")
+}
+
+.navbar-light .navbar-toggler {
+  border-color: transparent;
+  outline: 0px none;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url('./assets/images/menu.svg');
+  margin-top: 10px;
+}
 
 .btn-primary {
   color: #4bbdec;
   background-color: transparent;
   border-color: #4bbdec;
-  border-top-color: #4bbdec;
-  border-right-color: #4bbdec;
-  border-bottom-color: #4bbdec;
-  border-left-color: #4bbdec;
   border-radius: 72px;
-  margin-bottom: 100%;
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 14px;
   padding-bottom: 14px;
   border-radius: 72px;
   font-size: 12pt;
-  font-size: 12pt;
   border-width: 2px;
   font-family: Montserrat-Regular;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.btn-primary:nth-last-of-type(){
+  margin-right: 0px;
+}
+.btn-primary:hover,
+.btn-primary:active,
+.markdown a:hover,
+.markdown a:active {
+  color: #fff;
+  background-color: #4bbdec;
+  border-color: #4bbdec;
+  text-decoration: none;
+}
+
+.btn-primary.btn-white {
+  border-color: #FFFFFF;
+  color: #FFFFFF;
+}
+
+.btn-primary.btn-white:hover {
+  border-color: #FFFFFF;
+  color: #4bbdec;
+  background-color: #FFFFFF;
+}
+
+.btn-primary.btn-dark {
+  border-color: #222c38;
+  color: #FFFFFF;
+  background-color: #222c38;
+}
+
+.btn-primary.btn-dark:hover {
+  border-color: #11161c;
+  color: rgba(255, 255, 255, .95);
+  background-color: #11161c;
 }
 
 hr {
@@ -48,7 +82,6 @@ hr {
   background-color: #4bbdec;
   height: 3px;
 }
-
 
 /*Styles for markdown text*/
 
@@ -83,6 +116,7 @@ hr {
   width: auto;
   border: #4bbdec 2px solid;
   margin-bottom: 10px;
+  margin-right: 10px;
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 14px;
@@ -92,19 +126,24 @@ hr {
   border-width: 2px;
   font-family: Montserrat-Regular;
   font-style: normal;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+.markdown a:last-of-type{
+  margin-right: 0px;
 }
 
-
-
-
 @media (max-width: 900px) {
-  nav.navbar{
+  nav.navbar {
     background-color: #4bbdec!important;
   }
 }
+
+
 /*
 @import '../src/app/framework/framework.component.css';
 */
+
 @import '../src/app/devonfw/devonfw.component.css';
 @import '../src/app/oasp/oasp.component.css';
 @import '../src/app/try-it/try-it.component.css';
@@ -112,10 +151,3 @@ hr {
 @import '../src/app/used-technologies/used-technologies.component.css';
 @import '../src/app/oasp4-j/oasp4-j.component.css';
 @import '../src/app/oasp4-js/oasp4-js.component.css';
-
-
-
-
-
-
-
