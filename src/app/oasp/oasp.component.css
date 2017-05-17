@@ -34,3 +34,8 @@
 
 }
  }
+@media (min-width: 768px) and (max-width: 991px) { 
+
+    p{text-align: center}
+    h2{text-align: center}
+ }
