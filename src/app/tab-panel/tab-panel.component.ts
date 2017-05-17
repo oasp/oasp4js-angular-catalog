@@ -1,4 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import {
+  Component,
+  OnInit
+} from '@angular/core';
 
 @Component({
   selector: 'app-tab-panel',
@@ -7,9 +10,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TabPanelComponent implements OnInit {
 
-  constructor() {
-   }
-  ngOnInit() {
-  }
+  constructor() {}
+  ngOnInit() {}
 
 }

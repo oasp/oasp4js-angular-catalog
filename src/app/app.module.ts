@@ -21,7 +21,7 @@ import { FrameworkComponent } from './framework/framework.component';
 import { DevonfwComponent } from './devonfw/devonfw.component';
 import { UniversityActivitiesComponent } from './university-activities/university-activities.component';
 import { SliderComponent } from './slider/slider.component';
-import {  MarkdownModule } from 'angular2-markdown';
+import { MarkdownModule } from 'angular2-markdown';
 
 const routes: Routes = [
   { path: '', redirectTo: 'oasp', pathMatch: 'full' },
@@ -61,6 +61,6 @@ const routes: Routes = [
     MarkdownModule.forRoot(),
   ],
   providers: [],
-  bootstrap: [AppComponent,]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
