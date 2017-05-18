@@ -14,14 +14,17 @@
     background: url("../../assets/images/testimonials.png") center center no-repeat;
     background-size: contain;
     background-color: #293645;
-    background-position-y:250px;;
+    background-position-y:350px;;
+    padding: 10% 0%;
 }
 #comillas{
      background:url("../../assets/images/comillas.png")  center no-repeat ;
-     background-size: 40%;
+     background-size: 30%;
      background-position-x: 300px;
+     background-position-y: 0px;
+     height: 190px;
 }
-img{
+#slider img{
     width:150px;
     height:150px;
     border-radius:50%
@@ -30,49 +33,66 @@ img{
     margin-top:10%;
     margin-bottom: 10%;
 }
-h3{
+#slider h3{
     color:white;
     font-family: Montserrat-Regular;
 }
-.carousel-indicators{
+#slider .carousel-indicators{
     margin-top: 0px;
     top: 170px;
 }
-.carousel-indicators li {
+#slider .carousel-indicators li {
     max-width: 15px;
     height: 15px;
     border: 2px solid white;
     border-radius: 50%;
     background-color: transparent;
 }
-.carousel-indicators .active{
+#slider .carousel-indicators .active{
     background-color: #FFFFFF;
 }
-p{
+#slider p{
     color: white;
     font-family: Montserrat-Extralight;
     font-size:12pt;
     text-align: left;
 }
+
+#slider .carousel-caption {
+    text-align: left;
+    left:180px;
+    top: 0px;
+}
+#slider .right.carousel-control-next,
+#slider .left.carousel-control-prev{
+    display: none;
+}
+#slider * { outline: none; }
+
+
+
+
+
  @media (max-width: 767px) {
     p{
         margin-left: auto !important;
         margin-right: auto !important;
         display: block !important
     }
-    .carousel-inner { text-align: center; }
-    .carousel .item > img { display: inline-block; }
-    .carousel-testimonial .carousel-item .media{
-        width: 100%;
-        display: block;
+    #slider { text-align: center; }
+    #slider > img { display: inline-block; }
+    #slider .carousel-caption {
+        top: auto;
+        left: auto;
     }
-    .carousel-testimonial .carousel-item .media img{
+    #slider img{
         text-align: center;
         display: inline-block!important;
         margin-bottom: 10px;
     }
-    .carousel-testimonial .carousel-item p{
+    #slider p,  #slider h3{
         text-align: center;
+
     }
     .carousel-testimonial .carousel-indicators[_ngcontent-c12] {
         margin-top: 0px;

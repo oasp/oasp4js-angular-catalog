@@ -83,7 +83,7 @@ hr {
   height: 3px;
 }
 
-/*Styles for markdown text*/
+
 
 .markdown h2 {
   color: #585657;
@@ -140,10 +140,8 @@ hr {
 }
 
 
-/*
-@import '../src/app/framework/framework.component.css';
-*/
 
+@import '../src/app/framework/framework.component.css';
 @import '../src/app/devonfw/devonfw.component.css';
 @import '../src/app/oasp/oasp.component.css';
 @import '../src/app/try-it/try-it.component.css';
@@ -152,3 +150,4 @@ hr {
 @import '../src/app/oasp4-j/oasp4-j.component.css';
 @import '../src/app/oasp4-js/oasp4-js.component.css';
 @import '../src/app/tab-panel/tab-panel.component.css';
+@import '../src/app/slider/slider.component.css';

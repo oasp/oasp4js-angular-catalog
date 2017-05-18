@@ -1,7 +1,7 @@
 <div id="about" class="container-fluid ">
   <div class="container">
     <ngb-tabset type="pills">
-      <ngb-tab title="one Flexible Solution">
+      <ngb-tab title="One Flexible Solution">
         <ng-template ngbTabContent>
           <div class="row">
             <div class="col-sm-1 col-md-4 col-6">
@@ -83,7 +83,7 @@
     </ngb-tabset>
 
     <!--Probando version movil de tab-panel-->
-    <div class="col-10 offset-1 d-sm-none d-md-none d-inline">
+    <!--<div class="col-10 offset-1 d-sm-none d-md-none d-inline">
       <div id="carousel-tab-panel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carousel-tab-panel" data-slide-to="0" class="active"></li>
@@ -123,7 +123,33 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-    </div>
+    </div>-->
     <!--fin prueba-->
+    <div class="col-10 offset-1 d-sm-none d-md-none d-inline">
+      <ngb-carousel>
+        <ng-template ngbSlide>
+          <img src="https://lorempixel.com/900/500?r=1" alt="Random first slide">
+          <div class="carousel-caption">
+            <h3>First slide label</h3>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <img src="https://lorempixel.com/900/500?r=2" alt="Random second slide">
+          <div class="carousel-caption">
+            <h3>Second slide label</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <img src="https://lorempixel.com/900/500?r=3" alt="Random third slide">
+          <div class="carousel-caption">
+            <h3>Third slide label</h3>
+            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          </div>
+        </ng-template>
+      </ngb-carousel>
+    </div>
+
   </div>
 </div>

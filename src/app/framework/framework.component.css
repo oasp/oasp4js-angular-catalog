@@ -1,76 +1,105 @@
-@font-face{
-     font-family: montserrat-Regular;
-     src: url("../../assets/fonts/Montserrat-Regular.ttf")  
-    }
-@font-face{
-     font-family: Montserrat-Bold;
-     src: url("../../assets/fonts/Montserrat-Bold.ttf")  
-    }
-
-#framework{
-     background-image: url("../../assets/images/corte_2.png");
-     background-size: contain;
-     background-repeat: no-repeat;
-     background-position-x: -200px;
-     background-position-y: 200px;
-    padding-bottom: 100px;
-}
-#framework h1{
-    margin-top: 150px;
-    font-size: 35pt;
-    font-family: montserrat-Regular;
-    font-weight: bold;
-    color:#222c38;
-    padding: 0px;
-}
-img{
-    width:auto;
-    max-height:60px;
-    margin-top: 170px;
-}
-p{
-    font-size: 14pt;
-    color: #9d9d9d;
-    font-family: montserrat-Regular;
-    font-weight: 100;
-    line-height: 18pt;
-    }
-p.java{    
-    color:#222c38;
-    text-align: center;
-}
-p.javaScript{  
-    color:#222c38;
-}
-p.net{    
-    color:#222c38;
-    text-align: center;
-
-}
-hr{
-    background-color: #4BBDEC;
-    height: 3px;
-    margin-left: 0%;
-    margin-right: 78%;
+@font-face {
+  font-family: montserrat-Regular;
+  src: url("../../assets/fonts/Montserrat-Regular.ttf")
 }
 
- @media (max-width: 767px) {
-   .text-xs-center {
-    text-align: center;
-   }
-   hr{ 
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url("../../assets/fonts/Montserrat-Bold.ttf")
+}
+
+#framework {
+  background-image: url("../../assets/images/corte_2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: -200px;
+  background-position-y: 200px;
+  padding-bottom: 100px;
+}
+
+
+#framework img {
+  width: auto;
+  max-height: 60px;
+  margin-top: 170px;
+}
+
+#framework p {
+  font-size: 14pt;
+  color: #9d9d9d;
+  font-family: montserrat-Regular;
+  font-weight: 100;
+  line-height: 18pt;
+}
+
+#framework p.java {
+  color: #222c38;
+  text-align: center;
+}
+
+#framework p.javaScript {
+  color: #222c38;
+}
+
+#framework p.net {
+  color: #222c38;
+  text-align: center;
+}
+
+/**     Markdown styles*/
+
+#framework .markdown p {
+  color: #9d9d9d;
+  font-family: Montserrat-Regular;
+  padding: 20px 0px;
+  font-size: 14pt;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 18pt;
+  margin-bottom: 0px;
+}
+
+#framework .markdown h1 {
+  margin-top: 150px;
+  color: #222c38;
+  font-family: montserrat-Regular;
+  line-height: 28pt;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+#framework .markdown h1::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 15px;
+    margin: 20px 0px;
     width: 15%;
-    margin-right:35%;
-    margin-left:45%;
-   }
-   .btn-primary{
+    background-color: #4bbdec;
+    height: 4px;}
+
+
+/**Media syles*/
+
+@media (max-width: 767px) {
+  .text-xs-center {
+    text-align: center;
+  }
+  #framework .markdown h1::after{ 
+       width: 15%;
+       margin-right:35%;
+       margin-left:40%;
+  }
+  .btn-primary {
     margin-bottom: 40px;
- }
-   img{
-    margin-top:10px;}
- 
-   #framework{
+  }
+  img {
+    margin-top: 10px;
+  }
+  #framework {
     background-image: none;
- }
- p{padding: 10px 0px;}
- }
+  }
+  p {
+    padding: 10px 0px;
+  }
+}
