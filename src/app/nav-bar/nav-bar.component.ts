@@ -19,7 +19,11 @@ export class NavBarComponent implements OnInit {
   ngOnInit() {}
 
   isCurrentPath(path) {
-    return path === this.current;
+    if (this.current === undefined) {
+      return false;
+    }
+    const x = this.current.split('#')[0] || this.current;
+    return x === path;
   }
 
 }
