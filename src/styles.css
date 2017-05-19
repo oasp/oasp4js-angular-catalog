@@ -41,6 +41,8 @@
   cursor: pointer;
   margin-right: 10px;
 }
+
+
 .btn-primary:nth-last-of-type(){
   margin-right: 0px;
 }

@@ -42,6 +42,8 @@
   background-color: #FFFFFF;
 }
 
+/**Media query*/
+
 @media (max-width: 767px) {
    #devonfw {
    text-align: center!important;
@@ -64,4 +66,12 @@
     text-align: center;
     }
 }
-
+@media only screen and (max-width: 1023px) and (min-width: 768px)  {
+  
+  #devonfw {
+    background-position-x: -250px;
+  }
+  #devonfw .markdown p{
+    text-align: right
+}
+}

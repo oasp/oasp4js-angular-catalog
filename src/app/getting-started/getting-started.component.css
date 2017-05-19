@@ -250,3 +250,26 @@
      text-align: center;
    }
  }
+
+ @media (min-width: 768px) and (max-width: 991px) { 
+ 
+  #gettingstarted .markdown p {
+     text-align: center;
+     padding: 0px 0px 20px 0px;
+   }
+    #gettingstarted .markdown h1::after{ 
+       width: 15%;
+       margin-right:35%;
+       margin-left:43%;
+   }
+   #gettingstarted .markdown h1{
+     text-align: center;
+     padding: 0px 0 20px 0px;
+   }
+   #gettingstarted h1{
+   margin-top:20%;
+ }
+     #gettingstarted .markdown a {
+       margin-bottom: 20%;
+ }
+ }

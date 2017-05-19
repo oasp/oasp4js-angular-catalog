@@ -19,6 +19,7 @@
     font-size: 24pt;
     line-height: 28pt;
     font-weight: 500;
+    
 }
 #about .markdown h2::after {
   display: none;
@@ -34,8 +35,14 @@
 
 }
  }
-@media (min-width: 768px) and (max-width: 991px) { 
+@media (min-width: 768px) and (max-width: 1024px) { 
 
-    p{text-align: center}
-    h2{text-align: center}
+    #about p{text-align: center}
+    #about h2{text-align: center}
+    .text-xs-center {
+     text-align: center;
+   }
+   #about .markdown p{
+    margin: 20px 0px;
  }
+}

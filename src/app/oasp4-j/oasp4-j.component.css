@@ -16,7 +16,6 @@
 
 }
 
-
 .oasp4j-container{
   padding-top: 80px;
 }
@@ -31,9 +30,10 @@
   color: #4bbdec;
   padding: 40px 0px;
   font-family: montserrat-Regular;
+  text-align: center;
 }
 
-#roadmap h1.ov::after {
+#roadmap h1::after {
   content: "";
   display: inline-block;
   position: relative;
@@ -44,7 +44,7 @@
   vertical-align: middle;
 }
 
-#roadmap h1.ov::before {
+#roadmap h1::before {
   content: "";
   display: inline-block;
   position: relative;
@@ -59,15 +59,16 @@
   padding: 0px 0px;
 }
 
-h4 {
+#roadmap h4 {
   padding: 70px 0px 0px 0px;
   font-family: montserrat-Regular;
+  text-align: center;
 }
 
 
 /**Markdown styles**/
 
-#OASP4J markdown p {
+#OASP4J.markdown p {
   color: white;
   font-size: 14pt;
   font-family: montserrat-light;
@@ -78,7 +79,7 @@ h4 {
   text-align: left;
 }
 
-#OASP4J markdown h1 {
+#OASP4J.markdown h1 {
   color: white;
   font-family: montserrat-Regular;
   font-size: 24pt;
@@ -87,7 +88,7 @@ h4 {
   text-align: left;
 }
 
-#OASP4J markdown h2 {
+#OASP4J.markdown h2 {
   color: #585657;
   font-family: montserrat-light;
   font-size: 24pt;
@@ -96,7 +97,7 @@ h4 {
   text-align: center;
 }
 
-#OASP4J markdown h1::after {
+#OASP4J.markdown h1::after {
   content: "";
   display: block;
   position: relative;
@@ -106,24 +107,26 @@ h4 {
   height: 4px;
 }
 
-#over .markdown a {
+.over.markdown  a {
   margin: 0px 20px;
 }
 
-#over markdown h2 {
+.over.markdown  h2 {
   font-family: montserrat-light;
+  text-align: center;
 }
 
-#over markdown h2::after {
+.over.markdown h2::after {
   content: "";
   display: block;
   position: relative;
   width: 5%;
   background-color: #585657;
   height: 2px;
+  margin-top: 2%;
 }
 
-#over markdown p {
+.over.markdown  p {
   color: #585657;
   font-size: 14pt;
   font-family: montserrat-light;
@@ -134,7 +137,7 @@ h4 {
   text-align: center;
 }
 
-#tl markdown h1 {
+#tl.markdown h1 {
   color: #4bbdec;
   font-family: montserrat-Regular;
   font-size: 24pt;
@@ -142,7 +145,7 @@ h4 {
   font-weight: 500;
 }
 
-#tl markdown h1::before {
+#tl.markdown h1::before {
   content: "";
   display: inline-block;
   position: relative;
@@ -153,7 +156,7 @@ h4 {
   vertical-align: middle;
 }
 
-#tl markdown h1::after {
+#tl.markdown h1::after {
   content: "";
   display: inline-block;
   position: relative;
@@ -164,7 +167,7 @@ h4 {
   vertical-align: middle;
 }
 
-#tl markdown p {
+#tl.markdown p{
   color: #585657;
   font-size: 14pt;
   font-family: montserrat-light;
@@ -174,13 +177,22 @@ h4 {
   padding: 20px 0px;
   text-align: center;
 }
+#tl.markdown ul{
+  color: #585657;
+  font-size: 14pt;
+  font-family: montserrat-light;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 18pt;
+  text-align: left;
+}
 /**Media Query CSS**/
 
 @media (max-width: 767px) {
-#tl markdown li {
+#tl .markdown li {
 text-align: left;
 }
-#tl markdown a{
+#tl .markdown a{
   text-align: center;
 }
 }

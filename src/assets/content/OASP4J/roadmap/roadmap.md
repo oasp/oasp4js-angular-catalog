@@ -12,7 +12,7 @@
 - Refactored code
 
 #### oasp v2.1.2
-Main features
+**Main features**
 Half-Yearly Major Release Released mid December 2016
 
 - Upgrade to Spring Boot 1.3.8.RELEASE
@@ -28,7 +28,7 @@ Half-Yearly Major Release Released mid December 2016
 #### Upcoming Release
 #### oasp v2.3.0
 
-Main features
+**Main features**
 
 - Reengineering of test architecture
 - Database integration with PostGres, MSSQL Server, MariaDB
@@ -37,7 +37,7 @@ Main features
 - Refactored code
 
 #### oasp v2.1.2
-Main features
+**Main features**
 Half-Yearly Major Release Released mid December 2016
 
 - Upgrade to Spring Boot 1.3.8.RELEASE
