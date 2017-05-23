@@ -257,6 +257,7 @@ ul.sidebar-nav-list li a {
 }
 
 ul.sidebar-nav-list li a:hover {
+  font-style:  montserrat-Regular;
   text-decoration: none;
   color: #4bbdec;
   cursor: pointer;
