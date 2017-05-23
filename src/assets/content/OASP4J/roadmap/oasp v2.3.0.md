@@ -1,4 +1,4 @@
-#### oasp v2.3.0
+#### Oasp v2.3.0
 
 **Main features**
 

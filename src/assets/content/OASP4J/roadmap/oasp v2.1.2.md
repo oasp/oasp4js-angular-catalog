@@ -1,4 +1,4 @@
-#### oasp v2.1.2
+#### Oasp v2.1.2
 Main features
 Half-Yearly Major Release Released mid December 2016
 

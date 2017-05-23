@@ -1,112 +1,135 @@
-@font-face{
-     font-family: Montserrat-Medium;
-     src: url("../../assets/fonts/Montserrat-Medium.ttf")
- }
- @font-face{
-     font-family: Montserrat-Regular;
-     src: url("../../assets/fonts/Montserrat-Regular.ttf")
- }
- @font-face{
-     font-family: Montserrat-Extralight;
-     src: url("../../assets/fonts/Montserrat-ExtraLight.ttf")
- }
-#slider{
-    background: url("../../assets/images/testimonials.png") center center no-repeat;
-    background-size: contain;
-    background-color: #293645;
-    background-position-y:350px;;
-    padding: 10% 0% 5% 0%;
+@font-face {
+  font-family: Montserrat-Medium;
+  src: url("../../assets/fonts/Montserrat-Medium.ttf")
 }
-#comillas{
-     background:url("../../assets/images/comillas.png")  center no-repeat ;
-     background-size: 30%;
-     background-position-x: 300px;
-     background-position-y: 0px;
-     height: 190px;
+
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url("../../assets/fonts/Montserrat-Regular.ttf")
 }
-#slider img{
-    width:150px;
-    height:150px;
-    border-radius:50%
+
+@font-face {
+  font-family: Montserrat-Extralight;
+  src: url("../../assets/fonts/Montserrat-ExtraLight.ttf")
 }
-#carouselExampleSlidesOnly{
-    margin-top:10%;
-    margin-bottom: 10%;
+
+#slider {
+  background: url("../../assets/images/testimonials.png") center center no-repeat;
+  background-size: contain;
+  background-color: #293645;
+  background-position-y: 350px;
+  ;
+  padding: 10% 0% 5% 0%;
 }
-#slider h3{
-    color:white;
-    font-family: Montserrat-Regular;
+
+#comillas {
+  background: url("../../assets/images/comillas.png") center no-repeat;
+  background-size: 30%;
+  background-position-x: 300px;
+  background-position-y: 0px;
+  height: 190px;
 }
-#slider .carousel-indicators{
-    margin-top: 0px;
-    top: 170px;
+
+.nomargin {
+  margin-right: 0px;
 }
+
+#slider img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%
+}
+
+#carouselExampleSlidesOnly {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+#slider h3 {
+  color: white;
+  font-family: Montserrat-Regular;
+}
+
+#slider .carousel-indicators {
+  margin-top: 0px;
+  top: 170px;
+}
+
 #slider .carousel-indicators li {
-    max-width: 15px;
-    height: 15px;
-    border: 2px solid white;
-    border-radius: 50%;
-    background-color: transparent;
+  max-width: 15px;
+  height: 15px;
+  border: 2px solid white;
+  border-radius: 50%;
+  background-color: transparent;
 }
-#slider .carousel-indicators .active{
-    background-color: #FFFFFF;
+
+#slider .carousel-indicators .active {
+  background-color: #FFFFFF;
 }
-#slider p{
-    color: white;
-    font-family: Montserrat-Extralight;
-    font-size:12pt;
-    text-align: left;
+
+#slider p {
+  color: white;
+  font-family: Montserrat-Extralight;
+  font-size: 12pt;
+  text-align: left;
 }
 
 #slider .carousel-caption {
-    text-align: left;
-    left:180px;
-    top: 0px;
+  text-align: left;
+  left: 180px;
+  top: 0px;
 }
+
 #slider .right.carousel-control-next,
-#slider .left.carousel-control-prev{
-    display: none;
+#slider .left.carousel-control-prev {
+  display: none;
 }
-#slider * { outline: none; }
 
+#slider * {
+  outline: none;
+}
 
-
-
-
- @media (max-width: 767px) {
-    p{
-        margin-left: auto !important;
-        margin-right: auto !important;
-        display: block !important
-    }
-    #slider { text-align: center; }
-    #slider > img { display: inline-block; }
-    #slider .carousel-caption {
-        top: auto;
-        left: auto;
-        width: 100%;
-        position: relative;
-        float: none;
-        right: auto;
-    }
-    #slider img{
-        text-align: center;
-        margin: 10px auto!important;
-    }
-    #slider p,  #slider h3{
-        text-align: center;
-        width: 100%;
-
-    }
-    .carousel-testimonial .carousel-indicators[_ngcontent-c12] {
-        margin-top: 0px;
-        position: relative;
-        top: 0px;
-    }
-    .carousel-item.active{
-        display: block!important;
-    }
-    #slider .carousel-indicators{
-        top:-90px;
-    }
- }
+@media (max-width: 767px) {
+  p {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block !important
+  }
+  #slider {
+    text-align: center;
+  }
+  .nomargin {
+    margin-right: 0px;
+  }
+  #slider>img {
+    display: inline-block;
+  }
+  #slider .carousel-caption {
+    top: auto;
+    left: auto;
+    width: 100%;
+    position: relative;
+    float: none;
+    right: auto;
+  }
+  #slider img {
+    text-align: center;
+    margin: 10px auto!important;
+  }
+  #slider p,
+  #slider h3 {
+    text-align: center;
+    width: 100%;
+  }
+  .carousel-testimonial .carousel-indicators[_ngcontent-c12] {
+    margin-top: 0px;
+    position: relative;
+    top: 0px;
+  }
+  .carousel-item.active {
+    display: block!important;
+  }
+  #slider .carousel-indicators {
+    top: -90px;
+  }
+}

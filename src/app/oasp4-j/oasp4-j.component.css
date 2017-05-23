@@ -123,7 +123,9 @@
 }
 
 .over.markdown a {
-  margin: 0px 20px;
+  margin-top: 0px;
+  margin-right: 20px;
+  margin-left:20px;
 }
 
 .over.markdown h2 {
@@ -297,6 +299,10 @@ ul.sidebar-nav-list ul.dropdown-submenu li a:hover {
     margin-right: 35%;
     margin-left: 43%;
   }
+ .over.markdown a {
+  margin-bottom: 10px; 
+
+}
   .sidebar-left {
     display: none;
   }

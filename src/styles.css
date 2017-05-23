@@ -42,10 +42,10 @@
   margin-right: 10px;
 }
 
-
-.btn-primary:nth-last-of-type(){
+.btn-primary:nth-last-of-type() {
   margin-right: 0px;
 }
+
 .btn-primary:hover,
 .btn-primary:active,
 .markdown a:hover,
@@ -84,8 +84,6 @@ hr {
   background-color: #4bbdec;
   height: 3px;
 }
-
-
 
 .markdown h2 {
   color: #585657;
@@ -131,19 +129,24 @@ hr {
   cursor: pointer;
   transition: all .2s ease-in-out;
 }
-.markdown a:last-of-type{
+
+.markdown a:last-of-type {
   margin-right: 0px;
 }
-
-
 
 @media (max-width: 900px) {
   nav.navbar {
     background-color: #4bbdec!important;
   }
+  .markdown a:last-of-type {
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+  .markdown a {
+    width: 250px;
+    height: auto;
+  }
 }
-
-
 
 @import '../src/app/framework/framework.component.css';
 @import '../src/app/devonfw/devonfw.component.css';
