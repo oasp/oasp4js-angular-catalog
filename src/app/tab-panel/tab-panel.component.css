@@ -1,136 +1,158 @@
- @font-face{
-     font-family: Montserrat-Regular;
-     src: url("../../assets/fonts/Montserrat-Regular.ttf")
- }
-@font-face{
-     font-family: Montserrat-Bold;
-     src: url("../../assets/fonts/Montserrat-Bold.ttf")
- }
- @font-face{
-     font-family: Montserrat-Medium;
-     src: url("../../assets/fonts/Montserrat-Medium.ttf")
+ @font-face {
+   font-family: Montserrat-Regular;
+   src: url("../../assets/fonts/Montserrat-Regular.ttf")
  }
 
-#about{
-    background: url("../../assets/images/on_the_flexible_solution.png")0px 540px ,url("../../assets/images/corte_2.png") -695px -300px;
-    background-size: 180%;
-    background-repeat: no-repeat;
-    box-shadow: 0 0 30px rgba(68,68,68,0.3);
-    padding: 40px 0px 30px;
-    height: 700px;
-}
-#about  .nav-pills .nav-item.show .nav-link, .nav-pills .nav-link.active {
-    color: #0275d8;
-    cursor: default;
-    background-color: rgba(255,255,255,0.0);
-    border-bottom:3px solid #0275d8;
-    border-radius: 0px;
-    margin-bottom: 40px;
+ @font-face {
+   font-family: Montserrat-Bold;
+   src: url("../../assets/fonts/Montserrat-Bold.ttf")
+ }
 
-}
+ @font-face {
+   font-family: Montserrat-Medium;
+   src: url("../../assets/fonts/Montserrat-Medium.ttf")
+ }
 
-#about  .nav-pills .nav-item.show .nav-link, .nav-pills .nav-link:hover {
-color: #0275d8;
-border-bottom:3px solid #0275d8;
-border-radius: 0px;
+ #about {
+   background: url("../../assets/images/on_the_flexible_solution.png")0px 540px, url("../../assets/images/corte_2.png") -695px -300px;
+   background-size: 180%;
+   background-repeat: no-repeat;
+   box-shadow: 0 0 30px rgba(68, 68, 68, 0.3);
+   padding: 40px 0px 30px;
+   height: 700px;
+ }
 
-}
-#about .nav-pills {
-    justify-content: center !important;
-}
+ #about .nav-pills .nav-item.show .nav-link,
+ .nav-pills .nav-link.active {
+   color: #0275d8;
+   cursor: default;
+   background-color: rgba(255, 255, 255, 0.0);
+   border-bottom: 3px solid #0275d8;
+   border-radius: 0px;
+   margin-bottom: 40px;
+ }
 
+ #about .nav-pills .nav-item.show .nav-link,
+ .nav-pills .nav-link:hover {
+   color: #0275d8;
+   border-bottom: 3px solid #0275d8;
+   border-radius: 0px;
+ }
 
-li{
-    padding: 0px 10px;
-}
+ #about .nav-pills {
+   justify-content: center !important;
+ }
 
-div.gallery {
+ li {
+   padding: 0px 10px;
+ }
 
-    box-shadow: 0 0 30px rgba(68,68,68,0.3);
-    background: #ddd;
-    border-radius: 3px;
-    margin-bottom: 40px;
-    background-color: #4bbdec;
-    text-align: center;
-}
+ div.gallery {
+   box-shadow: 0 0 30px rgba(68, 68, 68, 0.3);
+   background: #ddd;
+   border-radius: 3px;
+   margin-bottom: 40px;
+   background-color: #4bbdec;
+   text-align: center;
+ }
 
+ div.gallery img {
+   width: auto;
+   height: 100px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+ }
 
-div.gallery img{
-    width: auto;
-    height: 100px;
-    margin-top:30px;
-    margin-bottom: 30px;
-}
-div.desc {
-    background-color: white;
-    padding: 15px;
-    text-align: left;
-    padding-top: 23px;
-    font-family: Montserrat-Medium;
-    color: #4bbdec;
-    height: 70px;   
-    border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px;
-}
- hr{
-    background-color: #4bbdec;
-    height: 3px;
-    margin-left: 0%;
-    margin-right: 90%;
-    margin-top: 0px;
+ div.desc {
+   background-color: white;
+   padding: 15px;
+   text-align: left;
+   padding-top: 23px;
+   font-family: Montserrat-Medium;
+   color: #4bbdec;
+   height: 70px;
+   border-bottom-left-radius: 3px;
+   border-bottom-right-radius: 3px;
+ }
 
-     }
-.carousel-indicators li {
-    border-radius: 50%;
-    padding: 0px;
-    max-width: 15px;
-    max-height: 15px;
-    width: 15px;
-    height: 15px;
-    border: 2px solid #4bbdec;
-    background-color: #4bbdec;
-    top:40px;
-}
-#carousel-tab-panel .carousel-item p{
-    text-align: center;
-    width: 100%;
-}
-@media (max-width: 767px) {
+ hr {
+   background-color: #4bbdec;
+   height: 3px;
+   margin-left: 0%;
+   margin-right: 90%;
+   margin-top: 0px;
+ }
+
+ .carousel-indicators li {
+   border-radius: 50%;
+   padding: 0px;
+   max-width: 15px;
+   max-height: 15px;
+   width: 15px;
+   height: 15px;
+   border: 2px solid #4bbdec;
+   background-color: #4bbdec;
+   top: 40px;
+ }
+
+ #carousel-tab-panel .carousel-item p {
+   text-align: center;
+   width: 100%;
+ }
+
+ .img-resp {
+   text-align: center;
+   box-shadow: 0px 0px 13px 3px rgba(0, 0, 0, .15);
+ }
+
+ #about * {
+   outline: none;
+ }
+
+ @media (max-width: 767px) {
+   .img-resp {
+     max-width: 100%;
+     height: auto;
+   }
    .text-xs-center {
      text-align: center;
    }
-   #about .tabset{
-       display: none;
+   #about .tabset {
+     display: none;
    }
-   div.gallery img{
-    width: auto;
-    height: 60px;
-    margin-top:30px;
-    margin-bottom: 30px;
-}
-
-   li{
-       text-align: center
-     }
-
-    .carousel-indicators .active{
-    background-color: transparent;
-}
-
-    /*.carousel-control-prev{
-    background-image: url("../../assets/images/prev.svg");
-    background-repeat: no-repeat;
-
-    }
-    .carousel-control-next{
-    background-image: url("../../assets/images/next.scg.svg");
-    background-repeat: no-repeat;
-
-    }*/
-    p{
-    text-align: center;
-    padding: 0px 10px;
-    }
-
+   div.gallery img {
+     width: auto;
+     height: 60px;
+     margin-top: 30px;
+     margin-bottom: 30px;
+   }
+   li {
+     text-align: center
+   }
+   .carousel-indicators .active {
+     background-color: transparent;
+   }
+   .carousel-item.active {
+     display: block!important;
+   }
+   .carousel-caption {
+     color: #4bbdec;
+     font-family: Montserrat-Medium;
+     font-size: 12pt;
+     top: auto;
+     left: auto;
+     width: 100%;
+     position: relative;
+     float: none;
+     right: auto;
+   }
+    #about .carousel-caption h3{
+     color: #4bbdec;
+     font-family: Montserrat-Medium;
+     font-size: 12pt;
+   }
+   p {
+     text-align: center;
+     padding: 0px 10px;
+   }
  }
-
