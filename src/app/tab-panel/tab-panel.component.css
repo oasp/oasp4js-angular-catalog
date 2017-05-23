@@ -110,9 +110,13 @@
  }
 
  @media (max-width: 767px) {
+     #about{
+       height: auto;
+     }
    .img-resp {
      max-width: 100%;
      height: auto;
+     margin-bottom: 10px;
    }
    .text-xs-center {
      text-align: center;
@@ -132,6 +136,9 @@
    .carousel-indicators .active {
      background-color: transparent;
    }
+  .carousel-indicators{
+        top:-80px;
+    }
    .carousel-item.active {
      display: block!important;
    }
@@ -139,6 +146,7 @@
      color: #4bbdec;
      font-family: Montserrat-Medium;
      font-size: 12pt;
+     font-weight: 200;
      top: auto;
      left: auto;
      width: 100%;
