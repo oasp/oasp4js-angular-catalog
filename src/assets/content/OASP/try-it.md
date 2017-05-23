@@ -1,2 +1,2 @@
 ## ¿Why don't try it?
-[Getting started](www.google.es)
+[Getting started](https://github.com/oasp)

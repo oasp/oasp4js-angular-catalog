@@ -1,6 +1,6 @@
 <div id="about" class="container-fluid ">
   <div class="container">
-    <ngb-tabset type="pills">
+    <ngb-tabset type="pills" class="tabset">
       <ngb-tab title="One Flexible Solution">
         <ng-template ngbTabContent>
           <div class="row">
@@ -82,70 +82,89 @@
       </ngb-tab>
     </ngb-tabset>
 
-    <!--Probando version movil de tab-panel-->
-    <!--<div class="col-10 offset-1 d-sm-none d-md-none d-inline">
-      <div id="carousel-tab-panel" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carousel-tab-panel" data-slide-to="0" class="active"></li>
-          <li data-target="#carousel-tab-panel" data-slide-to="1"></li>
-          <li data-target="#carousel-tab-panel" data-slide-to="2"></li>
-          <li data-target="#carousel-tab-panel" data-slide-to="3"></li>
-          <li data-target="#carousel-tab-panel" data-slide-to="4"></li>
-          <li data-target="#carousel-tab-panel" data-slide-to="5"></li>
-        </ol>
-        <a class="carousel-control-prev" href="#carousel-tab-panel" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <div class="carousel-inner" role="listbox">
-          <div class="carousel-item active">
-            <p>One flexible solution</p>
-          </div>
-          <div class="carousel-item">
-            <p>Architecture background</p>
-          </div>
-          <div class="carousel-item">
-            <p>Architecture patterns</p>
-          </div>
-          <div class="carousel-item">
-            <p>Used technologies</p>
-          </div>
-          <div class="carousel-item">
-            <p>IDE</p>
-          </div>
-          <div class="carousel-item">
-            <p>Example</p>
-          </div>
-        </div>
-
-        <a class="carousel-control-next" href="#carousel-tab-panel" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-    </div>-->
-    <!--fin prueba-->
+<!--version movil-->
     <div class="col-10 offset-1 d-sm-none d-md-none d-inline">
       <ngb-carousel>
         <ng-template ngbSlide>
-          <img src="https://lorempixel.com/900/500?r=1" alt="Random first slide">
-          <div class="carousel-caption">
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              <div class="row">
+            <div class="col-sm-1 col-md-4 col-6">
+              <div class="gallery">
+                <img src="../../assets/images/desktop_icon.png" alt="Desktop apps">
+                <div class="desc">
+                  Desktop Apps
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-1 col-md-4 col-6">
+              <div class="gallery">
+                <img src="../../assets/images/web_icon.png" alt="Desktop apps">
+                <div class="desc">
+                  Web Apps
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-1 col-md-4 col-6">
+              <div class="gallery">
+                <img src="../../assets/images/mobile_icon.png" alt="Mobile apps">
+                <div class="desc">
+                  Mobile Apps
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-1 col-md-4 col-6">
+              <div class="gallery">
+                <img src="../../assets/images/batch_icon.png" alt="Desktop apps">
+                <div class="desc">
+                  Batch processing
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-1 col-md-4 col-6">
+              <div class="gallery">
+                <img src="../../assets/images/integration_icon.png" alt="Desktop apps">
+                <div class="desc">
+                  Integration
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-1 col-md-4 col-6">
+              <div class="gallery">
+                <img src="../../assets/images/cloud_icon.png" alt="Desktop apps">
+                <div class="desc">
+                  Cloud
+                </div>
+              </div>
+            </div>
           </div>
         </ng-template>
         <ng-template ngbSlide>
-          <img src="https://lorempixel.com/900/500?r=2" alt="Random second slide">
+          <img src="../../assets/images/CG-architectureBackground.png" alt="Arch.Back.">
           <div class="carousel-caption">
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3>Architecture background</h3>
           </div>
         </ng-template>
         <ng-template ngbSlide>
-          <img src="https://lorempixel.com/900/500?r=3" alt="Random third slide">
+          <img src="../../assets/images/OASP-Layering.png" alt="Arch.Patterns">
           <div class="carousel-caption">
-            <h3>Third slide label</h3>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            <h3>Architecture Patterns</h3>
+          </div>
+        </ng-template>
+          <ng-template ngbSlide>
+          <img src="../../assets/images/OASP_technologies_used.png" alt="Technologies used">
+          <div class="carousel-caption">
+            <h3>Used Technologies</h3>
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <img src="../../assets/images/IntegratedIDE.png" alt="IDE">
+          <div class="carousel-caption">
+            <h3>IDE</h3>
+          </div>
+        </ng-template>
+         <ng-template ngbSlide>
+          <img src="../../assets/images/Example_Angular_Restaurant_Screen.png" alt="Examples">
+          <div class="carousel-caption">
+            <h3>Examples</h3>
           </div>
         </ng-template>
       </ngb-carousel>

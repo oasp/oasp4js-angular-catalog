@@ -11,5 +11,8 @@ export class OASP4JComponent implements OnInit {
 
   ngOnInit() {
   }
+  onclick(menuItem) {
+    
+  }
 
 }

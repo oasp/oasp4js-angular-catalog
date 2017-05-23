@@ -12,6 +12,7 @@
     background-size: 100%;
     background-position-y: 250px;
     background-repeat: no-repeat;
+    z-index: 1;
 }
 img{
 width: 50px;
@@ -46,6 +47,12 @@ img.icon{
 width:30px ;
 height:30px;
 margin-bottom: 50px;
+}
+img.icon:hover{
+width:30px ;
+height:30px;
+margin-bottom: 50px;
+cursor: pointer;
 }
 img.cap{
 width:150px ;

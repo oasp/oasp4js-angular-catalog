@@ -1,11 +1,48 @@
-<div id="OASP4JS" class="container-fluid ">
-  <div class="container header">
-    <div class="row" style="padding-top: 180px">
-      <div class="col-md-3 col-sm-3"></div>
-      <div class="col-md-7 col-sm-7 col-12 text-center">
-        <div class="markdown">
+<div class="container-fluid oasp4j-container">
+  <div class="row">
+    <!-- Sidebar -->
+    <div class="col-md-3 sidebar-left">
+      <div id="wrapper" class="sidebar-nav">
+        <a class="btn btn-primary" style="margin:10px 20px 20px 20px" href="http://oasp.github.io/oasp4j_content/oasp4j_getstarted.html"> Getting started
+            </a>
+        <ul class="sidebar-nav-list">
+          <li class="dropdown">
+            <a href="oasp4j#over-view">Overview</a>
+            <ul class="dropdown-submenu">
+              <li><a href="oasp4js#sample-application">Sample Application</a></li>
+              <li><a href="oasp4js#app-template">Application template</a></li>
+              <li><a href="oasp4js#ng-modules">Ng-modules</a></li>
+            </ul>
+            <li class="dropdown">
+              <a href="oasp4js#tl-go">Roadmap</a>
+            </li>
+        </ul>
+      </div>
+    </div>
+    <!-- Sidebar -->
+
+    <div class="col-md-9 col-sm-7 col-12 content-roadmap">
+      <div class="roadmap" id="roadmap">
+        <div class="markdown main-title" id="OASP4J">
           <markdown [path]="'../../assets/content/OASP4JS/header.md'"></markdown>
         </div>
+        <h4 id="over-view">¡From developers to developers!</h4>
+        <h1>Overview</h1>
+        <div class="markdown over" id="sample-application">
+          <markdown [path]="'../../assets/content/OASP4JS/overview/sample-app.md'"></markdown>
+        </div>
+        <div class="markdown over" id="app-template">
+          <markdown [path]="'../../assets/content/OASP4JS/overview/app-template.md'"></markdown>
+        </div>
+        <div class="markdown over" id="ng-modules">
+          <markdown [path]="'../../assets/content/OASP4JS/overview/ng-modules.md'"></markdown>
+        </div>
+        
+        <h1 id="tl-go">Roadmap</h1>
+        <div class="markdown tl">
+          <markdown [path]="'../../assets/content/OASP4JS/roadmap/Roadmap.md'"></markdown>
+        </div>
+
       </div>
     </div>
   </div>

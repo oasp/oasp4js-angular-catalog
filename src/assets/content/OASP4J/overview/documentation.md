@@ -2,6 +2,6 @@
 The OASP4J fills the gaps between JEE standards and open-source frameworks to provide a production-ready solution.As we are using existing standards 
 and open-source solutions,only the missing linksbut little code will be found here.
 
-[Stable-PDF](https://www.google.com)
-[Source-Wiki](https://www.google.com)
-[Setup guide-IDE](https://www.google.com)
+[Stable-PDF](http://oasp.github.io/oasp4j_content/2.3.0/OASP4J.pdf)
+[Source-Wiki](https://github.com/oasp/oasp4j/wiki)
+[Setup guide-IDE](https://github.com/oasp/oasp4j/wiki/oasp-ide-setup)

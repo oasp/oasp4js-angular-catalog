@@ -1,61 +1,76 @@
-.navbar{
-    background-color: #4bbdec!important;
-   -webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.15);
-   -moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.15);
-   box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.10);
-   transition: all 300ms;
+.navbar {
+  background-color: #4bbdec!important;
+  -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.10);
+  transition: all 300ms;
 }
-#OASP4J {
+
+#OASP4J.markdown {
   background: url("../../assets/images/corte_4.png");
   background-repeat: no-repeat;
   background-size: 200%;
   background-position-x: -700px;
   background-position-y: -950px;
   padding: 10%;
-  box-shadow:inset 0px 7px 20px rgba(68,68,68,0.3);
-
+  box-shadow: 0 5px 20px rgba(68, 68, 68, 0.3);
 }
 
-.oasp4j-container{
+.oasp4j-container {
   padding-top: 80px;
 }
-#roadmap {
+
+.content-roadmap {
+  padding: 0px!important;
+}
+
+.roadmap {
   background: url("../../assets/images/corte_4.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position-x: -550px;
 }
 
-#roadmap h1 {
+.roadmap .main-title h1 {
+  text-align: left;
+}
+
+.roadmap .main-title h1::before {
+  position: absolute;
+}
+
+.roadmap h1 {
   color: #4bbdec;
   padding: 40px 0px;
   font-family: montserrat-Regular;
   text-align: center;
 }
 
-#roadmap h1::after {
+.roadmap h1::after {
   content: "";
   display: inline-block;
   position: relative;
   width: 30%;
+  margin-left: 1em;
   background-color: #4bbdec;
   height: 1px;
   line-height: 1px;
   vertical-align: middle;
 }
 
-#roadmap h1::before {
+.roadmap h1::before {
   content: "";
   display: inline-block;
   position: relative;
   width: 30%;
+  margin-right: 1em;
   background-color: #4bbdec;
   height: 1px;
   line-height: 1px;
   vertical-align: middle;
 }
 
-#roadmap h4 {
+.roadmap h4 {
   padding: 70px 0px 0px 0px;
   font-family: montserrat-Regular;
   text-align: center;
@@ -64,7 +79,11 @@
 
 /**Markdown styles**/
 
-#OASP4J.markdown p {
+.roadmap .markdown {
+  padding: 2em 10%;
+}
+
+.roadmap .markdown p {
   color: white;
   font-size: 14pt;
   font-family: montserrat-light;
@@ -75,7 +94,7 @@
   text-align: left;
 }
 
-#OASP4J.markdown h1 {
+.roadmap .markdown h1 {
   color: white;
   font-family: montserrat-Regular;
   font-size: 24pt;
@@ -84,7 +103,7 @@
   text-align: left;
 }
 
-#OASP4J.markdown h2 {
+.roadmap .markdown h2 {
   color: #585657;
   font-family: montserrat-light;
   font-size: 24pt;
@@ -93,7 +112,7 @@
   text-align: center;
 }
 
-#OASP4J.markdown h1::after {
+.roadmap .markdown h1::after {
   content: "";
   display: block;
   position: relative;
@@ -103,11 +122,11 @@
   height: 4px;
 }
 
-.over.markdown  a {
+.over.markdown a {
   margin: 0px 20px;
 }
 
-.over.markdown  h2 {
+.over.markdown h2 {
   font-family: montserrat-light;
   text-align: center;
 }
@@ -122,9 +141,9 @@
   margin-top: 2%;
 }
 
-.over.markdown  p {
+.over.markdown p {
   color: #585657;
-  font-size: 14pt;
+  font-size: 12pt;
   font-family: montserrat-light;
   font-style: normal;
   font-weight: 100;
@@ -133,7 +152,7 @@
   text-align: center;
 }
 
-#tl.markdown h1 {
+.tl.markdown h1 {
   color: #4bbdec;
   font-family: montserrat-Regular;
   font-size: 24pt;
@@ -141,7 +160,7 @@
   font-weight: 500;
 }
 
-#tl.markdown h1::before {
+.tl.markdown h1::before {
   content: "";
   display: inline-block;
   position: relative;
@@ -152,7 +171,7 @@
   vertical-align: middle;
 }
 
-#tl.markdown h1::after {
+.tl.markdown h1::after {
   content: "";
   display: inline-block;
   position: relative;
@@ -163,7 +182,7 @@
   vertical-align: middle;
 }
 
-#tl.markdown p{
+.tl.markdown p {
   color: #585657;
   font-size: 14pt;
   font-family: montserrat-light;
@@ -173,7 +192,8 @@
   padding: 20px 0px;
   text-align: center;
 }
-#tl.markdown ul{
+
+.tl.markdown ul {
   color: #585657;
   font-size: 14pt;
   font-family: montserrat-light;
@@ -182,24 +202,21 @@
   line-height: 18pt;
   text-align: left;
 }
-/**Media Query CSS**/
 
-@media (max-width: 767px) {
-#tl .markdown li {
-text-align: left;
-}
-#tl .markdown a{
-  text-align: center;
-}
-}
+
+
+
 
 /* SIDENAV
 ----------------------------------------------------------*/
 
-#sidebar-left {
+.sidebar-left {
   box-shadow: 0 0 20px rgba(68, 68, 68, 0.3);
   padding: 0px;
+  z-index: 1;
 }
+
+
 /* Sidebar Styles */
 
 .sidebar-nav {
@@ -212,9 +229,9 @@ text-align: left;
 }
 
 ul.sidebar-nav-list {
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
 }
 
 .sidebar-nav-list li a:hover {
@@ -222,33 +239,79 @@ ul.sidebar-nav-list {
   background: rgba(255, 255, 255, 0.2);
 }
 
-  ul.sidebar-nav-list li{
-    padding:0px;
+ul.sidebar-nav-list li {
+  padding: 0px;
+}
+
+ul.sidebar-nav-list li.dropdown a {
+  padding: 14px;
+  background-color: #ffffff;
+  border-left: 6px solid #4bbdec;
+  font-weight: bold;
+}
+
+ul.sidebar-nav-list li a {
+  display: block;
+  padding: 7px 10px;
+  text-decoration: none;
+  color: #384759;
+}
+
+ul.sidebar-nav-list li a:hover {
+  text-decoration: none;
+  background-color: #4bbdec;
+  color: #222c38;
+  cursor: pointer;
+}
+
+ul.sidebar-nav-list ul.dropdown-submenu {
+  list-style: none;
+}
+
+ul.sidebar-nav-list ul.dropdown-submenu li a {
+  /*display: none;*/
+  padding: 10px;
+  background-color: #ffffff;
+  border-left: 10px solid transparent;
+  list-style: none;
+  font-weight: normal;
+}
+
+ul.sidebar-nav-list ul.dropdown-submenu li a:hover {
+  /*display: none;*/
+  padding: 10px;
+  background-color: #4bbdec;
+  border-left: 10px solid transparent;
+  list-style: none;
+  font-weight: normal;
+}
+
+@media (max-width: 767px) {
+  #OASP4J.markdown {
+    background-color: #4bbdec;
   }
-  ul.sidebar-nav-list li.dropdown a{
-    padding:14px;
-    background-color: #ffffff;
-    border-left:6px solid #4bbdec;
-    font-weight: bold;
+  #OASP4J.markdown p {
+    text-align: center;
   }
-  ul.sidebar-nav-list li a{
-    display: block;
-    padding: 7px 10px;
-    text-decoration: none;
-    color:  #384759;
+  #OASP4J.markdown h1 {
+    text-align: center;
   }
-  ul.sidebar-nav-list li a:hover{
-    text-decoration: none;
-    color: #222c38;
-    cursor: pointer;
+  #OASP4J.markdown h1::after {
+    width: 15%;
+    margin-right: 35%;
+    margin-left: 43%;
   }
-  ul.sidebar-nav-list ul.dropdown-submenu{
-    list-style: none;
+  .sidebar-left {
+    display: none;
   }
-  ul.sidebar-nav-list ul.dropdown-submenu li a{
-    padding:10px;
-    background-color: #ffffff;
-    border-left:10px solid transparent;
-    list-style: none;
-    font-weight:normal;
+  .sidebar-nav {
+    display: none;
   }
+  .roadmap .markdown {
+    padding: 0px 0px;
+  }
+  .roadmap h1::before,
+  .roadmap h1::after {
+    width: 0%;
+  }
+}

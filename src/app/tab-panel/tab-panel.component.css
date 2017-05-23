@@ -17,7 +17,7 @@
     background-repeat: no-repeat;
     box-shadow: 0 0 30px rgba(68,68,68,0.3);
     padding: 40px 0px 30px;
-    /*height: 700px;*/
+    height: 700px;
 }
 #about  .nav-pills .nav-item.show .nav-link, .nav-pills .nav-link.active {
     color: #0275d8;
@@ -34,7 +34,9 @@ color: #0275d8;
 border-bottom:3px solid #0275d8;
 border-radius: 0px;
 
-
+}
+#about .nav-pills {
+    justify-content: center !important;
 }
 
 
@@ -97,6 +99,9 @@ div.desc {
    .text-xs-center {
      text-align: center;
    }
+   #about .tabset{
+       display: none;
+   }
    div.gallery img{
     width: auto;
     height: 60px;
@@ -111,7 +116,8 @@ div.desc {
     .carousel-indicators .active{
     background-color: transparent;
 }
-    .carousel-control-prev{
+
+    /*.carousel-control-prev{
     background-image: url("../../assets/images/prev.svg");
     background-repeat: no-repeat;
 
@@ -120,7 +126,7 @@ div.desc {
     background-image: url("../../assets/images/next.scg.svg");
     background-repeat: no-repeat;
 
-    }
+    }*/
     p{
     text-align: center;
     padding: 0px 10px;

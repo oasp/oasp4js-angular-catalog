@@ -86,6 +86,9 @@
   .text-xs-center {
     text-align: center;
   }
+  #framework .markdown h1 {
+  text-align: center;
+}
   #framework .markdown h1::after{ 
        width: 15%;
        margin-right:35%;

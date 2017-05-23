@@ -91,7 +91,7 @@ hr {
   color: #585657;
   font-family: Montserrat-Medium;
   font-size: 23pt;
-  margin-top: 25%;
+  margin-top: 2em;
 }
 
 .markdown h2::after {
@@ -134,6 +134,8 @@ hr {
 .markdown a:last-of-type{
   margin-right: 0px;
 }
+
+
 
 @media (max-width: 900px) {
   nav.navbar {
