@@ -13,7 +13,7 @@
   src: url("../../assets/fonts/Montserrat-ExtraLight.ttf")
 }
 
-#slider {
+.slider {
   background: url("../../assets/images/testimonials.png") center center no-repeat;
   background-size: contain;
   background-color: #293645;
@@ -22,40 +22,43 @@
   padding: 10% 0% 5% 0%;
 }
 
-#comillas {
+.testimonials {
   background: url("../../assets/images/comillas.png") center no-repeat;
   background-size: 30%;
   background-position-x: 300px;
   background-position-y: 0px;
   height: 190px;
+  margin-top: 40px;
+  margin-bottom: 90px;
+  margin-right:0px;
 }
 
 .nomargin {
   margin-right: 0px;
 }
 
-#slider img {
+.slider img {
   width: 150px;
   height: 150px;
   border-radius: 50%
 }
 
-#carouselExampleSlidesOnly {
+.carouselExampleSlidesOnly {
   margin-top: 10%;
   margin-bottom: 10%;
 }
 
-#slider h3 {
+.slider h3 {
   color: white;
   font-family: Montserrat-Regular;
 }
 
-#slider .carousel-indicators {
+.slider .carousel-indicators {
   margin-top: 0px;
   top: 170px;
 }
 
-#slider .carousel-indicators li {
+.slider .carousel-indicators li {
   max-width: 15px;
   height: 15px;
   border: 2px solid white;
@@ -63,29 +66,29 @@
   background-color: transparent;
 }
 
-#slider .carousel-indicators .active {
+.slider .carousel-indicators .active {
   background-color: #FFFFFF;
 }
 
-#slider p {
+.slider p {
   color: white;
   font-family: Montserrat-Extralight;
   font-size: 12pt;
   text-align: left;
 }
 
-#slider .carousel-caption {
+.slider .carousel-caption {
   text-align: left;
   left: 180px;
   top: 0px;
 }
 
-#slider .right.carousel-control-next,
-#slider .left.carousel-control-prev {
+.slider .right.carousel-control-next,
+.slider .left.carousel-control-prev {
   display: none;
 }
 
-#slider * {
+.slider * {
   outline: none;
 }
 
@@ -95,16 +98,18 @@
     margin-right: auto !important;
     display: block !important
   }
-  #slider {
+  .slider {
     text-align: center;
   }
   .nomargin {
     margin-right: 0px;
   }
-  #slider>img {
+  .testimonials{margin-bottom: 113px;}
+
+  .slider>img {
     display: inline-block;
   }
-  #slider .carousel-caption {
+  .slider .carousel-caption {
     top: auto;
     left: auto;
     width: 100%;
@@ -112,12 +117,12 @@
     float: none;
     right: auto;
   }
-  #slider img {
+  .slider img {
     text-align: center;
     margin: 10px auto!important;
   }
-  #slider p,
-  #slider h3 {
+  .slider p,
+  .slider h3 {
     text-align: center;
     width: 100%;
   }
@@ -129,7 +134,7 @@
   .carousel-item.active {
     display: block!important;
   }
-  #slider .carousel-indicators {
+  .slider .carousel-indicators {
     top: -90px;
   }
 }

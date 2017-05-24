@@ -1,48 +1,53 @@
-#about{
-    background: url("../../assets/images/img_1.png") center no-repeat ;
-    background-color: #4bbdec;
-    background-size: cover;
+#about {
+  background: url("../../assets/images/img_1.png") center no-repeat;
+  background-color: #4bbdec;
+  background-size: cover;
 }
 
-#about .markdown p{
-    color: white;
-    font-size: 14pt;
-    font-family: montserrat-light;
-    font-style: normal;
-    font-weight: 100;
-    line-height: 18pt;
-    padding: 20px 0px;
+#about .markdown p {
+  color: white;
+  font-size: 14pt;
+  font-family: montserrat-light;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 18pt;
+  padding: 20px 0px;
 }
-#about .markdown h2{
-    color: white;
-    font-family: montserrat-Regular;
-    font-size: 24pt;
-    line-height: 28pt;
-    font-weight: 500;
-    
+
+#about .markdown h2 {
+  color: white;
+  font-family: montserrat-Regular;
+  font-size: 24pt;
+  line-height: 28pt;
+  font-weight: 500;
 }
+
 #about .markdown h2::after {
   display: none;
 }
- @media (max-width: 767px) {
-   .text-xs-center {
-     text-align: center;
-   }
-   #about{
-    background: url("../../assets/images/img_1.png") center center no-repeat ;
+
+@media (max-width: 767px) {
+  .text-xs-center {
+    text-align: center;
+  }
+  #about {
+    background: url("../../assets/images/img_1.png") center center no-repeat;
     background-color: #4bbdec;
     background-size: 500%;
-
+  }
 }
- }
-@media (min-width: 768px) and (max-width: 1024px) { 
 
-    #about p{text-align: center}
-    #about h2{text-align: center}
-    .text-xs-center {
-     text-align: center;
-   }
-   #about .markdown p{
+@media (min-width: 768px) and (max-width: 1023px) {
+  #about p {
+    text-align: center
+  }
+  #about h2 {
+    text-align: center
+  }
+  .text-xs-center {
+    text-align: center;
+  }
+  #about .markdown p {
     margin: 20px 0px;
- }
+  }
 }

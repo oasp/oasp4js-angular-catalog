@@ -1,34 +1,39 @@
-#tryit{
-    background: url("../../assets/images/img.png") center center no-repeat ;
-    background-size: cover;
-
-}
-#tryit h2{
-    margin-top: 20%;
-}
-#tryit p{
-    margin-bottom:10%;
-    margin-top: 2%;
+.tryit {
+  background: url("../../assets/images/img.png") center center no-repeat;
+  background-size: cover;
+  padding-top: 6em;
+  padding-bottom: 6em;
 }
 
 /**markdown styles**/
-#tryit .markdown h2{ 
-    color: #ffffff;
-    font-family: Montserrat-Medium;
-    font-size: 20pt;
+
+.tryit .markdown h2 {
+  color: #ffffff;
+  font-family: Montserrat-Medium;
+  font-size: 20pt;
 }
 
-#tryit .markdown a{
+.tryit .markdown a {
   border-color: #FFFFFF;
   color: #FFFFFF;
 }
 
-#tryit .markdown a:hover {
+.tryit .markdown a:hover {
   border-color: #FFFFFF;
   color: #4bbdec;
   background-color: #FFFFFF;
 }
 
-#tryit .markdown h2::after {
-    display: none;
+.tryit .markdown h2::after {
+  display: none;
+}
+
+
+/**Media query*/
+
+@media (max-width: 767px) {
+  .tryit {
+    padding-bottom: 2em;
+    padding-top: 3em;
+  }
 }

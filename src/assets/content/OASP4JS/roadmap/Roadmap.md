@@ -11,3 +11,11 @@ Added main features:
 - Enhanced Validation mechanisms
 - Enhanced error handling
 - i18n
+
+#### OASP4js v1.1.1
+**testing markdown**
+- test1
+- test2
+- test3
+
+Markdown is useful for edit the plain text of the web

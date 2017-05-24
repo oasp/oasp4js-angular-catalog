@@ -13,7 +13,7 @@
    src: url("../../assets/fonts/Montserrat-Medium.ttf")
  }
 
- #gettingstarted {
+ .gettingstarted {
    background: url("../../assets/images/getting_started.png") center center no-repeat;
    background-size: 40%;
    background-position-x: 90px;
@@ -21,44 +21,46 @@
    box-shadow: 0 0 30px rgba(68, 68, 68, 0.3);
  }
 
- #gettingstarted h1{
-   margin-top:50%;
+ .gettingstarted h1 {
+   margin-top: 50%;
  }
 
- #timeline {
+ .timeline {
    background-color: white;
    box-shadow: inset 0px 0px 100px #e2e2e2;
  }
 
- #gettingstarted .markdown p {
+ .gettingstarted .markdown p {
    text-align: right;
    color: #9d9d9d;
    font-family: Montserrat-Regular;
    font-style: normal;
  }
-#gettingstarted .markdown h1::after{
-  content: "";
-  display: block;
-  position: relative;
-  margin: 10px 0px 0px 403px;
-  width: 15%;
-  background-color: #4bbdec;
-  height: 4px;
-}
-#gettingstarted .markdown h1 {
+
+ .gettingstarted .markdown h1::after {
+   content: "";
+   display: block;
+   position: relative;
+   margin: 10px 0px 0px 403px;
+   width: 15%;
+   background-color: #4bbdec;
+   height: 4px;
+ }
+
+ .gettingstarted .markdown h1 {
    font-family: Montserrat-Medium;
    font-size: 25pt;
    text-align: right;
    color: #222c38
  }
 
-
- #gettingstarted img {
+ .gettingstarted img {
    width: 50px;
    padding-left: 0px;
    margin-left: 30px;
  }
- #timeline img{
+
+ .timeline img {
    width: 50px;
    padding: 0px;
    margin-left: 30px;
@@ -228,49 +230,50 @@
  }
 
  @media (max-width: 767px) {
-    #gettingstarted {
-      background-size: 75%;
-    }
-
-   #gettingstarted .markdown p {
+   .gettingstarted {
+     background-size: 75%;
+     background-position-y: 128px;
+     background-position-x: 53px;
+     padding-top: 7em;
+   }
+   .gettingstarted .markdown p {
      text-align: center;
      padding: 0px 0px 20px 0px;
    }
-
-   #gettingstarted .markdown h1::after{ 
-       width: 15%;
-       margin-right:35%;
-       margin-left:43%;
+   .gettingstarted .markdown h1::after {
+     width: 15%;
+     margin-right: 35%;
+     margin-left: 43%;
    }
-   #gettingstarted .markdown h1{
+   .gettingstarted .markdown h1 {
      text-align: center;
      padding: 0px 0 20px 0px;
+     margin-top: 0px;
    }
-   #gettingstarted .markdown a{
+   .gettingstarted .markdown a {
      text-align: center;
      margin-right: 0px;
    }
  }
 
- @media (min-width: 768px) and (max-width: 991px) { 
- 
-  #gettingstarted .markdown p {
+ @media (min-width: 768px) and (max-width: 991px) {
+   .gettingstarted .markdown p {
      text-align: center;
      padding: 0px 0px 20px 0px;
    }
-    #gettingstarted .markdown h1::after{ 
-       width: 15%;
-       margin-right:35%;
-       margin-left:43%;
+   .gettingstarted .markdown h1::after {
+     width: 15%;
+     margin-right: 35%;
+     margin-left: 43%;
    }
-   #gettingstarted .markdown h1{
+   .gettingstarted .markdown h1 {
      text-align: center;
      padding: 0px 0 20px 0px;
    }
-   #gettingstarted h1{
-   margin-top:20%;
- }
-     #gettingstarted .markdown a {
-       margin-bottom: 20%;
- }
+   .gettingstarted h1 {
+     margin-top: 20%;
+   }
+   .gettingstarted .markdown a {
+     margin-bottom: 20%;
+   }
  }

@@ -13,7 +13,7 @@
    src: url("../../assets/fonts/Montserrat-Medium.ttf")
  }
 
- #about {
+ .about {
    background: url("../../assets/images/on_the_flexible_solution.png")0px 540px, url("../../assets/images/corte_2.png") -695px -300px;
    background-size: 180%;
    background-repeat: no-repeat;
@@ -22,7 +22,7 @@
    height: 700px;
  }
 
- #about .nav-pills .nav-item.show .nav-link,
+ .about .nav-pills .nav-item.show .nav-link,
  .nav-pills .nav-link.active {
    color: #0275d8;
    cursor: default;
@@ -32,14 +32,14 @@
    margin-bottom: 40px;
  }
 
- #about .nav-pills .nav-item.show .nav-link,
+ .about .nav-pills .nav-item.show .nav-link,
  .nav-pills .nav-link:hover {
    color: #0275d8;
    border-bottom: 3px solid #0275d8;
    border-radius: 0px;
  }
 
- #about .nav-pills {
+ .about .nav-pills {
    justify-content: center !important;
  }
 
@@ -95,7 +95,7 @@
    top: 40px;
  }
 
- #carousel-tab-panel .carousel-item p {
+ .carousel-tab-panel .carousel-item p {
    text-align: center;
    width: 100%;
  }
@@ -105,14 +105,14 @@
    box-shadow: 0px 0px 13px 3px rgba(0, 0, 0, .15);
  }
 
- #about * {
+ .about * {
    outline: none;
  }
 
  @media (max-width: 767px) {
-     #about{
-       height: auto;
-     }
+   .about {
+     height: auto;
+   }
    .img-resp {
      max-width: 100%;
      height: auto;
@@ -121,7 +121,7 @@
    .text-xs-center {
      text-align: center;
    }
-   #about .tabset {
+   .about .tabset {
      display: none;
    }
    div.gallery img {
@@ -136,9 +136,9 @@
    .carousel-indicators .active {
      background-color: transparent;
    }
-  .carousel-indicators{
-        top:-80px;
-    }
+   .carousel-indicators {
+     top: -80px;
+   }
    .carousel-item.active {
      display: block!important;
    }
@@ -154,7 +154,7 @@
      float: none;
      right: auto;
    }
-    #about .carousel-caption h3{
+   .about .carousel-caption h3 {
      color: #4bbdec;
      font-family: Montserrat-Medium;
      font-size: 12pt;

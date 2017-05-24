@@ -243,7 +243,7 @@ ul.sidebar-nav-list li.dropdown a {
   padding: 14px;
   background-color: #ffffff;
   border-left: 6px solid #4bbdec;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 ul.sidebar-nav-list li a {
@@ -269,7 +269,7 @@ ul.sidebar-nav-list ul.dropdown-submenu li a {
   background-color: #ffffff;
   border-left: 10px solid transparent;
   list-style: none;
-  font-weight: normal;
+  font-weight: 200;
 }
 
 ul.sidebar-nav-list ul.dropdown-submenu li a:hover {

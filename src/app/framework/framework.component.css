@@ -8,7 +8,7 @@
   src: url("../../assets/fonts/Montserrat-Bold.ttf")
 }
 
-#framework {
+.framework {
   background-image: url("../../assets/images/corte_2.png");
   background-size: contain;
   background-repeat: no-repeat;
@@ -17,13 +17,13 @@
   padding-bottom: 100px;
 }
 
-#framework img {
+.framework img {
   width: auto;
   max-height: 60px;
   margin-top: 170px;
 }
 
-#framework p {
+.framework p {
   font-size: 14pt;
   color: #9d9d9d;
   font-family: montserrat-Regular;
@@ -31,16 +31,16 @@
   line-height: 18pt;
 }
 
-#framework p.java {
+.framework p.java {
   color: #222c38;
   text-align: center;
 }
 
-#framework p.javaScript {
+.framework p.javaScript {
   color: #222c38;
 }
 
-#framework p.net {
+.framework p.net {
   color: #222c38;
   text-align: center;
 }
@@ -48,7 +48,7 @@
 
 /**     Markdown styles*/
 
-#framework .markdown p {
+.framework .markdown p {
   color: #9d9d9d;
   font-family: Montserrat-Regular;
   padding: 20px 0px;
@@ -59,7 +59,7 @@
   margin-bottom: 0px;
 }
 
-#framework .markdown h1 {
+.framework .markdown h1 {
   margin-top: 150px;
   color: #222c38;
   font-family: montserrat-Regular;
@@ -69,7 +69,7 @@
   text-align: left;
 }
 
-#framework .markdown h1::after {
+.framework .markdown h1::after {
   content: "";
   display: block;
   position: absolute;
@@ -83,20 +83,20 @@
 
 /**Media syles*/
 @media only screen and (max-width: 1023px) and (min-width: 768px) {
-  #framework .markdown h1 {
+  .framework .markdown h1 {
     text-align: center;
   }
-  #framework .markdown h1::after {
+  .framework .markdown h1::after {
     position: realtive;
     left: 300px;
   }
-  #framework {
+  .framework {
     background-image: none;
   }
-  #framework img {
+  .framework img {
     margin-top: 100px;
   }
-  #framework .markdown p {
+  .framework .markdown p {
     padding: 30px 0px;
   }
 }
@@ -105,10 +105,10 @@
   .text-xs-center {
     text-align: center;
   }
-  #framework .markdown h1 {
+  .framework .markdown h1 {
     text-align: center;
   }
-  #framework .markdown h1::after {
+  .framework .markdown h1::after {
     width: 15%;
     margin-right: 35%;
     margin-left: 40%;
@@ -119,13 +119,13 @@
   .mg-top10 {
     margin-top: 10px;
   }
-  #framework {
+  .framework {
     background-image: none;
   }
   p {
     padding: 10px 0px;
   }
-  #framework img {
+  .framework img {
     margin-top: 70px;
   }
 }
