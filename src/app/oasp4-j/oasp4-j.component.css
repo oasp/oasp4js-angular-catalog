@@ -6,16 +6,6 @@
   transition: all 300ms;
 }
 
-#OASP4J.markdown {
-  background: url("../../assets/images/corte_4.png");
-  background-repeat: no-repeat;
-  background-size: 200%;
-  background-position-x: -700px;
-  background-position-y: -950px;
-  padding: 10%;
-  box-shadow: 0 5px 20px rgba(68, 68, 68, 0.3);
-}
-
 .oasp4j-container {
   padding-top: 80px;
 }
@@ -79,6 +69,16 @@
 
 /**Markdown styles**/
 
+.roadmap .main-title.markdown {
+  background: url("../../assets/images/corte_4.png");
+  background-repeat: no-repeat;
+  background-size: 200%;
+  background-position-x: -700px;
+  background-position-y: -950px;
+  padding: 10%;
+  box-shadow: 0 5px 20px rgba(68, 68, 68, 0.3);
+}
+
 .roadmap .markdown {
   padding: 2em 10%;
 }
@@ -117,7 +117,7 @@
   display: block;
   position: relative;
   margin: 10px 380px 0px 0px;
-  width: 15%;
+  width: 2.2em;
   background-color: #ffffff;
   height: 4px;
 }
@@ -125,7 +125,7 @@
 .over.markdown a {
   margin-top: 0px;
   margin-right: 20px;
-  margin-left:20px;
+  margin-left: 20px;
 }
 
 .over.markdown h2 {
@@ -257,7 +257,7 @@ ul.sidebar-nav-list li a {
 }
 
 ul.sidebar-nav-list li a:hover {
-  font-style:  montserrat-Regular;
+  font-style: montserrat-Regular;
   text-decoration: none;
   color: #4bbdec;
   cursor: pointer;
@@ -300,10 +300,9 @@ ul.sidebar-nav-list ul.dropdown-submenu li a:hover {
     margin-right: 35%;
     margin-left: 43%;
   }
- .over.markdown a {
-  margin-bottom: 10px; 
-
-}
+  .over.markdown a {
+    margin-bottom: 10px;
+  }
   .sidebar-left {
     display: none;
   }

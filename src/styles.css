@@ -14,6 +14,10 @@
   font-family: montserrat-light;
   src: url("./assets/fonts/Montserrat-Light.ttf")
 }
+@font-face {
+  font-family: montserrat-Extralight;
+  src: url("./assets/fonts/Montserrat-ExtraLight.ttf")
+}
 
 .navbar-light .navbar-toggler {
   border-color: transparent;
