@@ -11,7 +11,7 @@
 }
 
 .content-roadmap {
-  padding: 0px!important;
+  padding: 0px !important;
 }
 
 .roadmap {
@@ -233,10 +233,11 @@ ul.sidebar-nav-list li {
 }
 
 ul.sidebar-nav-list li.dropdown a {
-  padding: 14px;
+  padding: 14px 14px 14px 25px;
   background-color: #ffffff;
   border-left: 6px solid #4bbdec;
   font-weight: 500;
+
 }
 
 ul.sidebar-nav-list li a {
