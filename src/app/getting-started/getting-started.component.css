@@ -6,6 +6,10 @@
   box-shadow: 0 0 30px rgba(68, 68, 68, 0.3);
 }
 
+.started {
+  padding: 0px 60px 0px 60px !important;
+}
+
 .gettingstarted h1 {
   margin-top: 50%;
 }

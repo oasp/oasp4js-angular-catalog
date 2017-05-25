@@ -135,9 +135,6 @@ hr {
   transition: all .2s ease-in-out;
 }
 
-.markdown a:last-of-type {
-  margin-right: 0px;
-}
 
 @media (max-width: 900px) {
   nav.navbar {
