@@ -45,6 +45,7 @@
    width: 15%;
    background-color: #4bbdec;
    height: 4px;
+   float: right;
  }
 
  .gettingstarted .markdown h1 {
@@ -244,6 +245,7 @@
      width: 15%;
      margin-right: 35%;
      margin-left: 43%;
+     float: none;
    }
    .gettingstarted .markdown h1 {
      text-align: center;

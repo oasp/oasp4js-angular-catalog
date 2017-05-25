@@ -6,16 +6,6 @@
   transition: all 300ms;
 }
 
-#OASP4JS.markdown {
-  background: url("../../assets/images/corte_4.png");
-  background-repeat: no-repeat;
-  background-size: 200%;
-  background-position-x: -700px;
-  background-position-y: -950px;
-  padding:  10%;
-  box-shadow: 0 5px 20px rgba(68, 68, 68, 0.3);
-}
-
 .oasp4js-container {
   padding-top: 80px;
 }
@@ -78,6 +68,16 @@
 
 
 /**Markdown styles**/
+
+.roadmap .main-title.markdown {
+  background: url("../../assets/images/corte_4.png");
+  background-repeat: no-repeat;
+  background-size: 200%;
+  background-position-x: -700px;
+  background-position-y: -950px;
+  padding: 10%;
+  box-shadow: 0 5px 20px rgba(68, 68, 68, 0.3);
+}
 
 .roadmap .markdown {
   padding: 2em 10%;
@@ -200,20 +200,13 @@
 }
 
 
-
-
-
-/* SIDENAV
-----------------------------------------------------------*/
+/* Sidebar Styles */
 
 .sidebar-left {
   box-shadow: 0 0 20px rgba(68, 68, 68, 0.3);
   padding: 0px;
   z-index: 1;
 }
-
-
-/* Sidebar Styles */
 
 .sidebar-nav {
   position: fixed;
@@ -281,17 +274,19 @@ ul.sidebar-nav-list ul.dropdown-submenu li a:hover {
   font-weight: normal;
 }
 
+/** Media query*/
+
 @media (max-width: 767px) {
-  #OASP4J.markdown {
+  .roadmap .main-title.markdown {
     background-color: #4bbdec;
   }
-  #OASP4J.markdown p {
+  .roadmap .main-title.markdown p {
     text-align: center;
   }
-  #OASP4J.markdown h1 {
+  .roadmap .main-title.markdown h1 {
     text-align: center;
   }
-  #OASP4J.markdown h1::after {
+  .roadmap .main-title.markdown h1::after {
     width: 15%;
     margin-right: 35%;
     margin-left: 43%;
@@ -303,15 +298,13 @@ ul.sidebar-nav-list ul.dropdown-submenu li a:hover {
     display: none;
   }
   .roadmap .markdown {
-  padding: 2em 10%;
+    padding: 2em 10%;
   }
   .roadmap h1::before,
   .roadmap h1::after {
     width: 0%;
   }
   .tl.markdown ul li {
-
-  text-align: left;
-}
-
+    text-align: left;
+  }
 }
