@@ -21,7 +21,7 @@
     </div>
     <!-- Sidebar -->
 
-    <div class="col-md-9 col-sm-7 col-12 content-roadmap">
+    <div class="hidden-sm-down col-md-9 col-sm-7 col-12 content-roadmap">
       <div class="roadmap">
         <div class="markdown main-title">
           <markdown [path]="'../../assets/content/OASP4JS/header.md'"></markdown>
@@ -37,12 +37,41 @@
         <div class="markdown over" id="ng-modules">
           <markdown [path]="'../../assets/content/OASP4JS/overview/ng-modules.md'"></markdown>
         </div>
-
         <h1 id="tl-go">Roadmap</h1>
         <div class="markdown tl">
           <markdown [path]="'../../assets/content/OASP4JS/roadmap/Roadmap.md'"></markdown>
         </div>
       </div>
+    </div>
+  </div>
+</div>
+
+<!--version movil-->
+<div class="container-fluid oasp4jsmvl">
+  <div class="row">
+    <div class="hidden-md-up">
+      <ngb-tabset type="pills" class="tabset4js">
+        <ngb-tab title="Overview">
+          <ng-template ngbTabContent>
+            <div class="markdown over" id="sample-application">
+              <markdown [path]="'../../assets/content/OASP4JS/overview/sample-app.md'"></markdown>
+            </div>
+            <div class="markdown over" id="app-template">
+              <markdown [path]="'../../assets/content/OASP4JS/overview/app-template.md'"></markdown>
+            </div>
+            <div class="markdown over" id="ng-modules">
+              <markdown [path]="'../../assets/content/OASP4JS/overview/ng-modules.md'"></markdown>
+            </div>
+          </ng-template>
+        </ngb-tab>
+        <ngb-tab title="Roadmap">
+          <ng-template ngbTabContent>
+            <div class="markdown tl">
+              <markdown [path]="'../../assets/content/OASP4JS/roadmap/Roadmap.md'"></markdown>
+            </div>
+          </ng-template>
+        </ngb-tab>
+      </ngb-tabset>
     </div>
   </div>
 </div>

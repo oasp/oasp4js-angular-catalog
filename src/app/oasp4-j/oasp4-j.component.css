@@ -125,7 +125,9 @@
 .over.markdown a {
   margin-top: 0px;
   margin-right: 20px;
-  margin-left: 20px;
+  margin-left: 20px !important;
+  width: 214px;
+  height: auto;
 }
 
 .over.markdown h2 {
@@ -286,16 +288,19 @@ ul.sidebar-nav-list ul.dropdown-submenu li a:hover {
 }
 
 @media (max-width: 767px) {
-  #OASP4J.markdown {
+  .oasp4j-container {
+    padding-top: 73px;
+  }
+  .roadmap .main-title.markdown {
     background-color: #4bbdec;
   }
-  #OASP4J.markdown p {
+  .roadmap .main-title.markdown p {
     text-align: center;
   }
-  #OASP4J.markdown h1 {
+  .roadmap .main-title.markdown h1 {
     text-align: center;
   }
-  #OASP4J.markdown h1::after {
+  .roadmap .main-title.markdown h1::after {
     width: 15%;
     margin-right: 35%;
     margin-left: 43%;
@@ -318,5 +323,23 @@ ul.sidebar-nav-list ul.dropdown-submenu li a:hover {
   }
   .tl.markdown ul li {
     text-align: left;
+  }
+  .tabset4j .nav-pills .nav-item {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .tabset4j ul.nav-pills {
+    height: 42px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, .25);
+    position: fixed;
+    top: 75px;
+    width: 100%;
+  }
+  .tl.markdown h4 {
+    padding: 70px 0px 0px 0px;
+    font-family: montserrat-Regular;
+    text-align: center;
   }
 }

@@ -21,12 +21,11 @@
     </div>
     <!-- Sidebar -->
 
-    <div class="col-md-9 col-sm-7 col-12 content-roadmap">
+    <div class="hidden-sm-down col-md-9 col-sm-7 col-12 content-roadmap">
       <div class="roadmap">
         <div class="markdown main-title">
           <markdown [path]="'../../assets/content/OASP4J/header.md'"></markdown>
         </div>
-        <h4 id="over-view">¡From developers to developers!</h4>
         <h1>Overview</h1>
         <div class="markdown over" id="documentacion">
           <markdown [path]="'../../assets/content/OASP4J/overview/documentation.md'"></markdown>
@@ -37,7 +36,7 @@
         <div class="markdown over" id="modules">
           <markdown [path]="'../../assets/content/OASP4J/overview/modules.md'"></markdown>
         </div>
-        
+
         <h1 id="tl-go">Roadmap</h1>
         <div class="markdown tl">
           <markdown [path]="'../../assets/content/OASP4J/roadmap/upcoming-release.md'"></markdown>
@@ -64,6 +63,58 @@
           <markdown [path]="'../../assets/content/OASP4J/roadmap/oasp v1.4.md'"></markdown>
         </div>
       </div>
+    </div>
+  </div>
+</div>
+
+<!--mvl version-->
+
+<div class="container-fluid oasp4jmvl">
+  <div class="row">
+    <div class="hidden-md-up">
+      <ngb-tabset type="pills" class="tabset4j">
+        <ngb-tab title="Overview">
+          <ng-template ngbTabContent>
+            <div class="markdown over" id="documentacion">
+              <markdown [path]="'../../assets/content/OASP4J/overview/documentation.md'"></markdown>
+            </div>
+            <div class="markdown over" id="sample-app">
+              <markdown [path]="'../../assets/content/OASP4J/overview/sample-app.md'"></markdown>
+            </div>
+            <div class="markdown over" id="modules">
+              <markdown [path]="'../../assets/content/OASP4J/overview/modules.md'"></markdown>
+            </div>
+          </ng-template>
+        </ngb-tab>
+        <ngb-tab title="Roadmap">
+          <ng-template ngbTabContent>
+            <div class="markdown tl">
+              <markdown [path]="'../../assets/content/OASP4J/roadmap/upcoming-release.md'"></markdown>
+            </div>
+            <div class="markdown tl">
+              <markdown [path]="'../../assets/content/OASP4J/roadmap/oasp v2.3.0.md'"></markdown>
+            </div>
+            <div class="markdown tl">
+              <markdown [path]="'../../assets/content/OASP4J/roadmap/oasp v2.2.0.md'"></markdown>
+            </div>
+            <div class="markdown tl">
+              <markdown [path]="'../../assets/content/OASP4J/roadmap/oasp v2.1.2.md'"></markdown>
+            </div>
+            <div class="markdown tl">
+              <markdown [path]="'../../assets/content/OASP4J/roadmap/oasp v2.1.0.md'"></markdown>
+            </div>
+            <div class="markdown tl">
+              <markdown [path]="'../../assets/content/OASP4J/roadmap/oasp v2.0.0.md'"></markdown>
+            </div>
+            <div class="markdown tl">
+              <markdown [path]="'../../assets/content/OASP4J/roadmap/oasp v1.5.md'"></markdown>
+            </div>
+            <div class="markdown tl">
+              <markdown [path]="'../../assets/content/OASP4J/roadmap/oasp v1.4.md'"></markdown>
+            </div>
+          </ng-template>
+        </ngb-tab>
+      </ngb-tabset>
     </div>
   </div>
 </div>
