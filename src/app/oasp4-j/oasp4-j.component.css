@@ -68,11 +68,11 @@
 
 .timeline {
   background-color: transparent;
-  box-shadow: none;
+  box-shadow: inset 0px 0px 100px #e2e2e2;
 }
 
 .timeline-centered .timeline-entry {
-  width: 100%;
+  width:85%;
 }
 
 .timeline-centered:before {
@@ -81,7 +81,7 @@
   display: block;
   width: 2px;
   background: #58ACFA;
-  left: 0%;
+  left: 15%;
   top: 0px;
   bottom: 0px;
   margin-left: 12px;
