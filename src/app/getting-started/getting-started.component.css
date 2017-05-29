@@ -219,6 +219,32 @@
   line-height: 1.428571429;
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
+  .gettingstarted {
+    background-position-x: 195px;
+    background-position-y: 112px;
+  }
+  .gettingstarted .markdown p {
+    text-align: center;
+    padding: 0px 0px 20px 0px;
+  }
+  .gettingstarted .markdown h1::after {
+    width: 2em;
+    margin-left: 8.5em;
+    float: none;
+  }
+  .gettingstarted .markdown h1 {
+    text-align: center;
+    padding: 0px 0 20px 0px;
+  }
+  .gettingstarted h1 {
+    margin-top: 20%;
+  }
+  .gettingstarted .markdown a {
+    margin-bottom: 20%;
+  }
+}
+
 @media (max-width: 767px) {
   .gettingstarted {
     background-size: 75%;
@@ -244,27 +270,5 @@
   .gettingstarted .markdown a {
     text-align: center;
     margin-right: 0px;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  .gettingstarted .markdown p {
-    text-align: center;
-    padding: 0px 0px 20px 0px;
-  }
-  .gettingstarted .markdown h1::after {
-    width: 15%;
-    margin-right: 35%;
-    margin-left: 43%;
-  }
-  .gettingstarted .markdown h1 {
-    text-align: center;
-    padding: 0px 0 20px 0px;
-  }
-  .gettingstarted h1 {
-    margin-top: 20%;
-  }
-  .gettingstarted .markdown a {
-    margin-bottom: 20%;
   }
 }

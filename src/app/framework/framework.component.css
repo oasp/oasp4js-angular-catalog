@@ -78,8 +78,8 @@
     text-align: center;
   }
   .framework .markdown h1::after {
-    position: realtive;
-    left: 300px;
+    width: 2em;
+    left: 8em;
   }
   .framework {
     background-image: none;

@@ -30,7 +30,7 @@
   .text-xs-center {
     text-align: center;
   }
-.OASP{
+  .OASP {
     background: url("../../assets/images/img_1.png") center center no-repeat;
     background-color: #4bbdec;
     background-size: 500%;
@@ -38,6 +38,9 @@
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
+  .OASP {
+    background-size: 160%;
+  }
   .OASP p {
     text-align: center
   }

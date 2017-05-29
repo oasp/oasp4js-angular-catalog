@@ -63,6 +63,12 @@
    padding: 20px 0px;
  }
 
+ @media only screen and (max-width: 1023px) and (min-width: 768px) {
+   .Collaboration {
+     background-position-y: 423px;
+   }
+ }
+
  @media (max-width: 767px) {
    .Collaboration {
      background-position-y: 480px;

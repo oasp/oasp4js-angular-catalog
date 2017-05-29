@@ -1,56 +1,61 @@
+.universityActivities {
+  background: url("../../assets/images/university.png") center center no-repeat;
+  background-color: white;
+  background-size: contain;
+  background-position-y: 250px;
+  padding-bottom: 4em;
+  padding-top: 80px;
+}
 
- .universityActivities {
-   background: url("../../assets/images/university.png") center center no-repeat;
-   background-color: white;
-   background-size: contain;
-   background-position-y: 250px;
-   padding-bottom: 4em;
-   padding-top: 80px;
- }
+.btn-primary {
+  color: #4bbdec;
+  background-color: transparent;
+  border-color: #4bbdec;
+  border-top-color: #4bbdec;
+  border-right-color: #4bbdec;
+  border-bottom-color: #4bbdec;
+  border-left-color: #4bbdec;
+  border-radius: 72px;
+  margin-bottom: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-radius: 72px;
+  font-size: 12pt;
+  border-width: 2px;
+  font-family: Montserrat-Regular;
+}
 
- .btn-primary {
-   color: #4bbdec;
-   background-color: transparent;
-   border-color: #4bbdec;
-   border-top-color: #4bbdec;
-   border-right-color: #4bbdec;
-   border-bottom-color: #4bbdec;
-   border-left-color: #4bbdec;
-   border-radius: 72px;
-   margin-bottom: 100%;
-   padding-left: 40px;
-   padding-right: 40px;
-   padding-top: 14px;
-   padding-bottom: 14px;
-   border-radius: 72px;
-   font-size: 12pt;
-   border-width: 2px;
-   font-family: Montserrat-Regular;
- }
+hr {
+  width: 15%;
+  background-color: #4bbdec;
+  height: 3px;
+}
 
- hr {
-   width: 15%;
-   background-color: #4bbdec;
-   height: 3px;
- }
+h2 {
+  color: #585657;
+  font-family: Montserrat-Medium;
+  font-size: 23pt;
+  margin-top: 25%;
+}
 
- h2 {
-   color: #585657;
-   font-family: Montserrat-Medium;
-   font-size: 23pt;
-   margin-top: 25%;
- }
+p {
+  color: #9d9d9d;
+  font-family: Montserrat-Regular;
+  font-size: 12pt;
+  font-style: italic;
+  padding: 20px 0px;
+}
 
- p {
-   color: #9d9d9d;
-   font-family: Montserrat-Regular;
-   font-size: 12pt;
-   font-style: italic;
-   padding: 20px 0px;
- }
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+  .universityActivities {
+    background-position-y: 394px;
+  }
+}
 
- @media (max-width: 767px) {
-   .universityActivities {
-     background-position-y: 450px;
-   }
- }
+@media (max-width: 767px) {
+  .universityActivities {
+    background-position-y: 450px;
+  }
+}

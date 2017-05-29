@@ -1,77 +1,88 @@
+.devonfw {
+  background: url("../../assets/images/logo.png") center center no-repeat;
+  background-color: #4bbdec;
+  background-size: contain;
+  background-position-x: -140px;
+  text-align: right!important;
+}
 
- .devonfw {
-   background: url("../../assets/images/logo.png") center center no-repeat;
-   background-color: #4bbdec;
-   background-size: contain;
-   background-position-x: -140px;
-   text-align: right!important;
- } 
- .devonfw h1{
-   margin-top:40%;
- }
- /**Markdown Styles**/
- .devonfw .markdown h1{
-      color:#ffffff;
-      font-family: montserrat-regular;
-      font-weight: 500
+.devonfw h1 {
+  margin-top: 40%;
+}
 
+
+/**Markdown Styles**/
+
+.devonfw .markdown h1 {
+  color: #ffffff;
+  font-family: montserrat-regular;
+  font-weight: 500
 }
- .devonfw .markdown p{
-    color: #ffffff!important;
-    font-style: normal;
-    font-family: montserrat-light;
+
+.devonfw .markdown p {
+  color: #ffffff!important;
+  font-style: normal;
+  font-family: montserrat-light;
 }
- .devonfw .markdown h1::after {
-    content: "";
-    display: block;
-    position: absolute;
-    right: 15px;
-    margin: 10px 0px;
-    width: 15%;
-    background-color: #ffffff;
-    height: 4px;
+
+.devonfw .markdown h1::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 15px;
+  margin: 10px 0px;
+  width: 15%;
+  background-color: #ffffff;
+  height: 4px;
 }
- .devonfw .markdown a{
+
+.devonfw .markdown a {
   border-color: #FFFFFF;
   color: #FFFFFF;
 }
 
- .devonfw .markdown a:hover {
+.devonfw .markdown a:hover {
   border-color: #FFFFFF;
   color: #4bbdec;
   background-color: #FFFFFF;
 }
 
+
 /**Media query*/
 
-@media (max-width: 767px) {
-   .devonfw {
-   text-align: center!important;
- } 
-
-  .devonfw h1{
-     margin-top: 10%;
-  }
-  .devonfw .markdown h1::after{ 
-       width: 15%;
-       margin-right:35%;
-       margin-left:43%;
-  }
-  .devonfw {
-   background-image:none;
-   }
-  .devonfw img{
-    width: 100px;
-    padding-top: 40px;
-    text-align: center;
-    }
-}
-@media only screen and (max-width: 1023px) and (min-width: 768px)  {
-  
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
   .devonfw {
     background-position-x: -250px;
   }
-  .devonfw .markdown p{
+  .devonfw .markdown p {
     text-align: right
+  }
+  .devonfw .markdown h1 {
+    text-align: right;
+  }
+    .devonfw .markdown a {
+      text-align: center;
+    }
 }
+
+@media (max-width: 767px) {
+  .devonfw {
+    text-align: center!important;
+  }
+  .devonfw h1 {
+    margin-top: 10%;
+  }
+  .devonfw .markdown h1::after {
+    width: 15%;
+    margin-right: 35%;
+    margin-left: 43%;
+  }
+  .devonfw {
+    background-image: none;
+  }
+  .devonfw img {
+    width: 100px;
+    padding-top: 40px;
+    text-align: center;
+  }
 }
