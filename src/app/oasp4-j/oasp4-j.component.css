@@ -66,6 +66,36 @@
   text-align: center;
 }
 
+.timeline {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.timeline-centered .timeline-entry {
+  width: 100%;
+}
+
+.timeline-centered:before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 2px;
+  background: #58ACFA;
+  left: 0%;
+  top: 0px;
+  bottom: 0px;
+  margin-left: 12px;
+}
+
+.media-body p {
+  padding-top: 0px;
+  text-align: left;
+}
+
+.media-body .description{
+  padding-top: 15px;
+}
+
 
 /**Markdown styles**/
 
@@ -336,6 +366,12 @@ ul.sidebar-nav-list ul.dropdown-submenu li a:hover {
     position: fixed;
     top: 73px;
     width: 100%;
+  }
+  .about .nav-pills .nav-item.show .nav-link,
+  .nav-pills .nav-link:hover {
+    color: #4bbdec;
+    border-bottom: 3px solid #4bbdec !important;
+    border-radius: 0px;
   }
   .tl.markdown h4 {
     padding: 70px 0px 0px 0px;

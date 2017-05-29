@@ -155,11 +155,6 @@ li {
 
 @media only screen and (max-width: 992px) and (min-width: 768px) {
   .about {
-    background: url("../../assets/images/on_the_flexible_solution.png")0px 540px, url("../../assets/images/corte_2.png") -695px -300px;
-    background-size: 180%;
-    background-repeat: no-repeat;
-    box-shadow: 0 0 30px rgba(68, 68, 68, 0.3);
-    padding: 40px 0px 30px;
-    height: 700px;
+    background-size: 200%;
   }
 }

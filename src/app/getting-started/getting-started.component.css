@@ -100,43 +100,9 @@
   padding: 50px 0px;
 }
 
-.timeline-centered .timeline-entry:before,
-.timeline-centered .timeline-entry:after {
-  content: " ";
-  display: table;
-}
-
-.timeline-centered .timeline-entry:after {
-  clear: both;
-}
-
-.timeline-centered .timeline-entry:before,
-.timeline-centered .timeline-entry:after {
-  content: " ";
-  display: table;
-}
-
-.timeline-centered .timeline-entry:after {
-  clear: both;
-}
-
-.timeline-centered .timeline-entry.begin {
-  margin-bottom: 0;
-}
-
-.timeline-centered .timeline-entry.left-aligned {
-  float: left;
-}
-
 .timeline-centered .timeline-entry.left-aligned .timeline-entry-inner {
   margin-left: 0;
   margin-right: -18px;
-}
-
-.timeline-centered .timeline-entry.left-aligned .timeline-entry-inner .timeline-time {
-  left: auto;
-  right: -100px;
-  text-align: left;
 }
 
 .timeline-centered .timeline-entry.left-aligned .timeline-entry-inner .timeline-icon {
@@ -148,44 +114,9 @@
   margin-left: 0;
 }
 
-.timeline-centered .timeline-entry.left-aligned .timeline-entry-inner .timeline-label:after {
-  left: auto;
-  right: 0;
-  margin-left: 0;
-  margin-right: -9px;
-  -moz-transform: rotate(180deg);
-  -o-transform: rotate(180deg);
-  -webkit-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  transform: rotate(180deg);
-}
-
 .timeline-centered .timeline-entry .timeline-entry-inner {
   position: relative;
   margin-left: -22px;
-}
-
-.timeline-centered .timeline-entry .timeline-entry-inner .timeline-time {
-  position: absolute;
-  left: -100px;
-  text-align: right;
-  padding: 10px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-.timeline-centered .timeline-entry .timeline-entry-inner .timeline-time>span {
-  display: block;
-}
-
-.timeline-centered .timeline-entry .timeline-entry-inner .timeline-time>span:first-child {
-  font-size: 15px;
-  font-weight: bold;
-}
-
-.timeline-centered .timeline-entry .timeline-entry-inner .timeline-time>span:last-child {
-  font-size: 12px;
 }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon {
@@ -212,8 +143,8 @@
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2,
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label p {
-  color: #737881;
-  font-family: "Noto Sans", sans-serif;
+  color: #585657;
+  font-family: Montserrat-Regular;
   font-size: 12px;
   margin: 0;
   line-height: 1.428571429;

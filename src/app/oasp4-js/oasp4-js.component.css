@@ -321,10 +321,15 @@ ul.sidebar-nav-list ul.dropdown-submenu li a:hover {
     top: 73px;
     width: 100%;
   }
+  .about .nav-pills .nav-item.show .nav-link,
+  .nav-pills .nav-link:hover {
+    color: #4bbdec;
+    border-bottom: 3px solid #4bbdec !important;
+    border-radius: 0px;
+  }
   .tl.markdown h4 {
     padding: 70px 10px 0px 10px;
     font-family: montserrat-Regular;
     text-align: center;
   }
-
 }
