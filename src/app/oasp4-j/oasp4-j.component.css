@@ -72,7 +72,7 @@
 }
 
 .timeline-centered .timeline-entry {
-  width:85%;
+  width: 85%;
 }
 
 .timeline-centered:before {
@@ -84,7 +84,7 @@
   left: 15%;
   top: 0px;
   bottom: 0px;
-  margin-left: 12px;
+  margin-left: 8px;
 }
 
 .media-body p {
@@ -92,7 +92,7 @@
   text-align: left;
 }
 
-.media-body .description{
+.media-body .description {
   padding-top: 15px;
 }
 
@@ -271,7 +271,7 @@ ul.sidebar-nav-list {
 }
 
 ul.sidebar-nav-list li {
-  padding: 0px;
+  padding-top: 3px !important;
 }
 
 ul.sidebar-nav-list li.dropdown a {
@@ -315,6 +315,41 @@ ul.sidebar-nav-list ul.dropdown-submenu li a:hover {
   border-left: 10px solid transparent;
   list-style: none;
   font-weight: normal;
+}
+
+.timeline h1::before,
+.timeline h1::after {
+  width: 0%
+}
+
+.timeline h1 {
+  padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+  .oasp4j-container {
+    padding-top: 74px;
+  }
+  .roadmap .main-title.markdown {
+    background-size: 250%;
+    background-position-x: -580px;
+    background-position-y: -300px;
+  }
+  .roadmap {
+    background-position-x: -250px;
+    background-position-y: 230px;
+  }
+  .roadmap h1::before,
+  .roadmap h1::after {
+    width: 10%;
+  }
+  .timeline h1::before,
+  .timeline h1::after {
+    width: 0%
+  }
+  .timeline h1 {
+    padding-bottom: 10px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -377,5 +412,8 @@ ul.sidebar-nav-list ul.dropdown-submenu li a:hover {
     padding: 70px 0px 0px 0px;
     font-family: montserrat-Regular;
     text-align: center;
+  }
+  .timeline-centered {
+    margin-top: 43px;
   }
 }

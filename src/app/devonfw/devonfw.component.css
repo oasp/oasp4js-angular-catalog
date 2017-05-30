@@ -76,6 +76,8 @@
     width: 15%;
     margin-right: 35%;
     margin-left: 43%;
+    position: relative;
+    right: 0px;
   }
   .devonfw {
     background-image: none;

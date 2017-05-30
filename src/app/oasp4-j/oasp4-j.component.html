@@ -1,7 +1,7 @@
 <div class="container-fluid oasp4j-container">
   <div class="row">
     <!-- Sidebar -->
-    <div class="col-md-3 sidebar-left">
+    <div class="col-lg-3 col-md-4 sidebar-left">
       <div class="sidebar-nav">
         <ul class="sidebar-nav-list">
           <li class="dropdown">
@@ -24,7 +24,7 @@
 
     <!--Overview-->
 
-    <div class="hidden-sm-down col-md-9 col-sm-7 col-12 content-roadmap">
+    <div class="hidden-sm-down col-lg-9 col-md-8 col-sm-7 col-12 content-roadmap">
       <div class="roadmap">
         <div class="markdown main-title">
           <markdown [path]="'../../assets/content/OASP4J/header.md'"></markdown>
@@ -41,8 +41,8 @@
           <markdown [path]="'../../assets/content/OASP4J/overview/modules.md'"></markdown>
         </div>
         <!--Getting started-->
-        <h1 id="get-start4j">Getting started</h1>
         <div class="timeline col-lg-12  col-md-12 col-sm-6">
+          <h1 class="timeline-started" id="get-start4j">Getting started</h1>
           <div class=" timeline-centered">
             <article class="timeline-entry">
               <div class="timeline-entry-inner">
@@ -52,7 +52,9 @@
                 <div class="timeline-label">
                   <div class="media">
                     <div class="media-left">
-                      <img class="d-flex align-self-start mr-3" src="../../assets/images/read_icon.png">
+                      <a href="http://oasp.github.io/oasp4j_content/2.3.0/OASP4J.pdf">
+                        <img class="d-flex align-self-start mr-3" src="../../assets/images/read_icon.png">
+                      </a>
                     </div>
                     <div class="media-body">
                       <p>Read the platform GUIDE</p>
@@ -70,7 +72,9 @@
                 <div class="timeline-label">
                   <div class="media ">
                     <div class="media-left">
-                      <img class="d-flex align-self-start mr-3" src="../../assets/images/view_icon.png">
+                      <a href="http://oasp-ci.cloudapp.net/oasp4j-sample/jsclient/">
+                        <img class="d-flex align-self-start mr-3" src="../../assets/images/view_icon.png">
+                      </a>
                     </div>
                     <div class="media-body">
                       <p>View the demo tutorial</p>
@@ -90,7 +94,9 @@
                 <div class="timeline-label">
                   <div class="media ">
                     <div class="media-left">
-                      <img class="d-flex align-self-start mr-3" src="../../assets/images/enviroment_icon.png ">
+                      <a href="https://github.com/oasp/oasp4j/wiki/oasp-ide-setup">
+                        <img class="d-flex align-self-start mr-3" src="../../assets/images/enviroment_icon.png">
+                      </a>
                     </div>
                     <div class="media-body">
                       <p>Setup the develop enviroment</p>
@@ -108,7 +114,9 @@
                 <div class="timeline-label">
                   <div class="media ">
                     <div class="media-left">
-                      <img class="d-flex align-self-start mr-3" src="../../assets/images/code_icon.png">
+                      <a href="http://github.com/oasp/oasp4j/">
+                        <img class="d-flex align-self-start mr-3" src="../../assets/images/code_icon.png">
+                      </a>
                     </div>
                     <div class="media-body">
                       <p>Get the code</p>
@@ -189,6 +197,109 @@
             </div>
             <div class="markdown over" id="modules">
               <markdown [path]="'../../assets/content/OASP4J/overview/modules.md'"></markdown>
+            </div>
+          </ng-template>
+        </ngb-tab>
+        <ngb-tab title="Getting started">
+          <ng-template ngbTabContent>
+            <div class="timeline col-12 ">
+              <div class=" timeline-centered ">
+                <article class="timeline-entry">
+                  <div class="timeline-entry-inner">
+                    <div class="timeline-icon">
+                      <i class="entypo-feather"></i> 1
+                    </div>
+                    <div class="timeline-label">
+                      <div class="media">
+                        <div class="media-left">
+                          <img class="d-flex align-self-start mr-3" src="../../assets/images/read_icon.png">
+                        </div>
+                        <div class="media-body">
+                          <p>Read the platform GUIDE</p>
+                          <p class="description">First things first. Start your way through OASP by reading the OASP4j Platform Guide</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+                <article class="timeline-entry">
+                  <div class="timeline-entry-inner">
+                    <div class="timeline-icon">
+                      <i class="entypo-feather"></i> 2
+                    </div>
+                    <div class="timeline-label">
+                      <div class="media ">
+                        <div class="media-left">
+                          <img class="d-flex align-self-start mr-3" src="../../assets/images/view_icon.png">
+                        </div>
+                        <div class="media-body">
+                          <p>View the demo tutorial</p>
+                          <p class="description">There is currently one rather technical demo, simulating a few use cases of a restaurant management
+                            application
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+                <article class="timeline-entry">
+                  <div class="timeline-entry-inner ">
+                    <div class="timeline-icon">
+                      <i class="entypo-feather"></i> 3
+                    </div>
+                    <div class="timeline-label">
+                      <div class="media ">
+                        <div class="media-left">
+                          <img class="d-flex align-self-start mr-3" src="../../assets/images/enviroment_icon.png ">
+                        </div>
+                        <div class="media-body">
+                          <p>Setup the develop enviroment</p>
+                          <p class="description">The OASP IDE setup guide will guide you how to get your development environment up and running.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+                <article class="timeline-entry">
+                  <div class="timeline-entry-inner">
+                    <div class="timeline-icon">
+                      <i class="entypo-feather "></i> 4
+                    </div>
+                    <div class="timeline-label">
+                      <div class="media ">
+                        <div class="media-left">
+                          <img class="d-flex align-self-start mr-3" src="../../assets/images/code_icon.png">
+                        </div>
+                        <div class="media-body">
+                          <p>Get the code</p>
+                          <p class="description">Once you are able to code applications with OASP support you surely want to take a peek to the
+                            technology underneath and be able to customize for your needs.The code is hosted on Github, here
+                            are the main repositories
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+                <article class="timeline-entry">
+                  <div class="timeline-entry-inner">
+                    <div class="timeline-icon">
+                      <i class="entypo-feather "></i> 5
+                    </div>
+                    <div class="timeline-label">
+                      <div class="media ">
+                        <div class="media-left">
+                          <img class="d-flex align-self-start mr-3" src="../../assets/images/help_icon.png">
+                        </div>
+                        <div class="media-body">
+                          <p>Help making OASP even better</p>
+                          <p class="description">Remember this is a joint effort and you are welcome to contribute.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
             </div>
           </ng-template>
         </ngb-tab>
