@@ -157,4 +157,7 @@ li {
   .about {
     background-size: 200%;
   }
+  .img-resp {
+    max-width: inherit;
+  }
 }

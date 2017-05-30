@@ -48,7 +48,13 @@ p {
   padding: 20px 0px;
 }
 
-@media only screen and (max-width: 1023px) and (min-width: 768px) {
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+  .universityActivities {
+    background-position-y: 340px;
+  }
+}
+
+@media only screen and (max-width: 998px) and (min-width: 768px) {
   .universityActivities {
     background-position-y: 394px;
   }

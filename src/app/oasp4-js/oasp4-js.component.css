@@ -286,7 +286,17 @@ ul.sidebar-nav-list ul.dropdown-submenu li a:hover {
 
 /** Media query*/
 
-@media only screen and (max-width: 992px) and (min-width: 768px) {
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+  .roadmap .main-title.markdown {
+    background-position-x: -384px;
+    background-position-y: -650px;
+  }
+  .roadmap {
+    background-position-x: -260px;
+  }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
   .roadmap .main-title.markdown {
     background-size: 250%;
     background-position-x: -580px;
@@ -344,6 +354,7 @@ ul.sidebar-nav-list ul.dropdown-submenu li a:hover {
     width: 100%;
     padding-left: 0px;
     padding-right: 0px;
+    padding-top: 10px;
   }
   .tabset4js ul.nav-pills {
     height: 42px;
@@ -352,6 +363,8 @@ ul.sidebar-nav-list ul.dropdown-submenu li a:hover {
     position: fixed;
     top: 73px;
     width: 100%;
+    z-index: 900;
+    font-size: 76%;
   }
   .about .nav-pills .nav-item.show .nav-link,
   .nav-pills .nav-link:hover {
@@ -359,9 +372,11 @@ ul.sidebar-nav-list ul.dropdown-submenu li a:hover {
     border-bottom: 3px solid #4bbdec !important;
     border-radius: 0px;
   }
+
   .tl.markdown h4 {
     padding: 70px 10px 0px 10px;
     font-family: montserrat-Regular;
     text-align: center;
   }
+    .roadmap.tl.markdown{ padding-top: 70px;}
 }

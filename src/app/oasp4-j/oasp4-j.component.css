@@ -91,6 +91,10 @@
   padding-top: 0px;
   text-align: left;
 }
+.media-body a p{
+  color: #4bbdec !important;
+  text-decoration: underline;
+  }
 
 .media-body .description {
   padding-top: 15px;
@@ -326,7 +330,25 @@ ul.sidebar-nav-list ul.dropdown-submenu li a:hover {
   padding-bottom: 10px;
 }
 
-@media only screen and (max-width: 992px) and (min-width: 768px) {
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+  .roadmap .main-title.markdown {
+    background-position-x: -384px;
+    background-position-y: -650px;
+  }
+  .roadmap {
+    background-position-x: -260px;
+  }
+  .roadmap .markdown {
+    padding: 2em 0px;
+  }
+  .over.markdown a {
+    width: 214px;
+    height: auto;
+    margin-left: 0px !important;
+  }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
   .oasp4j-container {
     padding-top: 74px;
   }
@@ -388,11 +410,13 @@ ul.sidebar-nav-list ul.dropdown-submenu li a:hover {
   }
   .tl.markdown ul li {
     text-align: left;
+    font-size: 75%;
   }
   .tabset4j .nav-pills .nav-item {
     width: 100%;
     padding-left: 0px;
     padding-right: 0px;
+    padding-top: 10px;
   }
   .tabset4j ul.nav-pills {
     height: 42px;
@@ -401,6 +425,8 @@ ul.sidebar-nav-list ul.dropdown-submenu li a:hover {
     position: fixed;
     top: 73px;
     width: 100%;
+    z-index: 900;
+    font-size: 76%;
   }
   .about .nav-pills .nav-item.show .nav-link,
   .nav-pills .nav-link:hover {
