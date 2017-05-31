@@ -135,7 +135,13 @@ hr {
   transition: all .2s ease-in-out;
 }
 
+.modal-header {
+  background-color: #4bbdec;
+}
 
+.modal-header h4 {
+  color: white;
+}
 
 @media (max-width: 900px) {
   nav.navbar {

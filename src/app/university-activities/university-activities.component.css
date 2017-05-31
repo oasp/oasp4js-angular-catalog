@@ -4,7 +4,7 @@
   background-size: contain;
   background-position-y: 250px;
   padding-bottom: 4em;
-  padding-top: 80px;
+  padding-top: 120px;
 }
 
 .btn-primary {
@@ -51,17 +51,20 @@ p {
 @media only screen and (max-width: 1199px) and (min-width: 992px) {
   .universityActivities {
     background-position-y: 340px;
+    padding-top: 80px;
   }
 }
 
 @media only screen and (max-width: 998px) and (min-width: 768px) {
   .universityActivities {
     background-position-y: 394px;
+    padding-top: 80px;
   }
 }
 
 @media (max-width: 767px) {
   .universityActivities {
     background-position-y: 450px;
+    padding-top: 80px;
   }
 }

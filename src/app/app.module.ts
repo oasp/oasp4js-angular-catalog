@@ -22,6 +22,8 @@ import { DevonfwComponent } from './devonfw/devonfw.component';
 import { UniversityActivitiesComponent } from './university-activities/university-activities.component';
 import { SliderComponent } from './slider/slider.component';
 import { MarkdownModule } from 'angular2-markdown';
+import { NgbModalComponent } from './ngb-modal/ngb-modal.component';
+import { NgbModalCollaborationComponent } from './ngb-modal-collaboration/ngb-modal-collaboration.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'oasp', pathMatch: 'full' },
@@ -51,6 +53,8 @@ const routes: Routes = [
     DevonfwComponent,
     UniversityActivitiesComponent,
     SliderComponent,
+    NgbModalComponent,
+    NgbModalCollaborationComponent,
   ],
   imports: [
     BrowserModule,
