@@ -60,10 +60,14 @@
   vertical-align: middle;
 }
 
-.roadmap h4 {
-  padding: 70px 0px 0px 0px;
+.tl.markdown h4 {
+  padding: 35px 0;
+  margin: 35px 16px 0 16px;
   font-family: montserrat-Regular;
   text-align: center;
+  color: #ffffff;
+  background: #4bbdec;
+  border-radius: 12px;
 }
 
 .timeline {
@@ -90,17 +94,19 @@
 .media-body p {
   padding-top: 0px;
   text-align: left;
+  font-weight: 700 !important;
+  font-size: 11pt !important;
 }
 
 .media-body a p {
   color: #4bbdec !important;
   text-decoration: none;
   font-weight: 700 !important;
-  font-size: 11pt;
 }
 
 .media-body .description {
   padding-top: 15px;
+  font-weight: normal !important;
 }
 
 
@@ -441,9 +447,13 @@ ul.sidebar-nav-list ul.dropdown-submenu li a:hover {
     border-radius: 0px;
   }
   .tl.markdown h4 {
-    padding: 70px 0px 0px 0px;
+    padding: 35px 0;
+    margin: 50px 16px 0 16px;
     font-family: montserrat-Regular;
     text-align: center;
+    color: #ffffff;
+    background: #4bbdec;
+    border-radius: 12px;
   }
   .timeline-centered {
     margin-top: 43px;

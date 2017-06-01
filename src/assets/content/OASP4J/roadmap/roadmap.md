@@ -1,5 +1,4 @@
-#### Upcoming release
-#### oasp v2.3.0
+####  Upcoming release: oasp v2.3.0
 
 **Main features**
 
@@ -23,8 +22,7 @@ Half-Yearly Major Release Released mid December 2016
 - Added subsystem tests of SalesmanagementRestServices and several other tests
 - Added test to test java packages conformance to OASP conventions
 
-#### Upcoming Release
-#### oasp v2.3.0
+#### Upcoming release: oasp v2.3.0
 
 **Main features**
 

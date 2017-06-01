@@ -61,9 +61,23 @@
 }
 
 .roadmap h4 {
-  padding: 70px 0px 0px 0px;
+  padding: 35px 0;
+  margin: 35px 16px 0 16px;
   font-family: montserrat-Regular;
   text-align: center;
+  color: black;
+  background: transparent;
+  border-radius: 12px;
+}
+
+.tl.markdown h4 {
+  padding: 35px 0;
+  margin: 35px 16px 0 16px;
+  font-family: montserrat-Regular;
+  text-align: center;
+  color: #ffffff;
+  background: #4bbdec;
+  border-radius: 12px;
 }
 
 
@@ -282,7 +296,12 @@ ul.sidebar-nav-list ul.dropdown-submenu li a:hover {
 .timeline h1 {
   padding-bottom: 10px;
 }
-
+.media-body a p {
+  color: #4bbdec !important;
+  text-decoration: none;
+  font-weight: 700 !important;
+  font-size: 11pt;
+}
 
 /** Media query*/
 
@@ -372,11 +391,16 @@ ul.sidebar-nav-list ul.dropdown-submenu li a:hover {
     border-bottom: 3px solid #4bbdec !important;
     border-radius: 0px;
   }
-
   .tl.markdown h4 {
-    padding: 70px 10px 0px 10px;
+    padding: 35px 0;
+    margin: 50px 20px 0 20px;
     font-family: montserrat-Regular;
     text-align: center;
+    color: #ffffff;
+    background: #4bbdec;
+    border-radius: 12px;
   }
-    .roadmap.tl.markdown{ padding-top: 70px;}
+  .roadmap.tl.markdown {
+    padding-top: 70px;
+  }
 }
