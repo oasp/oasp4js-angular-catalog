@@ -1,5 +1,3 @@
-# ROADMAP
-
 #### Upcoming release
 #### oasp v2.3.0
 

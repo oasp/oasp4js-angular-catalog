@@ -91,10 +91,13 @@
   padding-top: 0px;
   text-align: left;
 }
-.media-body a p{
+
+.media-body a p {
   color: #4bbdec !important;
-  text-decoration: underline;
-  }
+  text-decoration: none;
+  font-weight: 700 !important;
+  font-size: 11pt;
+}
 
 .media-body .description {
   padding-top: 15px;
@@ -377,6 +380,9 @@ ul.sidebar-nav-list ul.dropdown-submenu li a:hover {
 @media (max-width: 767px) {
   .oasp4j-container {
     padding-top: 73px;
+  }
+  .tl.markdown h1 {
+    display: none;
   }
   .roadmap .main-title.markdown {
     background-color: #4bbdec;
