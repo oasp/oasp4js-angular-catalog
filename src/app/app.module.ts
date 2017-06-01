@@ -24,6 +24,7 @@ import { SliderComponent } from './slider/slider.component';
 import { MarkdownModule } from 'angular2-markdown';
 import { NgbModalComponent } from './ngb-modal/ngb-modal.component';
 import { NgbModalCollaborationComponent } from './ngb-modal-collaboration/ngb-modal-collaboration.component';
+import { Oasp4FnComponent } from './oasp4-fn/oasp4-fn.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'oasp', pathMatch: 'full' },
@@ -55,6 +56,7 @@ const routes: Routes = [
     SliderComponent,
     NgbModalComponent,
     NgbModalCollaborationComponent,
+    Oasp4FnComponent,
   ],
   imports: [
     BrowserModule,
