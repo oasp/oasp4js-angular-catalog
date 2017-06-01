@@ -1,4 +1,14 @@
-#### Notes on Contribution
+
+##### Contribute:
+[OASP4J on github](https://github.com/oasp/oasp4j)
+[OASP4JS on github](https://github.com/oasp/oasp4js)
+
+##### Contact/Support:
+[community support](mailto:icsdoaspsupport.apps2@capgemini.com)
+[community forum](https://groups.google.com/forum/?nomobile=true#!forum/oasp)
+
+#### Notes on Contribution:
+
 OASP is organized in a way that it is easy for you to contribute. Therefore we have chosen to use github - the number one platform for social coding - which provides lean processes and great tooling.
 
 In order to contribute code we use git and github pull-requests. Lead developers can directly commit to the git repository while (later) everybody can clone and fork the repository and create pull-requests. These can be reviewed, commented and discussed and finally integrated (or rejected).

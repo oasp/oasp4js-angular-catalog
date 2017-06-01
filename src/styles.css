@@ -142,6 +142,16 @@ hr {
 .modal-header h4 {
   color: white;
 }
+.modal-body .markdown p{
+  text-align: left;
+  font-style: normal;
+}
+.modal-body .markdown li{
+  text-align: left;
+}
+.modal-body .markdown a{
+  text-align: center;
+}
 
 @media (max-width: 900px) {
   nav.navbar {

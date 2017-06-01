@@ -32,3 +32,5 @@ Currently we are cooperating with a number of universities that take OASP as arc
 f you are interested in starting your own graduate-activity on the grounds of OASP please get in touch. We would be quite happy to receive your application.
 
 If you don't have a distinct idea what to do, just let us know your field of interest, so we will be happy to suggest a topic.
+
+[Get in touch](mailto:icsdoaspsupport.apps2@capgemini.com)
