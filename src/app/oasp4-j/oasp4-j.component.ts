@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router, NavigationEnd } from '@angular/router';
 
 @Component({
   selector: 'app-oasp4-j',
@@ -6,13 +7,22 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./oasp4-j.component.css']
 })
 export class OASP4JComponent implements OnInit {
-
-  constructor() { }
-
+  public current: any;
+  constructor(private router: Router) {
+    this.router.events.subscribe((val: NavigationEnd) => {
+      this.current = val.url;
+    });
+  }
   ngOnInit() {
   }
   onclick(menuItem) {
-    
-  }
 
+  }
+  isCurrentPath(path) {
+    if (this.current === undefined) {
+      return false;
+    }
+    const x = this.current.split('#')[0] || this.current;
+    return x === path;
+  }
 }
