@@ -279,7 +279,7 @@
 }
 
 .sidebar-nav .active {
-  border-bottom: red solid 3px;
+  background-color: red !important;
 }
 
 ul.sidebar-nav-list {
@@ -298,6 +298,12 @@ ul.sidebar-nav-list li {
 }
 
 ul.sidebar-nav-list li.dropdown a {
+  padding: 14px;
+  background-color: #ffffff;
+  border-left: 6px solid #4bbdec;
+  font-weight: 500;
+}
+ul.sidebar-nav-list li.dropdown a:hover {
   padding: 14px;
   background-color: #ffffff;
   border-left: 6px solid #4bbdec;
@@ -337,7 +343,6 @@ ul.sidebar-nav-list ul.dropdown-submenu li a:hover {
   color: #4bbdec;
   border-left: 10px solid transparent;
   list-style: none;
-  font-weight: normal;
 }
 
 .timeline h1::before,

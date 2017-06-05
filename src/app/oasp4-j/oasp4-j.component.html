@@ -5,7 +5,7 @@
       <div class="sidebar-nav">
         <ul class="sidebar-nav-list">
           <li class="dropdown">
-            <a href="oasp4j#over-view">Overview</a>
+            <a href="oasp4j#over-view" [ngClass]="{'active': isCurrentPath('/oasp4j#over-view')}">Overview</a>
             <ul class="dropdown-submenu">
               <li><a href="oasp4j#documentacion">Documentation</a></li>
               <li><a href="oasp4j#modules">Modules</a></li>
@@ -36,11 +36,11 @@
         </div>
         <div class="markdown over" id="modules">
           <markdown [path]="'../../assets/content/OASP4J/overview/modules.md'"></markdown>
-          <div id="get-start4j"></div>
         </div>
         <div class="markdown over" id="sample-app">
           <markdown [path]="'../../assets/content/OASP4J/overview/sample-app.md'"></markdown>
         </div>
+        <div id="get-start4j"></div>
         <!--Getting started-->
         <div class="timeline col-lg-12  col-md-12 col-sm-6">
           <h1 class="timeline-started">Getting started</h1>
