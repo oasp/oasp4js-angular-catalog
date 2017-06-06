@@ -30,7 +30,7 @@ Run `ng build --aot` in order to build a more secure and faster application.
 
 ## Markdown content
 
-Inside the `assets/content` folder you will find the different folders with the markdown contents for the different pages. This files are already linked inside the Angular templates.
+Inside the [`src/assets/content`](https://github.com/oasp/oasp-new-website/tree/master/src/assets/content) folder you will find the different folders with the markdown contents for the different pages. This files are already linked inside the Angular templates.
 
 ## Deploy to Github pages
 
