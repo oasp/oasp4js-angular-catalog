@@ -10,6 +10,16 @@ Install globally TypeScript and the Angular CLI:
 npm install -g typescript angular-cli
 ```
 
+## Installation
+
+Clone this repository and install dependencies with:
+
+```bash
+npm install
+# or
+yarn
+```
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
