@@ -7,7 +7,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 Install globally TypeScript and the Angular CLI:
 
 ```
-npm install -g typescript angular-cli
+npm install -g typescript @angular/cli angular-cli-ghpages
 ```
 
 ## Installation
