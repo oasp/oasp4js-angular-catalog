@@ -1,6 +1,27 @@
 # Angular Component Gallery
 
+Collection of Angular 4 components, sorted on the basis of UI framework
 
-## Further help
+Supported UI Frameworks with basic components
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+1. Material Design
+  - Input
+  - Button
+  - SideNav
+  - DataGrid
+  
+2.Bootstrap
+  - Input
+  - Button
+  - SideNav
+  - DataGrid
+  
+3. PrimeNG
+  - Input
+  - Button
+  - SideNav
+  - DataGrid
+  
+ 4. Misc
+  - ngx-translate
+  - ag-Grid
