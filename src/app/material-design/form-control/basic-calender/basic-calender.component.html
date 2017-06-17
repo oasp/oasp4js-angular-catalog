@@ -1,0 +1,12 @@
+<md-card>
+    <h2 class="example-h2" id="basic-calender">Basic Calender</h2>
+    <section class="example-section">
+      <md-input-container>
+      <input mdInput [mdDatepicker]="picker" placeholder="Choose a date" [(ngModel)]="selectedValue">
+      <button mdSuffix [mdDatepickerToggle]="picker"></button>
+
+      <div class="margin-at-top"></div>
+      <md-datepicker #picker></md-datepicker>
+      </md-input-container>
+    </section>
+</md-card>

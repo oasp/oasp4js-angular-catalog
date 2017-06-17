@@ -1,14 +1,14 @@
 <div class="container-fluid about">
   <div class="container">
     <ngb-tabset type="pills" class="tabset">
-      <ngb-tab title="One Flexible Solution">
+      <ngb-tab title="Material Design">
         <ng-template ngbTabContent>
           <div class="row">
             <div class="col-sm-1 col-md-4 col-6">
               <div class="gallery">
-                <img src="../../assets/images/desktop_icon.png" alt="Desktop apps">
+                <img src="../../assets/images/desktop_icon.png" alt="Desktop apps" >
                 <div class="desc">
-                  <h5>Desktop Apps</h5>
+                  <h5><a class="nav-link" [routerLink]="['/MaterialDesign']">Form Control</a></h5>
                 </div>
               </div>
             </div>
@@ -16,7 +16,7 @@
               <div class="gallery">
                 <img src="../../assets/images/web_icon.png" alt="Desktop apps">
                 <div class="desc">
-                  <h5>Web Apps</h5>
+                  <h5><a class="nav-link" [routerLink]="['/MaterialDesign']">Button</a></h5>
                 </div>
               </div>
             </div>
@@ -24,7 +24,7 @@
               <div class="gallery">
                 <img src="../../assets/images/mobile_icon.png" alt="Mobile apps">
                 <div class="desc">
-                  <h5>Mobile Apps</h5>
+                  <h5><a class="nav-link" [routerLink]="['/MaterialDesign']">SideNav</a></h5>
                 </div>
               </div>
             </div>
@@ -32,188 +32,114 @@
               <div class="gallery">
                 <img src="../../assets/images/batch_icon.png" alt="Desktop apps">
                 <div class="desc">
-                  <h5>Batch processing</h5>
+                  <h5><a class="nav-link" [routerLink]="['/MaterialDesign']">DataGrid</a></h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </ng-template>
+      </ngb-tab>
+
+      <ngb-tab title="Bootstrap">
+        <ng-template ngbTabContent>
+          <div class="row">
+            <div class="col-sm-1 col-md-4 col-6">
+              <div class="gallery">
+                <img src="../../assets/images/desktop_icon.png" alt="Desktop apps">
+                <div class="desc">
+                  <h5>Form Control</h5>
                 </div>
               </div>
             </div>
             <div class="col-sm-1 col-md-4 col-6">
               <div class="gallery">
-                <img src="../../assets/images/integration_icon.png" alt="Desktop apps">
+                <img src="../../assets/images/web_icon.png" alt="Desktop apps">
                 <div class="desc">
-                  <h5>Integration</h5>
+                  <h5>Button</h5>
                 </div>
               </div>
             </div>
             <div class="col-sm-1 col-md-4 col-6">
               <div class="gallery">
-                <img src="../../assets/images/cloud_icon.png" alt="Desktop apps">
+                <img src="../../assets/images/mobile_icon.png" alt="Mobile apps">
                 <div class="desc">
-                  <h5>Cloud</h5>
+                  <h5>SideNav</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-1 col-md-4 col-6">
+              <div class="gallery">
+                <img src="../../assets/images/batch_icon.png" alt="Desktop apps">
+                <div class="desc">
+                  <h5>DataGrid</h5>
                 </div>
               </div>
             </div>
           </div>
         </ng-template>
       </ngb-tab>
-      <ngb-tab title="Architecture Background">
+
+      <ngb-tab title="PrimeNG">
         <ng-template ngbTabContent>
           <div class="row">
-            <div class="col-sm-12 col-12">
-              <img class="img-resp" src="../../assets/images/CG-architectureBackground.png" alt="Arch.Back.">
+            <div class="col-sm-1 col-md-4 col-6">
+              <div class="gallery">
+                <img src="../../assets/images/desktop_icon.png" alt="Desktop apps">
+                <div class="desc">
+                  <h5>Form Control</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-1 col-md-4 col-6">
+              <div class="gallery">
+                <img src="../../assets/images/web_icon.png" alt="Desktop apps">
+                <div class="desc">
+                  <h5>Button</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-1 col-md-4 col-6">
+              <div class="gallery">
+                <img src="../../assets/images/mobile_icon.png" alt="Mobile apps">
+                <div class="desc">
+                  <h5>SideNav</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-1 col-md-4 col-6">
+              <div class="gallery">
+                <img src="../../assets/images/batch_icon.png" alt="Desktop apps">
+                <div class="desc">
+                  <h5>DataGrid</h5>
+                </div>
+              </div>
             </div>
           </div>
         </ng-template>
       </ngb-tab>
-      <ngb-tab title="Architecture Patterns">
+
+      <ngb-tab title="Misc">
         <ng-template ngbTabContent>
           <div class="row">
-            <div class="col-sm-12 col-12">
-              <img class="img-resp" src="../../assets/images/OASP-Layering.png" alt="Arch.Patterns">
+            <div class="col-sm-1 col-md-4 col-6">
+              <div class="gallery">
+                <img src="../../assets/images/desktop_icon.png" alt="Desktop apps">
+                <div class="desc">
+                  <h5>ngx-translate</h5>
+                </div>
+              </div>
             </div>
-          </div>
-        </ng-template>
-      </ngb-tab>
-      <ngb-tab title="Used Technologies">
-        <ng-template ngbTabContent>
-          <div class="row">
-            <div class="col-sm-12 col-12">
-              <img class="img-resp" src="../../assets/images/OASP_technologies_used.png" alt="Technologies used">
-            </div>
-          </div>
-        </ng-template>
-      </ngb-tab>
-      <ngb-tab title="Ide">
-        <ng-template ngbTabContent>
-          <div class="row">
-            <div class="col-sm-12 col-12">
-              <img class="img-resp" src="../../assets/images/IntegratedIDE.png" alt="IDE">
-            </div>
-          </div>
-        </ng-template>
-      </ngb-tab>
-      <ngb-tab title="Examples">
-        <ng-template ngbTabContent>
-          <div class="row">
-            <div class="col-sm-12 col-12">
-              <img class="img-resp"src="../../assets/images/Example_Angular_Restaurant_Screen.png" alt="Examples">
+            <div class="col-sm-1 col-md-4 col-6">
+              <div class="gallery">
+                <img src="../../assets/images/web_icon.png" alt="Desktop apps">
+                <div class="desc">
+                  <h5>ag-Grid</h5>
+                </div>
+              </div>
             </div>
           </div>
         </ng-template>
       </ngb-tab>
     </ngb-tabset>
-
-
-
-    <!--version movil-->
-    <div class="col-10 offset-1 d-sm-none d-md-none d-inline">
-      <ngb-carousel>
-        <ng-template ngbSlide>
-          <div class="row">
-            <div class="col-sm-1 col-md-4 col-6">
-              <div class="gallery">
-                <img src="../../assets/images/desktop_icon.png" alt="Desktop apps">
-                <div class="desc">
-                  Desktop Apps
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-1 col-md-4 col-6">
-              <div class="gallery">
-                <img src="../../assets/images/web_icon.png" alt="Desktop apps">
-                <div class="desc">
-                  Web Apps
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-1 col-md-4 col-6">
-              <div class="gallery">
-                <img src="../../assets/images/mobile_icon.png" alt="Mobile apps">
-                <div class="desc">
-                  Mobile Apps
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-1 col-md-4 col-6">
-              <div class="gallery">
-                <img src="../../assets/images/batch_icon.png" alt="Desktop apps">
-                <div class="desc">
-                  Batch processing
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-1 col-md-4 col-6">
-              <div class="gallery">
-                <img src="../../assets/images/integration_icon.png" alt="Desktop apps">
-                <div class="desc">
-                  Integration
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-1 col-md-4 col-6">
-              <div class="gallery">
-                <img src="../../assets/images/cloud_icon.png" alt="Desktop apps">
-                <div class="desc">
-                  Cloud
-                </div>
-              </div>
-            </div>
-          </div>
-           <div class="carousel-caption">
-            <h3>One flexible solution</h3>
-          </div>
-        </ng-template>
-        <ng-template ngbSlide>
-          <div class="row">
-            <div class="col-sm-12 col-12">
-              <img class="img-resp" src="../../assets/images/CG-architectureBackground.png" alt="Arch.Back.">
-            </div>
-          </div>
-          <div class="carousel-caption">
-            <h3>Architecture background</h3>
-          </div>
-        </ng-template>
-        <ng-template ngbSlide>
-          <div class="row">
-            <div class="col-sm-12 col-12">
-              <img class="img-resp" src="../../assets/images/OASP-Layering.png" alt="Arch.Patterns">
-            </div>
-          </div>
-          <div class="carousel-caption">
-            <h3>Architecture Patterns</h3>
-          </div>
-        </ng-template>
-        <ng-template ngbSlide>
-          <div class="row">
-            <div class="col-sm-12 col-12">
-              <img class="img-resp" src="../../assets/images/OASP_technologies_used.png" alt="Technologies used">
-            </div>
-          </div>
-          <div class="carousel-caption">
-            <h3>Used Technologies</h3>
-          </div>
-        </ng-template>
-        <ng-template ngbSlide>
-          <div class="row">
-            <div class="col-sm-12 col-12">
-              <img class="img-resp" src="../../assets/images/IntegratedIDE.png" alt="IDE">
-            </div>
-          </div>
-          <div class="carousel-caption">
-            <h3>IDE</h3>
-          </div>
-        </ng-template>
-        <ng-template ngbSlide>
-          <div class="row">
-            <div class="col-sm-12 col-12">
-              <img class="img-resp" src="../../assets/images/Example_Angular_Restaurant_Screen.png" alt="Examples">
-            </div>
-          </div>
-          <div class="carousel-caption">
-            <h3>Examples</h3>
-          </div>
-        </ng-template>
-      </ngb-carousel>
-    </div>
-
   </div>
 </div>

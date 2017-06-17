@@ -1,6 +1,4 @@
 .OASP {
-  background: url("../../assets/images/img_1.png") center no-repeat;
-  background-color: #4bbdec;
   background-size: cover;
 }
 
@@ -15,8 +13,8 @@
 }
 
 .OASP .markdown h2 {
-  color: white;
-  font-family: montserrat-Regular;
+  color: #0275d8;
+  font-family: montserrat-Regul#0275d8ar;
   font-size: 24pt;
   line-height: 28pt;
   font-weight: 500;
@@ -53,4 +51,3 @@
     background-size: 500%;
   }
 }
-

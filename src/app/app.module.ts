@@ -1,11 +1,16 @@
+import { platformBrowserDynamic} from '@angular/platform-browser-dynamic';
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppComponent } from './app.component';
-import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { RouterModule, Routes } from '@angular/router';
+import { MdCheckboxModule, MdCardModule, MdInputModule, MdSelectModule, MdDatepickerModule, MdButtonModule} from '@angular/material';
+import { MdSidenavModule, MdGridListModule} from '@angular/material';
+import { ReactiveFormsModule} from '@angular/forms';
+import { MaterialModule, MdNativeDateModule} from '@angular/material';
 import { OASPComponent } from './oasp/oasp.component';
 import { OASP4JComponent } from './oasp4-j/oasp4-j.component';
 import { OASP4JSComponent } from './oasp4-js/oasp4-js.component';
@@ -25,20 +30,27 @@ import { MarkdownModule } from 'angular2-markdown';
 import { NgbModalComponent } from './ngb-modal/ngb-modal.component';
 import { NgbModalCollaborationComponent } from './ngb-modal-collaboration/ngb-modal-collaboration.component';
 import { Oasp4FnComponent } from './oasp4-fn/oasp4-fn.component';
+import { HeaderComponent } from './header/header.component';
+import { MaterialDesignComponent } from './material-design/material-design.component';
+import { MdInputComponent } from './material-design/form-control/md-input.component';
+import { CheckboxComponent } from './material-design/form-control/checkbox/checkbox.component';
+import { InputTextAreaComponent } from './material-design/form-control/input-text-area/input-text-area.component';
+import { DropdownComponent } from './material-design/form-control/dropdown/dropdown.component';
+import { PasswordComponent } from './material-design/form-control/password/password.component';
+import { BasicCalenderComponent } from './material-design/form-control/basic-calender/basic-calender.component';
+import { ButtonComponent } from './material-design/button/button.component';
+import { SidenavComponent } from './material-design/sidenav/sidenav.component';
+import { DatagridComponent } from './material-design/datagrid/datagrid.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'oasp', pathMatch: 'full' },
   { path: 'oasp', component: OASPComponent },
-  { path: 'oasp4j', component: OASP4JComponent },
-  { path: 'oasp4js', component: OASP4JSComponent },
-  { path: 'oasp4net', component: OASP4NETComponent },
-  { path: 'More', component: MoreComponent },
+  { path: 'MaterialDesign', component: MaterialDesignComponent },
 ];
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavBarComponent,
     OASPComponent,
     OASP4JComponent,
     OASP4JSComponent,
@@ -57,14 +69,34 @@ const routes: Routes = [
     NgbModalComponent,
     NgbModalCollaborationComponent,
     Oasp4FnComponent,
+    HeaderComponent,
+    MaterialDesignComponent,
+    MdInputComponent,
+    CheckboxComponent,
+    InputTextAreaComponent,
+    DropdownComponent,
+    PasswordComponent,
+    BasicCalenderComponent,
+    ButtonComponent,
+    SidenavComponent,
+    DatagridComponent,
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     FormsModule,
     HttpModule,
     NgbModule.forRoot(),
     RouterModule.forRoot(routes),
     MarkdownModule.forRoot(),
+    MdCheckboxModule,
+    MdCardModule,
+    MdInputModule,
+    MdSelectModule,
+    MaterialModule,
+    MdNativeDateModule,
+    ReactiveFormsModule,
+    MdDatepickerModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

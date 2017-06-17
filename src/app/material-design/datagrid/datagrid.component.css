@@ -1,0 +1,15 @@
+.margin-at-top {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  height: 30px;
+}
+
+.margin-at-left
+{
+  padding: 0px 40px;
+}
+
+md-grid-tile {
+  background: lightblue;
+}

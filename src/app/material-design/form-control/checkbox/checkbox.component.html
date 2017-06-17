@@ -1,0 +1,26 @@
+<md-card>
+    <h2 class="example-h2">Checkbox configuration</h2>
+
+    <section class="example-section">
+      <md-checkbox class="example-margin" [(ngModel)]="checked">Checked</md-checkbox>
+      <md-checkbox class="example-margin" [(ngModel)]="indeterminate">Indeterminate</md-checkbox>
+    </section>
+
+    <h2 class="example-h2">Result</h2>
+
+    <section class="example-section">
+      <md-checkbox
+          class="example-margin"
+          [checked]="checked"
+          [indeterminate]="indeterminate"
+          >
+        I'm a checkbox
+      </md-checkbox>
+    </section>
+</md-card>
+
+
+
+<!-- Copyright 2017 Google Inc. All Rights Reserved.
+    Use of this source code is governed by an MIT-style license that
+    can be found in the LICENSE file at http://angular.io/license -->
