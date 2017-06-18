@@ -20,7 +20,8 @@
       "prefix": "app",
       "styles": [
         "styles.css",
-        "../node_modules/prismjs/themes/prism-okaidia.css"
+          "theme.scss",
+          "../node_modules/@covalent/core/common/platform.css"
       ],
       "scripts": [],
       "environmentSource": "environments/environment.ts",

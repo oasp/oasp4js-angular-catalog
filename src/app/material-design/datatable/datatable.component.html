@@ -1,0 +1,43 @@
+<div class="margin-at-left">
+<md-card>
+  <h2 class="example-h2">Basic Data Table</h2>
+  <section class="example-container">
+      <td-data-table
+      [data]="basicData"
+      [columns]="columns">
+      <ng-template tdDataTableTemplate="type" let-value="value" let-row="row" let-column="column">
+        <div layout="row">
+          <span flex>{{value}}</span> // or <span flex>{{row[column]}}</span>
+          <md-icon>star</md-icon>
+        </div>
+      </ng-template>
+    </td-data-table>
+</section>
+
+</md-card>
+<div class="margin-at-top"></div>
+<div class="margin-at-top"></div>
+<md-card>
+<h2 class="example-h2">Custom Data Table</h2>
+<section class="example-container">
+  <table td-data-table>
+  <th td-data-table-column>
+    <md-icon>comment</md-icon>
+    <span>Comments</span>
+  </th>
+  <th td-data-table-column
+      *ngFor="let column of columns"
+      [numeric]="column.numeric">
+    {{column.label}}
+  </th>
+  <tr td-data-table-row *ngFor="let row of basicData">
+    <td td-data-table-cell (click)="openPrompt(row, 'comments')">
+      <button md-button [class.mat-accent]="!row['comments']">{{row['comments'] || 'Add Comment'}}</button>
+    </td>
+    <td td-data-table-cell *ngFor="let column of columns" [numeric]="column.numeric">
+      {{column.format ? column.format(row[column.name]) : row[column.name]}}
+    </td>
+  </tr>
+</table>
+</section>
+</md-card>
