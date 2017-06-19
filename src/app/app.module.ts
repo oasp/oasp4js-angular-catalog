@@ -35,20 +35,11 @@ import {
 } from '@angular/material';
 
 // Custom Components
-import { MoreComponent } from './more/more.component';
 import { FooterComponent } from './footer/footer.component';
 import { TabPanelComponent } from './tab-panel/tab-panel.component';
 import { UsedTechnologiesComponent } from './used-technologies/used-technologies.component';
-import { CollaborationContributionComponent } from './collaboration-contribution/collaboration-contribution.component';
-import { TryItComponent } from './try-it/try-it.component';
-import { GettingStartedComponent } from './getting-started/getting-started.component';
-import { FrameworkComponent } from './framework/framework.component';
-import { DevonfwComponent } from './devonfw/devonfw.component';
-import { UniversityActivitiesComponent } from './university-activities/university-activities.component';
 import { SliderComponent } from './slider/slider.component';
 import { MarkdownModule } from 'angular2-markdown';
-import { NgbModalComponent } from './ngb-modal/ngb-modal.component';
-import { NgbModalCollaborationComponent } from './ngb-modal-collaboration/ngb-modal-collaboration.component';
 import { HeaderComponent } from './header/header.component';
 import { MaterialDesignComponent } from './material-design/material-design.component';
 import { MdInputComponent } from './material-design/form-control/md-input.component';
@@ -98,19 +89,10 @@ const routes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-    MoreComponent,
     FooterComponent,
     TabPanelComponent,
     UsedTechnologiesComponent,
-    CollaborationContributionComponent,
-    TryItComponent,
-    GettingStartedComponent,
-    FrameworkComponent,
-    DevonfwComponent,
-    UniversityActivitiesComponent,
     SliderComponent,
-    NgbModalComponent,
-    NgbModalCollaborationComponent,
     HeaderComponent,
     MaterialDesignComponent,
     MdInputComponent,

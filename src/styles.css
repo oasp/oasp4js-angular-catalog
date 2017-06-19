@@ -170,5 +170,4 @@ hr {
   }
 }
 
-@import '../src/app/try-it/try-it.component.css';
 @import '../src/app/tab-panel/tab-panel.component.css';
