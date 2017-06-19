@@ -1,25 +1,25 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Oasp4FnComponent } from './oasp4-fn.component';
+import { PrimengComponent } from './primeng.component';
 
-describe('Oasp4FnComponent', () => {
-  let component: Oasp4FnComponent;
-  let fixture: ComponentFixture<Oasp4FnComponent>;
+describe('PrimengComponent', () => {
+  let component: PrimengComponent;
+  let fixture: ComponentFixture<PrimengComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ Oasp4FnComponent ]
+      declarations: [ PrimengComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(Oasp4FnComponent);
+    fixture = TestBed.createComponent(PrimengComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it('should be created', () => {
     expect(component).toBeTruthy();
   });
 });

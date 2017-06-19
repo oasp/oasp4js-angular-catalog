@@ -35,10 +35,6 @@ import {
 } from '@angular/material';
 
 // Custom Components
-import { OASPComponent } from './oasp/oasp.component';
-import { OASP4JComponent } from './oasp4-j/oasp4-j.component';
-import { OASP4JSComponent } from './oasp4-js/oasp4-js.component';
-import { OASP4NETComponent } from './oasp4-net/oasp4-net.component';
 import { MoreComponent } from './more/more.component';
 import { FooterComponent } from './footer/footer.component';
 import { TabPanelComponent } from './tab-panel/tab-panel.component';
@@ -53,7 +49,6 @@ import { SliderComponent } from './slider/slider.component';
 import { MarkdownModule } from 'angular2-markdown';
 import { NgbModalComponent } from './ngb-modal/ngb-modal.component';
 import { NgbModalCollaborationComponent } from './ngb-modal-collaboration/ngb-modal-collaboration.component';
-import { Oasp4FnComponent } from './oasp4-fn/oasp4-fn.component';
 import { HeaderComponent } from './header/header.component';
 import { MaterialDesignComponent } from './material-design/material-design.component';
 import { MdInputComponent } from './material-design/form-control/md-input.component';
@@ -65,6 +60,12 @@ import { BasicCalenderComponent } from './material-design/form-control/basic-cal
 import { ButtonComponent } from './material-design/button/button.component';
 import { SidenavComponent } from './material-design/sidenav/sidenav.component';
 import { DatatableComponent } from './material-design/datatable/datatable.component';
+import { AngularCompListComponent } from './angular-comp-list/angular-comp-list.component';
+import { BootstrapComponent } from './bootstrap/bootstrap.component';
+import { PrimengComponent } from './primeng/primeng.component';
+import { MiscComponent } from './misc/misc.component';
+
+import 'hammerjs';
 
 const ANGULAR_MODULES: any[] = [
   FormsModule, ReactiveFormsModule,
@@ -86,18 +87,17 @@ const COVALENT_MODULES: any[] = [
 ];
 
 const routes: Routes = [
-  { path: '', redirectTo: 'oasp', pathMatch: 'full' },
-  { path: 'oasp', component: OASPComponent },
+  { path: '', redirectTo: 'angular-comp-list', pathMatch: 'full' },
+  { path: 'angular-comp-list', component: AngularCompListComponent },
   { path: 'MaterialDesign', component: MaterialDesignComponent },
+  { path: 'Bootstrap', component: MaterialDesignComponent },
+  { path: 'PrimeNG', component: MaterialDesignComponent },
+  { path: 'Misc', component: MaterialDesignComponent },
 ];
 
 @NgModule({
   declarations: [
     AppComponent,
-    OASPComponent,
-    OASP4JComponent,
-    OASP4JSComponent,
-    OASP4NETComponent,
     MoreComponent,
     FooterComponent,
     TabPanelComponent,
@@ -111,7 +111,6 @@ const routes: Routes = [
     SliderComponent,
     NgbModalComponent,
     NgbModalCollaborationComponent,
-    Oasp4FnComponent,
     HeaderComponent,
     MaterialDesignComponent,
     MdInputComponent,
@@ -123,6 +122,10 @@ const routes: Routes = [
     ButtonComponent,
     SidenavComponent,
     DatatableComponent,
+    AngularCompListComponent,
+    BootstrapComponent,
+    PrimengComponent,
+    MiscComponent,
   ],
   imports: [
     BrowserModule,
@@ -179,4 +182,5 @@ const routes: Routes = [
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+
+export class AppModule {}

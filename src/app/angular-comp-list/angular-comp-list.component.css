@@ -41,6 +41,13 @@
   }
 }
 
+.margin-at-top {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  height: 70px;
+}
+
 @media (max-width: 767px) {
   .text-xs-center {
     text-align: center;

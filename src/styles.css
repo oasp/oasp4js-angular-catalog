@@ -170,7 +170,5 @@ hr {
   }
 }
 
-@import '../src/app/oasp/oasp.component.css';
 @import '../src/app/try-it/try-it.component.css';
-@import '../src/app/oasp4-js/oasp4-js.component.css';
 @import '../src/app/tab-panel/tab-panel.component.css';

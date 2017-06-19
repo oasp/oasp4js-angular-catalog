@@ -1,25 +1,25 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { OASP4JComponent } from './oasp4-j.component';
+import { MiscComponent } from './misc.component';
 
-describe('OASP4JComponent', () => {
-  let component: OASP4JComponent;
-  let fixture: ComponentFixture<OASP4JComponent>;
+describe('MiscComponent', () => {
+  let component: MiscComponent;
+  let fixture: ComponentFixture<MiscComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ OASP4JComponent ]
+      declarations: [ MiscComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(OASP4JComponent);
+    fixture = TestBed.createComponent(MiscComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it('should be created', () => {
     expect(component).toBeTruthy();
   });
 });

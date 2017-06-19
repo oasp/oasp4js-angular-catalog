@@ -1,25 +1,25 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { OASPComponent } from './oasp.component';
+import { BootstrapComponent } from './bootstrap.component';
 
-describe('OASPComponent', () => {
-  let component: OASPComponent;
-  let fixture: ComponentFixture<OASPComponent>;
+describe('BootstrapComponent', () => {
+  let component: BootstrapComponent;
+  let fixture: ComponentFixture<BootstrapComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ OASPComponent ]
+      declarations: [ BootstrapComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(OASPComponent);
+    fixture = TestBed.createComponent(BootstrapComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it('should be created', () => {
     expect(component).toBeTruthy();
   });
 });
