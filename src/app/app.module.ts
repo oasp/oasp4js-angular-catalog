@@ -20,7 +20,6 @@ import {
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule} from '@angular/forms';
 import { HttpModule } from '@angular/http';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppComponent } from './app.component';
 import { RouterModule, Routes } from '@angular/router';
 
@@ -33,6 +32,9 @@ import {
   MdSlideToggleModule, MdToolbarModule, MdSnackBarModule,
   MdTabsModule,
 } from '@angular/material';
+
+//Bootstrap
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 // Custom Components
 import { FooterComponent } from './footer/footer.component';
@@ -57,6 +59,13 @@ import { PrimengComponent } from './primeng/primeng.component';
 import { MiscComponent } from './misc/misc.component';
 
 import 'hammerjs';
+import { NgBootstrapButtonComponent } from './bootstrap/ng-bootstrap-button/ng-bootstrap-button.component';
+import { NgBootstrapFormControlComponent } from './bootstrap/ng-bootstrap-form-control/ng-bootstrap-form-control.component';
+import { NgBootstrapDropdownComponent } from './bootstrap/ng-bootstrap-form-control/ng-bootstrap-dropdown/ng-bootstrap-dropdown.component';
+import { NgBootstrapTooltipComponent } from './bootstrap/ng-bootstrap-form-control/ng-bootstrap-tooltip/ng-bootstrap-tooltip.component';
+import { NgBootstrapDatepickerComponent } from './bootstrap/ng-bootstrap-form-control/ng-bootstrap-datepicker/ng-bootstrap-datepicker.component';
+import { NgBootstrapCarouselComponent } from './bootstrap/ng-bootstrap-carousel/ng-bootstrap-carousel.component';
+import { NgBootstrapTabsetComponent } from './bootstrap/ng-bootstrap-tabset/ng-bootstrap-tabset.component';
 
 const ANGULAR_MODULES: any[] = [
   FormsModule, ReactiveFormsModule,
@@ -77,13 +86,14 @@ const COVALENT_MODULES: any[] = [
   CovalentCommonModule, CovalentDialogsModule,
 ];
 
+//Routes
 const routes: Routes = [
   { path: '', redirectTo: 'angular-comp-list', pathMatch: 'full' },
   { path: 'angular-comp-list', component: AngularCompListComponent },
   { path: 'MaterialDesign', component: MaterialDesignComponent },
-  { path: 'Bootstrap', component: MaterialDesignComponent },
-  { path: 'PrimeNG', component: MaterialDesignComponent },
-  { path: 'Misc', component: MaterialDesignComponent },
+  { path: 'Bootstrap', component: BootstrapComponent },
+  { path: 'PrimeNG', component: PrimengComponent },
+  { path: 'Misc', component: MiscComponent },
 ];
 
 @NgModule({
@@ -108,6 +118,13 @@ const routes: Routes = [
     BootstrapComponent,
     PrimengComponent,
     MiscComponent,
+    NgBootstrapButtonComponent,
+    NgBootstrapFormControlComponent,
+    NgBootstrapDropdownComponent,
+    NgBootstrapTooltipComponent,
+    NgBootstrapDatepickerComponent,
+    NgBootstrapCarouselComponent,
+    NgBootstrapTabsetComponent,
   ],
   imports: [
     BrowserModule,

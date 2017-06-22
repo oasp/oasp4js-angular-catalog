@@ -1,0 +1,39 @@
+<div class="margin-at-left">
+  <md-card>
+    <section class="example-container">
+
+      <h3>Radio buttons</h3>
+      <div [(ngModel)]="model" ngbRadioGroup name="radioBasic">
+        <label class="btn btn-primary">
+          <input type="radio" [value]="1"> Left (pre-checked)
+        </label>
+        <label class="btn btn-primary">
+          <input type="radio" value="middle"> Middle
+        </label>
+        <label class="btn btn-primary">
+          <input type="radio" [value]="false"> Right
+        </label>
+      </div>
+      <hr>
+      <pre>{{model_1}}</pre>
+
+      <div class="margin-at-top"></div>
+
+      <h3>Checkbox buttons</h3>
+      <div class="btn-group" data-toggle="buttons">
+        <label class="btn btn-primary" [class.active]="model_2.left">
+          <input type="checkbox" [(ngModel)]="model_2.left"> Left (pre-checked)
+        </label>
+        <label class="btn btn-primary" [class.active]="model_2.middle">
+          <input type="checkbox" [(ngModel)]="model_2.middle"> Middle
+        </label>
+        <label class="btn btn-primary" [class.active]="model_2.right">
+          <input type="checkbox" [(ngModel)]="model_2.right"> Right
+        </label>
+      </div>
+      <hr>
+      <pre>{{model_2 | json}}</pre>
+
+    </section>
+  </md-card>
+</div>
