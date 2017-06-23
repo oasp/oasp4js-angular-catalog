@@ -1,3 +1,31 @@
-<p>
-  ng-bootstrap-dropdown works!
-</p>
+<md-card>
+  <h2 class="example-h2" id="basic-calender">Basic datepicker in a popup</h2>
+  <section class="example-section">
+
+    <div class="margin-at-top"></div>
+
+    <div class="row">
+      <div class="col">
+        <div ngbDropdown class="d-inline-block">
+          <button class="btn btn-outline-primary" id="dropdownBasic1" ngbDropdownToggle>Toggle dropdown</button>
+          <div class="dropdown-menu" aria-labelledby="dropdownBasic1">
+            <button class="dropdown-item">Action - 1</button>
+            <button class="dropdown-item">Another Action</button>
+            <button class="dropdown-item">Something else is here</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col text-right">
+        <div ngbDropdown [up]="true" class="d-inline-block">
+          <button class="btn btn-outline-primary" id="dropdownBasic2" ngbDropdownToggle>Toggle dropup</button>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownBasic2">
+            <button class="dropdown-item">Action - 1</button>
+            <button class="dropdown-item">Another Action</button>
+            <button class="dropdown-item">Something else is here</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</md-card>

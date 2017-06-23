@@ -36,6 +36,10 @@ import {
 //Bootstrap
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
+//PrimeNG
+import {AccordionModule} from 'primeng/primeng';     //accordion and accordion tab
+import {MenuItem} from 'primeng/primeng';            //api
+
 // Custom Components
 import { FooterComponent } from './footer/footer.component';
 import { TabPanelComponent } from './tab-panel/tab-panel.component';
