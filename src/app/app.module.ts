@@ -17,6 +17,7 @@ import {
   CovalentCommonModule, CovalentDialogsModule, CovalentExpansionPanelModule
 } from '@covalent/core';
 
+//angular modules
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule} from '@angular/forms';
 import { HttpModule } from '@angular/http';
@@ -37,8 +38,9 @@ import {
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 //PrimeNG
-import {AccordionModule} from 'primeng/primeng';     //accordion and accordion tab
-import {MenuItem} from 'primeng/primeng';            //api
+import {AccordionModule} from 'primeng/primeng';     //accordion and accordion tab          //api
+import { CalendarModule, CheckboxModule, DropdownModule, InputTextModule,
+         ButtonModule, MenubarModule, DataTableModule, SharedModule, } from 'primeng/primeng';
 
 // Custom Components
 import { FooterComponent } from './footer/footer.component';
@@ -70,6 +72,16 @@ import { NgBootstrapTooltipComponent } from './bootstrap/ng-bootstrap-form-contr
 import { NgBootstrapDatepickerComponent } from './bootstrap/ng-bootstrap-form-control/ng-bootstrap-datepicker/ng-bootstrap-datepicker.component';
 import { NgBootstrapCarouselComponent } from './bootstrap/ng-bootstrap-carousel/ng-bootstrap-carousel.component';
 import { NgBootstrapTabsetComponent } from './bootstrap/ng-bootstrap-tabset/ng-bootstrap-tabset.component';
+import { PrimengButtonComponent } from './primeng/primeng-button/primeng-button.component';
+import { PrimengFormControlComponent } from './primeng/primeng-form-control/primeng-form-control.component';
+import { PrimengDatatableComponent } from './primeng/primeng-datatable/primeng-datatable.component';
+import { PrimengMenubarComponent } from './primeng/primeng-menubar/primeng-menubar.component';
+import { PrimengBasicCalenderComponent } from './primeng/primeng-form-control/primeng-basic-calender/primeng-basic-calender.component';
+import { PrimengCheckboxComponent } from './primeng/primeng-form-control/primeng-checkbox/primeng-checkbox.component';
+import { PrimengDropdownComponent } from './primeng/primeng-form-control/primeng-dropdown/primeng-dropdown.component';
+import { PrimengInputTextAreaComponent } from './primeng/primeng-form-control/primeng-input-text-area/primeng-input-text-area.component';
+import { PrimengPasswordComponent } from './primeng/primeng-form-control/primeng-password/primeng-password.component';
+import { CarService } from './service/carservice';
 
 const ANGULAR_MODULES: any[] = [
   FormsModule, ReactiveFormsModule,
@@ -88,6 +100,11 @@ const COVALENT_MODULES: any[] = [
   CovalentNotificationsModule, CovalentLayoutModule, CovalentMenuModule,
   CovalentPagingModule, CovalentSearchModule, CovalentStepsModule,
   CovalentCommonModule, CovalentDialogsModule,
+];
+
+const PRIMENG_MODULES: any[] = [
+  AccordionModule, CalendarModule, CheckboxModule, DropdownModule,
+  InputTextModule, ButtonModule, MenubarModule, DataTableModule, SharedModule,
 ];
 
 //Routes
@@ -129,6 +146,15 @@ const routes: Routes = [
     NgBootstrapDatepickerComponent,
     NgBootstrapCarouselComponent,
     NgBootstrapTabsetComponent,
+    PrimengButtonComponent,
+    PrimengFormControlComponent,
+    PrimengDatatableComponent,
+    PrimengMenubarComponent,
+    PrimengBasicCalenderComponent,
+    PrimengCheckboxComponent,
+    PrimengDropdownComponent,
+    PrimengInputTextAreaComponent,
+    PrimengPasswordComponent,
   ],
   imports: [
     BrowserModule,
@@ -141,7 +167,7 @@ const routes: Routes = [
     RouterModule.forRoot(routes),
     MarkdownModule.forRoot(),
 
-     /** Material Modules */
+    /** Material Modules */
     MdCheckboxModule,
     MdCardModule,
     MdInputModule,
@@ -160,29 +186,41 @@ const routes: Routes = [
     MdTabsModule,
 
     /** Covalent Modules */
-   CovalentHttpModule,
-   CovalentLayoutModule,
-   CovalentExpansionPanelModule,
-   CovalentNotificationsModule,
-   CovalentMenuModule,
-   CovalentMediaModule,
-   CovalentHighlightModule,
-   CovalentMarkdownModule,
-   CovalentDynamicFormsModule,
-   CovalentDataTableModule,
-   CovalentLoadingModule,
-   CovalentPagingModule,
-   CovalentSearchModule,
-   CovalentStepsModule,
-   CovalentCommonModule,
-   CovalentDialogsModule,
+    CovalentHttpModule,
+    CovalentLayoutModule,
+    CovalentExpansionPanelModule,
+    CovalentNotificationsModule,
+    CovalentMenuModule,
+    CovalentMediaModule,
+    CovalentHighlightModule,
+    CovalentMarkdownModule,
+    CovalentDynamicFormsModule,
+    CovalentDataTableModule,
+    CovalentLoadingModule,
+    CovalentPagingModule,
+    CovalentSearchModule,
+    CovalentStepsModule,
+    CovalentCommonModule,
+    CovalentDialogsModule,
+
+    /** PrimeNG Modules */
+    AccordionModule,
+    CalendarModule,
+    CheckboxModule,
+    DropdownModule,
+    InputTextModule,
+    ButtonModule,
+    MenubarModule,
+    DataTableModule,
+    SharedModule,
   ],
   exports: [
     ANGULAR_MODULES,
     MATERIAL_MODULES,
     COVALENT_MODULES,
+    PRIMENG_MODULES,
   ],
-  providers: [],
+  providers: [CarService,],
   bootstrap: [AppComponent]
 })
 

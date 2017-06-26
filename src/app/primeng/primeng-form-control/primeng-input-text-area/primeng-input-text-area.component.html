@@ -1,0 +1,15 @@
+<md-card>
+  <h2 class="example-h2" id="basic-calender">InputText</h2>
+  <md-card>
+    <h3 class="sub-heading">Basic</h3>
+    <input id="in" type="text" size="30" pInputText [(ngModel)]="text">  {{text}}
+  </md-card>
+  <div class="margin-at-top"></div>
+
+  <md-card>
+    <h3 class="sub-heading">Disabled</h3>
+    <input id="in" type="text" size="30" pInputText [disabled]="disabled" />
+
+    <button type="button" (click)="toggleDisabled()" pButton label="Toggle"></button>
+  </md-card>
+</md-card>

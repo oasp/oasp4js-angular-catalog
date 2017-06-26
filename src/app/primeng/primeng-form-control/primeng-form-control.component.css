@@ -1,0 +1,41 @@
+.blocks .btn-primary
+{
+    height: 150px;
+    width: 150px;
+    padding: 24px 12px;
+    margin: 0 20px;
+    border-radius: 0 !important;
+    text-align: center;
+    line-height: 80px;
+    border: 5px;
+    box-shadow:0 1px 2px #5e5d5b;
+    background-color: #4bbdec;
+    border-style: solid;
+  }
+
+  /* unvisited link */
+  a:link {
+      color: white;
+  }
+
+  /* visited link */
+  a:visited {
+      color: white;
+  }
+
+  /* mouse over link */
+  a:hover {
+      color: white;
+  }
+
+  /* selected link */
+  a:active {
+      color: white;
+  }
+
+  .margine-above
+  {
+      padding: 24px 12px;
+      margin: 0 20px;
+      border-radius: 1;
+    }

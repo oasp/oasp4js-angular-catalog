@@ -10,28 +10,20 @@
   padding: 0px 40px;
 }
 
-.example-sidenav-fab-container {
+
+.example-container {
   width: 500px;
-  height: 300px;
+  height: 100px;
   border: 1px solid rgba(0, 0, 0, 0.5);
 }
 
-.example-sidenav-fab-container md-sidenav {
-  max-width: 200px;
-}
-
-.example-sidenav-fab-container .mat-sidenav-content,
-.example-sidenav-fab-container md-sidenav {
+.example-sidenav-content {
   display: flex;
-  overflow: visible;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
-.example-scrolling-content {
-  overflow: auto;
-}
-
-.example-fab {
-  position: absolute;
-  right: 20px;
-  bottom: 10px;
+.example-sidenav {
+  padding: 20px;
 }

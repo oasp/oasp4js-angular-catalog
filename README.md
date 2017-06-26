@@ -8,20 +8,20 @@ Collection of Angular 4 components, sorted on the basis of UI frameworks.
   - Input
   - Button
   - SideNav
-  - DataGrid
-  
+  - DataTable
+
 2.Bootstrap
   - Input
   - Button
   - SideNav
-  - DataGrid
-  
+  - DataTable
+
 3.PrimeNG
   - Input
   - Button
   - SideNav
-  - DataGrid
-  
+  - DataTable
+
 4.Misc
   - ngx-translate
   - ag-Grid

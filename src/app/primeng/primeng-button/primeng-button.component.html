@@ -1,0 +1,36 @@
+<div class="margin-at-left">
+<md-card>
+  <h2 id="basic-calender">Buttons</h2>
+  <md-card>
+    <h3 class="sub-heading">Basic</h3>
+    <button pButton type="button" (click)="count()" label="Click"></button>
+
+    <button pButton type="button" (click)="count()" icon="fa-check" label="Click"></button>
+
+    <button pButton type="button" (click)="count()" icon="fa-check" iconPos="right" label="Click"></button>
+
+    <button pButton type="button" (click)="count()" icon="fa-check"></button>
+
+    <button pButton type="button" (click)="count()" icon="fa-check" [disabled]="true" label="Disabled"></button>
+
+    Number of clicks: {{clicks}}
+  </md-card>
+  <div class="margin-at-top"></div>
+  <md-card>
+    <h3 class="sub-heading">Severity Buttons</h3>
+    <button pButton type="button" (click)="count()" label="Primary"></button>
+
+    <button pButton type="button" (click)="count()" label="Secondary" class="ui-button-secondary"></button>
+
+    <button pButton type="button" (click)="count()" label="Success" class="ui-button-success"></button>
+
+    <button pButton type="button" (click)="count()" label="Info"  class="ui-button-info"></button>
+
+    <button pButton type="button" (click)="count()" label="Warning"  class="ui-button-warning"></button>
+
+    <button pButton type="button" (click)="count()" label="Danger"  class="ui-button-danger"></button>
+
+  </md-card>
+  <div class="margin-at-top"></div>
+</md-card>
+</div>
