@@ -20,7 +20,7 @@ import {
 //angular modules
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule} from '@angular/forms';
-import { HttpModule } from '@angular/http';
+import { HttpModule, Http } from '@angular/http';
 import { AppComponent } from './app.component';
 import { RouterModule, Routes } from '@angular/router';
 
@@ -40,7 +40,11 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 //PrimeNG
 import {AccordionModule} from 'primeng/primeng';     //accordion and accordion tab          //api
 import { CalendarModule, CheckboxModule, DropdownModule, InputTextModule,
-         ButtonModule, MenubarModule, DataTableModule, SharedModule, } from 'primeng/primeng';
+         ButtonModule, MenubarModule, DataTableModule, SharedModule, DialogModule } from 'primeng/primeng';
+
+//ngx-translate
+import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
 // Custom Components
 import { FooterComponent } from './footer/footer.component';
@@ -82,7 +86,11 @@ import { PrimengDropdownComponent } from './primeng/primeng-form-control/primeng
 import { PrimengInputTextAreaComponent } from './primeng/primeng-form-control/primeng-input-text-area/primeng-input-text-area.component';
 import { PrimengPasswordComponent } from './primeng/primeng-form-control/primeng-password/primeng-password.component';
 import { CarService } from './service/carservice';
+import { NgxTranslateComponent } from './misc/ngx-translate/ngx-translate.component';
+import { AgGridComponent } from './misc/ag-grid/ag-grid.component';
+import { PrimengDatatableCrudComponent } from './primeng/primeng-datatable-crud/primeng-datatable-crud.component';
 
+/*Constants for export*/
 const ANGULAR_MODULES: any[] = [
   FormsModule, ReactiveFormsModule,
 ];
@@ -105,6 +113,7 @@ const COVALENT_MODULES: any[] = [
 const PRIMENG_MODULES: any[] = [
   AccordionModule, CalendarModule, CheckboxModule, DropdownModule,
   InputTextModule, ButtonModule, MenubarModule, DataTableModule, SharedModule,
+  DialogModule,
 ];
 
 //Routes
@@ -116,6 +125,15 @@ const routes: Routes = [
   { path: 'PrimeNG', component: PrimengComponent },
   { path: 'Misc', component: MiscComponent },
 ];
+
+/* ngx-translate:
+  By using "TranslateHttpLoader" two default parameters, it will load translations files for the
+  lang "en" from: /assets/i18n/en.json.
+*/
+// AoT requires an exported function for factories
+export function HttpLoaderFactory(http: Http) {
+    return new TranslateHttpLoader(http, "./assets/i18n/",  ".json");
+}
 
 @NgModule({
   declarations: [
@@ -155,6 +173,9 @@ const routes: Routes = [
     PrimengDropdownComponent,
     PrimengInputTextAreaComponent,
     PrimengPasswordComponent,
+    NgxTranslateComponent,
+    AgGridComponent,
+    PrimengDatatableCrudComponent,
   ],
   imports: [
     BrowserModule,
@@ -163,6 +184,14 @@ const routes: Routes = [
     CommonModule,
     FormsModule,
     HttpModule,
+    /** ngx-translate */
+    TranslateModule.forRoot({
+            loader: {
+                provide: TranslateLoader,
+                useFactory: HttpLoaderFactory,
+                deps: [Http]
+            }
+        }),
     NgbModule.forRoot(),
     RouterModule.forRoot(routes),
     MarkdownModule.forRoot(),
@@ -213,6 +242,7 @@ const routes: Routes = [
     MenubarModule,
     DataTableModule,
     SharedModule,
+    DialogModule,
   ],
   exports: [
     ANGULAR_MODULES,
