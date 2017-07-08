@@ -42,6 +42,7 @@ Clone this repository and install dependencies with:
 
 ```bash
 npm install
+```
 
 ## Development server
 
