@@ -26,8 +26,6 @@ Collection of Angular 4 components, sorted on the basis of UI frameworks.
   - ngx-translate
   - ag-Grid
 
-# oasp4js angular catalog
-
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
 
 ## Requirements
