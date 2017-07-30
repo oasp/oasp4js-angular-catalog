@@ -53,7 +53,7 @@
     text-align: center;
   }
   .OASP {
-    background: url("../../assets/images/img_1.png") center center no-repeat;
+    background: url("/assets/images/img_1.png") center center no-repeat;
     background-color: #4bbdec;
     background-size: 500%;
   }
