@@ -1,6 +1,6 @@
 
 .slider {
-  background: url("../../assets/images/testimonials.png") center center no-repeat;
+  background: url("/assets/images/testimonials.png") center center no-repeat;
   background-size: contain;
   background-color: #293645;
   background-position-y: 350px;
@@ -9,7 +9,7 @@
 }
 
 .testimonials {
-  background: url("../../assets/images/comillas.png") center no-repeat;
+  background: url("/assets/images/comillas.png") center no-repeat;
   background-size: 30%;
   background-position-x: 300px;
   background-position-y: 0px;

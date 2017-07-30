@@ -49,7 +49,6 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 // Custom Components
 import { FooterComponent } from './footer/footer.component';
 import { TabPanelComponent } from './tab-panel/tab-panel.component';
-import { UsedTechnologiesComponent } from './used-technologies/used-technologies.component';
 import { SliderComponent } from './slider/slider.component';
 import { MarkdownModule } from 'angular2-markdown';
 import { HeaderComponent } from './header/header.component';
@@ -140,7 +139,6 @@ export function HttpLoaderFactory(http: Http) {
     AppComponent,
     FooterComponent,
     TabPanelComponent,
-    UsedTechnologiesComponent,
     SliderComponent,
     HeaderComponent,
     MaterialDesignComponent,

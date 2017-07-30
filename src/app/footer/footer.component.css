@@ -1,13 +1,13 @@
  @font-face{
      font-family: Montserrat-Regular;
-     src: url("../../assets/fonts/Montserrat-Regular.ttf")
+     src: url("/assets/fonts/Montserrat-Regular.ttf")
  }
 @font-face{
      font-family: Montserrat-Bold;
-     src: url("../../assets/fonts/Montserrat-Bold.ttf")
+     src: url("/assets/fonts/Montserrat-Bold.ttf")
  }
 #footer{
-   background: url("../../assets/images/capgemini.png") center ;
+   background: url("/assets/images/capgemini.png") center ;
     background-color: #2e2e2e;
     background-size: 100%;
     background-position-y: 250px;
@@ -63,7 +63,7 @@ margin-left: 0px;
 
   .text-xs-center {
     text-align: center;
-  } 
+  }
   .text-xs-center .cap{
     margin-top:auto;
     margin-bottom:10%
@@ -72,7 +72,7 @@ margin-left: 0px;
 @media only screen and (max-width: 992px) and (min-width: 768px)  {
   .text-xs-center {
     text-align: center;
-  } 
+  }
   .text-xs-center .cap{
     margin-top:auto;
     margin-bottom:10%
